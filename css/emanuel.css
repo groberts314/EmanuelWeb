@@ -1,0 +1,379 @@
+/* Shared Style Rules for all Sizes */
+  body { background-color: #ddd8d2; }
+
+  /* Page Header */
+  .page-header {
+    background-image: url('../images/emanuel-masthead.jpg');
+    color: #fff;
+    margin: 0 auto;
+    min-height: 200px;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .page-header, .page-footer { overflow-x: hidden; }
+  .main-title-wrap h1, .main-title-wrap .main-title {
+    font-family: 'Cinzel', cursive;
+    font-size: 24px;
+    line-height: 1;
+    margin: 4px 0;
+    text-transform: uppercase;
+  }
+  .sub-title { font-family: 'Cinzel', cursive; font-size: 18px; }
+  .header-svc-time { font-style: italic; }
+  .header-verse-container {  }
+  .header-verse { font-style: italic; }
+  .header-verse-ref { font-style: italic; font-weight: bold; }
+
+  /* Main Navigation */
+  .navbar { border-radius: 0; margin-bottom: 0; }
+  .navbar-default { background-color: #000; border: none; border-top: solid 1px #fff; }
+  .navbar-default .navbar-brand { color: #fff; }
+  .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { color: #ffd700; }
+  .navbar-default .navbar-text { color: #fff; }
+  .navbar-default .navbar-nav > li > a { color: #fff; }
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { color: #ffd700; }
+  .navbar-default .navbar-nav > li > .dropdown-menu { background-color: #80715e; margin-top: -1px; }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a { color: #fff; }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+    color: #ffd700;
+    background-color: #800000;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+    background-color: #80715e;
+  }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffd700;
+    background-color: #800000;
+  }
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+    color: #ffd700;
+    background-color: #800000;
+  }
+  .navbar-default .navbar-toggle { border-color: #fff; border-radius: 0; }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #800000; }
+  .navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: #fff; }
+  .navbar-default .navbar-link { color: #fff; }
+  .navbar-default .navbar-link:hover { color: #ffd700; }
+  .navbar-default .navbar-toggle .mobile-menu-toggle { color: #fff; }
+  .navbar-default .dropdown-header { color: #ffd700; font-size: 14px; font-weight: bold; }
+
+  /* Common Module Settings */
+  .module-container h2,
+  h1.page-title,
+  .inner-page-content h2 {
+    background-color: #80715e;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 11px;
+  }
+
+  .inner-page-content h2.staff-title,
+  .inner-page-content h2.section-title {
+    background: none;
+    color: #000;
+    font-family: 'Helvetica Neue', Helvetica,Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  /* Worship Services (Homepage) */
+  .service-times-container { margin-bottom: 22px }
+  .service-times-container h2.worship-schedule-title { margin-top: 22px; }
+  .service-times-container .notice { font-weight: bold;}
+  .service-time-list { list-style-type: none; padding-left: 0; }
+  .service-time-entry { margin-bottom: 11px; }
+  .service-time, .service-desc { float: left; }
+  .service-time { width: 33.33%; }
+  .service-desc { width: 66.67%; }
+
+  /* Upcoming Events (Homepage) */
+  .upcoming-events-container { margin-bottom: 22px }
+  .event-list { list-style-type: none; padding-left: 0; }
+  .event-date-entry { display: flex; margin-bottom: 11px; }
+  .event-calendar-container { width: 75px; }
+  .event-details { flex: 1; }
+  .event-calendar {
+      background: #80715e;
+      color: white;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      height: 78px;
+      margin-bottom: 1.375em;
+      margin-right: 11px;
+      margin-left: 0;
+      padding: 0.8em 0.35em 0.35em 0.35em;
+      text-align: center;
+  }
+  .event-calendar-month {
+      display: block;
+      font-size: 0.875em;
+      letter-spacing: 1.1px;
+      line-height: 0.8em;
+      text-transform: uppercase;
+  }
+  .event-calendar-date {
+      display: block;
+      font-size: 2.625em;
+      height: 38px;
+      line-height: 1.05em;
+      margin-bottom: 2px;
+  }
+  .event-calendar-day {
+      display: block;
+      font-size: 0.5625em;
+      line-height: 1.22em;
+      text-transform: uppercase;
+  }
+  .event-detail { display: flex; margin-bottom: 11px; }
+  .event-description { flex: 1; }
+  .event-time { text-align: right; width: 66px; }
+
+  /* Address & Map (Homepage) */
+  .map-container { margin-bottom: 11px; }
+
+  .photo-carousel-container { margin-top: 11px; margin-bottom: 22px; }
+  .photo-carousel-container img { width: 100%; }
+  .photo-carousel-container .carousel-caption {
+    bottom: -26px;
+    font-size: 12px;
+    left: 10%;
+    right: 10%;
+  }
+
+  .module-container.images .elca-logo {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+  }
+
+  /* Page Footer */
+  .page-footer { background-color: #000; color: #fff; }
+  .page-footer .facebook img { width: 20px; }
+
+  /* Interior Page Styles */
+  .inner-page-content { margin-bottom: 11px; }
+  h1.page-title { margin-bottom: 22px }
+  .inner-page-content h2 { margin-top: 22px; margin-bottom: 22px; }
+  .inner-page-content h2.no-top-margin { margin-top: 0; }
+  .inner-page-content h2.no-btm-margin { margin-bottom: 0; }
+  .inner-page-content h2.section-title { margin: 11px 0; padding-top: 11px; }
+  .inner-page-content h2.section-title.no-top-margin { margin-top: 0; padding-top: 0; }
+
+  .photo-left, .photo-right, .photo-center { text-align: center; }
+  .photo-left img, .photo-right img, .photo-center img {
+    margin-bottom: 22px;
+    width: 100%;
+  }
+  .photo-left.no-btm-margin img,
+  .photo-right.no-btm-margin img,
+  .photo-center.no-btm-margin img {
+    margin-bottom: 0;
+  }
+  .center { text-align: center; }
+  .no-btm-margin { margin-bottom: 0 }
+  .no-top-margin { margin-top: 0; }
+  p.no-top-margin {
+    margin-top: 0;
+    -webkit-margin-before: 0;
+  }
+  .top-margin { margin-top: 11px; }
+  .stephen-logo { padding-top: 11px; text-align: center; }
+  .haho-logo { width: auto; }
+  .preschool-header { margin-top: 0; text-align: center; }
+  .preschool-fees .price {
+    text-align: right;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .tuition-table { width: 100%; }
+  .tuition-table th, .tuition-table td { width: 33.3%; }
+  .tuition-divider { border-top-color: #80715e; }
+
+  .audio-file-entry {
+    margin-top: 22px;
+  }
+  .audio-file-list img {
+    max-width: 24px;
+    width: 100%;
+  }
+  .audio-file-list .audio-player {
+    margin-top: 22px;
+  }
+  .audio-file-list .audio-download {
+    margin-top: 11px;
+  }
+  .audio-file-list audio {
+    max-width: 500px;
+    width: 100%;
+  }
+
+/* Max Width 419 (mobile and narrower tablets) */
+@media only screen and (max-width: 419px) {
+  .photo-left.staff-photo img, .photo-right.staff-photo img {
+    width: 75%;
+    text-align: center;
+  }
+}
+
+/* 420 up to 767 (wider tablet) */
+@media only screen and (min-width: 420px) and (max-width: 767px) {
+  .photo-left img, .photo-right img, .photo-center img { width: 50%; }
+}
+
+/* Max Width 767 (all mobile and tablets) */
+@media only screen and (max-width: 767px) {
+  /* Page Header */
+  .page-header {
+    background-position-x: 64%;
+    background-position-y: 50%;
+    margin: 0 -15px 0;
+  }
+
+  .main-title-wrap h1, .main-title-wrap .main-title {
+    font-size: 20px;
+    margin-top:12px;
+    text-align: center;
+  }
+
+  .sub-title, .header-svc-time {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .header-verse-container {
+    font-size: 12px;
+    margin: 12px auto;
+    min-height: 51px;
+    width: 90%;
+  }
+
+  /* Navigation */
+  .navbar-default { margin: 0 -15px 0; }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffd700;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffd700;
+    background-color: #800000;
+  }
+
+  .module-container h2 { margin: 0 -15px 22px; }
+
+  /* Page Footer */
+  .page-footer { margin: 11px -15px 0; text-align: center; }
+  .page-footer .copyright { padding-top: 11px; }
+  .page-footer .contact { padding: 11px 0; }
+
+  /* Interior Pages */
+  h1.page-title { margin: 0 -15px 22px; }
+  .inner-page-content h2 { margin: 22px -15px 22px; }
+  .inner-page-content h2.no-top-margin { margin-top: 0; }
+  .inner-page-content h2.staff-title { margin: 0; }
+  .inner-page-content h2.staff-title.top,
+  .inner-page-content h2.section-title.top { margin-top: -11px; }
+}
+
+/* Style Rules for 768 and Up */
+@media only screen and (min-width : 768px) {
+  /* Page Header */
+  .main-title-wrap { margin-left: 80px; }
+  .main-title-wrap h1, .main-title-wrap .main-title {
+    font-size: 32px;
+    margin: 30px 0 5px;
+  }
+  .sub-title { font-size: 24px; margin-left: 80px; }
+  .header-svc-time { margin-top: 30px; margin-bottom: 10px; margin-left: 80px; }
+  .header-verse-container { margin-top: 30px; margin-bottom: 30px; width: 50%; }
+
+  /* Navigation Bar */
+  .navbar-header { width: 12%; }
+  .navbar-brand { font-size: 14px; padding: 15px 0 10px 10px; }
+  .navbar-nav { width: 88%; }
+  .navbar-nav > li {
+    text-align: right;
+    width: 14.28% /* This should always be 100% / N top-level nav menu items (presently 7 ... 100/7 = 14.28...) */
+  }
+  .navbar-nav > li > a { font-size: 12px; padding: 15px 5px; text-transform: lowercase; }
+
+  .module-container h2.left-top, .module-container h2.right-top { margin: 0 -15px 22px 0; }
+  .module-container h2.left-bottom, .module-container h2.right-bottom { margin: 0 0 22px -15px; }
+
+  .photo-carousel-container .carousel-caption {
+    bottom: -30px;
+    font-size: 14px;
+    left: 15%;
+    right: 15%;
+  }
+
+  .inner-page-content h2.section-title.top { margin-top: -11px; }
+  .inner-page-content h2.staff-title { margin-top: 0; }
+
+  .short-content-min-height {
+    min-height: 360px;
+  }
+
+  /* Page Footer */
+  .page-footer { margin: 11px 0 0; }
+  .page-footer .copyright, .page-footer .contact { padding: 20px 30px; }
+}
+/* Style rules up to 991 (mobile and wide tablets only, exclude desktop -- probably this is for "hacks" as well...???) */
+@media only screen and (max-width: 991px) {
+  .page-header { background-position-x: 64%; }
+  .map-container { overflow-x: auto; width: 100%; }
+  .inner-page-content .col-xs-12 { margin-bottom: 11px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .event-list { margin-right: -11px; }
+}
+
+/* Medium Devices, Desktops (these rules affect 992 and up) */
+@media only screen and (min-width : 992px) {
+  .navbar-brand { font-size: 18px; padding: 15px; }
+  .navbar-nav > li > a { font-size: 14px; padding: 15px 10px; }
+  .caret { border-top: 8px dashed; border-right: 8px solid transparent; border-left: 8px solid transparent; }
+  .module-container h2, h1.page-title { font-size: 18px; }
+  .module-container h2.left-top, .module-container h2.left-bottom { margin: 0 -30px 22px 0; }
+  .module-container h2.right-top, .module-container h2.right-bottom { margin: 0 0 22px -30px; }
+  .service-time { width: 45.00%; }
+  .service-desc { width: 55.00%; }
+  .event-list { margin-left: -11px; }
+  .photo-carousel-container { margin-top: 0; }
+  .photo-left { text-align: left; }
+  .photo-right { text-align: right; }
+  .preschool-fees .price { margin-left: -11px; }
+}
+
+/* Large Devices, Wide Screens (these rules affect 1200 and up) */
+@media only screen and (min-width : 1200px) {
+  .header-svc-time { margin-top: 50px; }
+  .service-time { width: 40.00%; }
+  .service-desc { width: 60.00%; }
+  .module-container h2, .inner-page-content h2, h1.page-title { font-size: 22px; }
+  .preschool-fees .price { margin-left: -22px; }
+  .audio-file-entry {
+    display: flex;
+    align-items: center;
+  }
+  .audio-file-list .audio-player, .audio-file-list .audio-download {
+    margin-top: 0;
+  }
+}

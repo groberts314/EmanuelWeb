@@ -1,0 +1,13 @@
+## Git Ignore!
+
+# File Resources
+audio/
+calendars/
+event-fliers/
+forms/
+images/
+newsletters/
+
+# Built Files
+*.min.css
+*.min.js
