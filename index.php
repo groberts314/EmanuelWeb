@@ -128,209 +128,6 @@
                   <div class="event-calendar-container">
                     <div class="event-calendar">
                       <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">5</div>
-                      <div class="event-calendar-day">Wednesday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-advent-midweek-services.jpg" target="_blank">
-                           <strong>Advent Midweek Service</strong>
-                         </a>
-                       </div>
-                       <div class="event-time">10:15 AM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">6</div>
-                      <div class="event-calendar-day">Thursday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-advent-midweek-services.jpg" target="_blank">
-                           <strong>Advent Midweek Service</strong>
-                         </a>
-                       </div>
-                       <div class="event-time">7 PM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">8</div>
-                      <div class="event-calendar-day">Saturday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-12-08-ELFFFs.jpg" target="_blank">
-                           <strong>Emanuel Lutheran Food, Fun &amp; Fellowship (ELFFFs)</strong>
-                         </a>
-                         <br />
-                         Hors d&rsquo;oeuvress &amp; Desserts and White Elephant Gift Exchange
-                       </div>
-                       <div class="event-time">5 PM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">12</div>
-                      <div class="event-calendar-day">Wednesday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-advent-midweek-services.jpg" target="_blank">
-                           <strong>Advent Midweek Service</strong>
-                         </a>
-                       </div>
-                       <div class="event-time">10:15 AM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">13</div>
-                      <div class="event-calendar-day">Thursday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-advent-midweek-services.jpg" target="_blank">
-                           <strong>Advent Midweek Service</strong>
-                         </a>
-                       </div>
-                       <div class="event-time">7 PM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">14</div>
-                      <div class="event-calendar-day">Friday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-12-14-hanging-greens.jpg" target="_blank">
-                           <strong>Hanging of the Greens</strong>
-                         </a>
-                       </div>
-                       <div class="event-time">5 PM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">16</div>
-                      <div class="event-calendar-day">Sunday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-12-16-lessons-and-carols.jpg" target="_blank">
-                           <strong>Lessons &amp; Carols</strong>
-                         </a>
-                         Service at 9 AM Traditional Worship Service
-                       </div>
-                       <div class="event-time">9 AM</div>
-                     </div>
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-12-16-childrens-christmas-musical.jpg" target="_blank">
-                           <strong>Children&rsquo;s Christmas Musical</strong>
-                         </a>
-                         at 10:45 AM Praise Service<br />
-                         Potluck to follow.
-                       </div>
-                       <div class="event-time">10:45 AM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">19</div>
-                      <div class="event-calendar-day">Wednesday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-advent-midweek-services.jpg" target="_blank">
-                           <strong>Advent Midweek Service</strong>
-                         </a>
-                       </div>
-                       <div class="event-time">10:15 AM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">20</div>
-                      <div class="event-calendar-day">Thursday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2018-advent-midweek-services.jpg" target="_blank">
-                           <strong>Advent Midweek Service</strong>
-                         </a>
-                       </div>
-                       <div class="event-time">7 PM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">24</div>
-                      <div class="event-calendar-day">Monday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                    <div class="event-detail">
-                      <div class="event-description"><strong>Christmas Eve Family Service</strong></div>
-                      <div class="event-time">7 PM</div>
-                    </div>
-                    <div class="event-detail">
-                      <div class="event-description"><strong>Christmas Eve Candlelight Service</strong></div>
-                      <div class="event-time">11 AM</div>
-                    </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
                       <div class="event-calendar-date">30</div>
                       <div class="event-calendar-day">Sunday</div>
                     </div>
@@ -339,6 +136,45 @@
                      <div class="event-detail">
                        <div class="event-description">
                          <strong>Combined Worship Service at 10:00 AM</strong>
+                       </div>
+                       <div class="event-time">10 AM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Jan</div>
+                      <div class="event-calendar-date">18</div>
+                      <div class="event-calendar-day">Friday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-01-18-confirmation-youth-retreat.jpg" target="_blank">
+                           <strong>Confirmation Youth Retreat</strong>
+                         </a>
+                         the weekend of January 18-20
+                        (MLK Weekend) at Luther Glen Camp and Farm
+                       </div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Jan</div>
+                      <div class="event-calendar-date">26</div>
+                      <div class="event-calendar-day">Saturday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-01-26-new-member-class.jpg" target="_blank">
+                           <strong>New Member Class</strong>
+                         </a>
                        </div>
                        <div class="event-time">10 AM</div>
                      </div>

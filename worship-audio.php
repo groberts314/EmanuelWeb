@@ -86,6 +86,27 @@
               </a>
             </div>
           </div>
+          <div class="row audio-file-entry">
+            <div class="col-xs-2 col-lg-1">
+              <img src="images/audio.png" alt="Audio" />
+            </div>
+            <div class="col-xs-10 col-lg-3">
+              <strong>
+                Christmas Eve Monday,&nbsp;December&nbsp;24,&nbsp;2018 11:00 PM
+              </strong>
+            </div>
+            <div class="col-xs-12 col-lg-5 audio-player">
+              <audio controls preload="none">
+                <source src="audio/emanuel-xmas-eve-11pm-worship-2018-12-24.m4a" type="audio/mp4" />
+                <p>Your browser does not support HTML5 audio.</p>
+              </audio>
+            </div>
+            <div class="col-xs-12 col-lg-3 audio-download">
+              <a href="audio/emanuel-xmas-eve-11pm-worship-2018-12-24.m4a">
+                <strong>Download (M4A)</strong>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 photo-right no-btm-margin">
