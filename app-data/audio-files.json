@@ -1,0 +1,27 @@
+[
+  {
+    "dateTime": "2018-12-09T09:00:00-08:00",
+    "path": "audio/emanuel-9am-worship-2018-12-09.m4a"
+  },
+  {
+    "dateTime": "2018-12-16T09:00:00-08:00",
+    "path": "audio/emanuel-9am-worship-2018-12-16.m4a"
+  },
+  {
+    "dateTime": "2018-12-23T10:45:00-08:00",
+    "path": "audio/emanuel-1045am-worship-2018-12-23.m4a"
+  },
+  {
+    "dateTime": "2018-12-24T23:00:00-08:00",
+    "path": "audio/emanuel-xmas-eve-11pm-worship-2018-12-24.m4a",
+    "prefix": "Christmas Eve"
+  },
+  {
+    "dateTime": "2019-01-06T09:00:00-08:00",
+    "path": "audio/emanuel-9am-worship-2019-01-06.m4a"
+  },
+  {
+    "dateTime": "2019-01-13T10:45:00-08:00",
+    "path": "emanual-1045am-worship-2019-01-13.m4a"
+  }
+]

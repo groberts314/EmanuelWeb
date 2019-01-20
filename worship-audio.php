@@ -1,3 +1,10 @@
+<?php
+  // Turn on Error reporting
+  // In case the JSON data gets malformed or some such we'll know about it!
+  error_reporting(E_ALL);
+  ini_set('display_errors', 1);
+  require_once('./app-code/helper-functions.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,90 +30,19 @@
           </div>
         </div>
         <div class="audio-file-list">
-          <div class="row audio-file-entry">
-            <div class="col-xs-2 col-lg-1">
-              <img src="images/audio.png" alt="Audio" />
-            </div>
-            <div class="col-xs-10 col-lg-3">
-              <strong>
-                Sunday,&nbsp;December&nbsp;9,&nbsp;2018 9:00 AM
-              </strong>
-            </div>
-            <div class="col-xs-12 col-lg-5 audio-player">
-              <audio controls preload="none">
-                <source src="audio/emanuel-9am-worship-2018-12-09.m4a" type="audio/mp4" />
-                <p>Your browser does not support HTML5 audio.</p>
-              </audio>
-            </div>
-            <div class="col-xs-12 col-lg-3 audio-download">
-              <a href="audio/emanuel-9am-worship-2018-12-09.m4a">
-                <strong>Download (M4A)</strong>
-              </a>
-            </div>
-          </div>
-          <div class="row audio-file-entry">
-            <div class="col-xs-2 col-lg-1">
-              <img src="images/audio.png" alt="Audio" />
-            </div>
-            <div class="col-xs-10 col-lg-3">
-              <strong>
-                Sunday,&nbsp;December&nbsp;16,&nbsp;2018 9:00 AM
-              </strong>
-            </div>
-            <div class="col-xs-12 col-lg-5 audio-player">
-              <audio controls preload="none">
-                <source src="audio/emanuel-9am-worship-2018-12-16.m4a" type="audio/mp4" />
-                <p>Your browser does not support HTML5 audio.</p>
-              </audio>
-            </div>
-            <div class="col-xs-12 col-lg-3 audio-download">
-              <a href="audio/emanuel-9am-worship-2018-12-16.m4a">
-                <strong>Download (M4A)</strong>
-              </a>
-            </div>
-          </div>
-          <div class="row audio-file-entry">
-            <div class="col-xs-2 col-lg-1">
-              <img src="images/audio.png" alt="Audio" />
-            </div>
-            <div class="col-xs-10 col-lg-3">
-              <strong>
-                Sunday,&nbsp;December&nbsp;23,&nbsp;2018 10:45 AM
-              </strong>
-            </div>
-            <div class="col-xs-12 col-lg-5 audio-player">
-              <audio controls preload="none">
-                <source src="audio/emanuel-1045am-worship-2018-12-23.m4a" type="audio/mp4" />
-                <p>Your browser does not support HTML5 audio.</p>
-              </audio>
-            </div>
-            <div class="col-xs-12 col-lg-3 audio-download">
-              <a href="audio/emanuel-1045am-worship-2018-12-23.m4a">
-                <strong>Download (M4A)</strong>
-              </a>
-            </div>
-          </div>
-          <div class="row audio-file-entry">
-            <div class="col-xs-2 col-lg-1">
-              <img src="images/audio.png" alt="Audio" />
-            </div>
-            <div class="col-xs-10 col-lg-3">
-              <strong>
-                Christmas Eve Monday,&nbsp;December&nbsp;24,&nbsp;2018 11:00 PM
-              </strong>
-            </div>
-            <div class="col-xs-12 col-lg-5 audio-player">
-              <audio controls preload="none">
-                <source src="audio/emanuel-xmas-eve-11pm-worship-2018-12-24.m4a" type="audio/mp4" />
-                <p>Your browser does not support HTML5 audio.</p>
-              </audio>
-            </div>
-            <div class="col-xs-12 col-lg-3 audio-download">
-              <a href="audio/emanuel-xmas-eve-11pm-worship-2018-12-24.m4a">
-                <strong>Download (M4A)</strong>
-              </a>
-            </div>
-          </div>
+          <?php
+            $audioFilesJson = file_get_contents('./app-data/audio-files.json');
+            $audioFiles = json_decode($audioFilesJson, TRUE);
+            date_sort_descending($audioFiles);
+
+            foreach ($audioFiles as $key => $audioFile) {
+              $fileDateTime = strtotime($audioFile['dateTime']);
+              $date = date('l, F j, Y', $fileDateTime);
+              $time = date('g:i A', $fileDateTime);
+              $entry = array_merge($audioFile, array('date' => $date, 'time' => $time));
+              display('./partials/worship-audio-entry.phtml', $entry);
+            }
+          ?>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 photo-right no-btm-margin">
