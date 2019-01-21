@@ -21,7 +21,6 @@
   }
   .sub-title { font-family: 'Cinzel', cursive; font-size: 18px; }
   .header-svc-time { font-style: italic; }
-  .header-verse-container {  }
   .header-verse { font-style: italic; }
   .header-verse-ref { font-style: italic; font-weight: bold; }
   /* END: Page Header */
@@ -65,6 +64,10 @@
   .navbar-default .navbar-toggle .mobile-menu-toggle { color: #fff; }
   .navbar-default .dropdown-header { color: #ffd700; font-size: 14px; font-weight: bold; }
   /* END: Main Navigation */
+
+  /* BEGIN: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
+
+  /* END: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
 
   /* BEGIN: Heading Styles */
   .module-container h2,
@@ -168,7 +171,7 @@
     margin: 0 auto;
     width: 250px;
   }
-  /* END: Home Page Module Style (v1.0) */
+  /* END: Home Page Module Styles (v1.0) */
 
   /* BEGIN: Interior Page Styles */
   /* Headings */
@@ -339,24 +342,34 @@
 /* Style Rules for 768 and Up */
 @media only screen and (min-width : 768px) {
   /* Page Header */
-  .main-title-wrap { margin-left: 80px; }
+  .main-title-wrap { margin-left: 40px; }
   .main-title-wrap h1, .main-title-wrap .main-title {
     font-size: 32px;
     margin: 30px 0 5px;
   }
-  .sub-title { font-size: 24px; margin-left: 80px; }
-  .header-svc-time { margin-top: 30px; margin-bottom: 10px; margin-left: 80px; }
-  .header-verse-container { margin-top: 30px; margin-bottom: 30px; width: 50%; }
+  .sub-title { font-size: 24px; margin-left: 40px; }
+  .header-svc-time { margin-top: 30px; margin-bottom: 10px; margin-left: 40px; }
+  .header-verse-container { margin-top: 30px; margin-bottom: 30px; width: 80%; }
 
   /* Main Navigation */
-  .navbar-header { width: 12%; }
+  /*.navbar-header { width: 12%; }*/ /* This just seems silly */
   .navbar-brand { font-size: 14px; padding: 15px 0 10px 10px; }
-  .navbar-nav { width: 88%; }
+  /* .navbar-nav { width: 88%; } */
+  .navbar-nav { width: 94%; }
   .navbar-nav > li {
     text-align: right;
-    width: 14.28% /* This should always be 100% / N top-level nav menu items (presently 7 ... 100/7 = 14.28...) */
+    /*width: 14.28%;*/ /* This should always be 100% / N top-level nav menu items (presently 7 ... 100/7 = 14.28...) */
+    width: 14%;
   }
+  .navbar-nav > li.news-and-events { width: 16%; }
   .navbar-nav > li > a { font-size: 12px; padding: 15px 5px; text-transform: lowercase; }
+
+  /* BEGIN: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
+  .homepage-v2 .navbar-header { width: auto; }
+  .homepage-v2 .navbar-nav { width: 97%; }
+  /* .homepage-v2 .navbar-nav > li { width: 14%; }
+  .homepage-v2 .navbar-nav > li.news-and-events { width: 16%; } */
+  /* END: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
 
   /* Page Footer */
   .page-footer { margin: 11px 0 0; }
@@ -397,8 +410,17 @@
 
 /* Medium Devices, Desktops (these rules affect 992 and up) */
 @media only screen and (min-width : 992px) {
+  /* Page Header */
+  .header-verse-container { width: 50%; }
+
+  /* Main Navigation */
   .navbar-brand { font-size: 18px; padding: 15px; }
   .navbar-nav > li > a { font-size: 14px; padding: 15px 10px; }
+
+  /* BEGIN: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
+  .homepage-v2 .navbar-nav { width: 94%; }
+  /* END: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
+
   .caret { border-top: 8px dashed; border-right: 8px solid transparent; border-left: 8px solid transparent; }
   .module-container h2, h1.page-title { font-size: 18px; }
   .module-container h2.left-top, .module-container h2.left-bottom { margin: 0 -30px 22px 0; }
@@ -415,9 +437,18 @@
 /* Large Devices, Wide Screens (these rules affect 1200 and up) */
 @media only screen and (min-width : 1200px) {
   /* Homepage (v1.0) */
+  .header-verse-container { margin-left: 20%; }
   .header-svc-time { margin-top: 50px; }
   .service-time { width: 40.00%; }
   .service-desc { width: 60.00%; }
+
+  /* BEGIN: Homepage (v2.0) */
+  .homepage-v2 .page-header {
+    background-color: #000;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  /* END: Homepage (v2.0) */
 
   /* Headings (some impacting Homepage v1.0) */
   .module-container h2, .inner-page-content h2, h1.page-title { font-size: 22px; }
