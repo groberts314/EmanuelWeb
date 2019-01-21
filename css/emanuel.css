@@ -1,7 +1,8 @@
 /* BEGIN: Shared Style Rules for all Sizes */
+  /* BEGIN: Common Site-wide Styles */
   body { background-color: #ddd8d2; }
 
-  /* Page Header */
+  /* BEGIN: Page Header */
   .page-header {
     background-image: url('../images/emanuel-masthead.jpg');
     color: #fff;
@@ -23,8 +24,9 @@
   .header-verse-container {  }
   .header-verse { font-style: italic; }
   .header-verse-ref { font-style: italic; font-weight: bold; }
+  /* END: Page Header */
 
-  /* Main Navigation */
+  /* BEGIN: Main Navigation */
   .navbar { border-radius: 0; margin-bottom: 0; }
   .navbar-default { background-color: #000; border: none; border-top: solid 1px #fff; }
   .navbar-default .navbar-brand { color: #fff; }
@@ -62,8 +64,9 @@
   .navbar-default .navbar-link:hover { color: #ffd700; }
   .navbar-default .navbar-toggle .mobile-menu-toggle { color: #fff; }
   .navbar-default .dropdown-header { color: #ffd700; font-size: 14px; font-weight: bold; }
+  /* END: Main Navigation */
 
-  /* Common Module Settings */
+  /* BEGIN: Heading Styles */
   .module-container h2,
   h1.page-title,
   .inner-page-content h2 {
@@ -86,7 +89,14 @@
     padding-top: 0;
     padding-left: 0;
   }
+  /* END: Heading Styles */
 
+  /* Page Footer */
+  .page-footer { background-color: #000; color: #fff; }
+  .page-footer .facebook img { width: 20px; }
+  /* END: Common Site-wide Styles */
+
+  /* BEGIN: Home Page Module Styles (v1.0) */
   /* Worship Services (Homepage) */
   .service-times-container { margin-bottom: 22px }
   .service-times-container h2.worship-schedule-title { margin-top: 22px; }
@@ -97,7 +107,7 @@
   .service-time { width: 33.33%; }
   .service-desc { width: 66.67%; }
 
-  /* Upcoming Events (Homepage) */
+  /* BEGIN: Upcoming Events (Homepage) */
   .upcoming-events-container { margin-bottom: 22px }
   .event-list { list-style-type: none; padding-left: 0; }
   .event-date-entry { display: flex; margin-bottom: 11px; }
@@ -138,10 +148,12 @@
   .event-detail { display: flex; margin-bottom: 11px; }
   .event-description { flex: 1; }
   .event-time { text-align: right; width: 66px; }
+  /* END: Upcoming Events (Homepage) */
 
   /* Address & Map (Homepage) */
   .map-container { margin-bottom: 11px; }
 
+  /* Photo Carousel (Homepage) */
   .photo-carousel-container { margin-top: 11px; margin-bottom: 22px; }
   .photo-carousel-container img { width: 100%; }
   .photo-carousel-container .carousel-caption {
@@ -156,12 +168,10 @@
     margin: 0 auto;
     width: 250px;
   }
+  /* END: Home Page Module Style (v1.0) */
 
-  /* Page Footer */
-  .page-footer { background-color: #000; color: #fff; }
-  .page-footer .facebook img { width: 20px; }
-
-  /* Interior Page Styles */
+  /* BEGIN: Interior Page Styles */
+  /* Headings */
   .inner-page-content { margin-bottom: 11px; }
   h1.page-title { margin-bottom: 22px }
   .inner-page-content h2 { margin-top: 22px; margin-bottom: 22px; }
@@ -170,6 +180,7 @@
   .inner-page-content h2.section-title { margin: 11px 0; padding-top: 11px; }
   .inner-page-content h2.section-title.no-top-margin { margin-top: 0; padding-top: 0; }
 
+  /* Photos */
   .photo-left, .photo-right, .photo-center { text-align: center; }
   .photo-left img, .photo-right img, .photo-center img {
     margin-bottom: 22px;
@@ -180,6 +191,8 @@
   .photo-center.no-btm-margin img {
     margin-bottom: 0;
   }
+
+  /* Placement */
   .center { text-align: center; }
   .no-btm-margin { margin-bottom: 0 }
   .no-top-margin { margin-top: 0; }
@@ -188,8 +201,12 @@
     -webkit-margin-before: 0;
   }
   .top-margin { margin-top: 11px; }
+
+  /* Logos */
   .stephen-logo { padding-top: 11px; text-align: center; }
   .haho-logo { width: auto; }
+
+  /* Preschool Page */
   .preschool-header { margin-top: 0; text-align: center; }
   .preschool-fees .price {
     text-align: right;
@@ -201,27 +218,7 @@
   .tuition-table th, .tuition-table td { width: 33.3%; }
   .tuition-divider { border-top-color: #80715e; }
 
-  /* BEGIN: Current Audio Style */
-  .audio-file-entry {
-    margin-top: 22px;
-  }
-  .audio-file-list img {
-    max-width: 24px;
-    width: 100%;
-  }
-  .audio-file-list .audio-player {
-    margin-top: 22px;
-  }
-  .audio-file-list .audio-download {
-    margin-top: 11px;
-  }
-  .audio-file-list audio {
-    max-width: 500px;
-    width: 100%;
-  }
-  /* END: Current Audio Style */
-
-  /* BEGIN: Audio Style v2.0 */
+  /* BEGIN: Worship Service Audio (Audio List Style v2.0) */
   .audio-file-list-v2 {
     margin-bottom: 22px;
   }
@@ -233,18 +230,19 @@
     border-bottom: solid 1px #80715e;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 22px;
     padding-bottom: 22px;
   }
   .audio-file-list-v2 .audio-file-entry:last-child {
     border-bottom: none;
   }
   .audio-file-list-v2 .audio-file-entry .icon {
-    flex: 0 0 16.67%; /* 1/6 (2/12) */
+    flex: 0 0 16.67%; /* col-xs-2 == 1/6 [2/12] */
     max-width: 24px;
     margin-right: 15px;
   }
   .audio-file-list-v2 .audio-file-entry .description {
-    flex: 0 1 83.33%; /* 5/12 */
+    flex: 0 1 83.33%; /* col-xs-10 == 5/6 [10/12]  */
     margin-right: 15px;
   }
   .audio-file-list-v2 .audio-file-entry .player {
@@ -262,7 +260,7 @@
     margin-left: 39px;
     margin-top: 22px;
   }
-  /* END: Audio Style v2.0 */
+  /* END: Worship Service Audio (Audio List Style v2.0) */
 
 /* END: Shared Style Rules for all Sizes */
 
@@ -350,7 +348,7 @@
   .header-svc-time { margin-top: 30px; margin-bottom: 10px; margin-left: 80px; }
   .header-verse-container { margin-top: 30px; margin-bottom: 30px; width: 50%; }
 
-  /* Navigation Bar */
+  /* Main Navigation */
   .navbar-header { width: 12%; }
   .navbar-brand { font-size: 14px; padding: 15px 0 10px 10px; }
   .navbar-nav { width: 88%; }
@@ -360,9 +358,15 @@
   }
   .navbar-nav > li > a { font-size: 12px; padding: 15px 5px; text-transform: lowercase; }
 
+  /* Page Footer */
+  .page-footer { margin: 11px 0 0; }
+  .page-footer .copyright, .page-footer .contact { padding: 20px 30px; }
+
+  /* Homepage Module Titles (v1.0) */
   .module-container h2.left-top, .module-container h2.right-top { margin: 0 -15px 22px 0; }
   .module-container h2.left-bottom, .module-container h2.right-bottom { margin: 0 0 22px -15px; }
 
+  /* Homepage Photo Carousel (v1.0) */
   .photo-carousel-container .carousel-caption {
     bottom: -30px;
     font-size: 14px;
@@ -370,24 +374,23 @@
     right: 15%;
   }
 
+  /* Inner Page Content */
   .inner-page-content h2.section-title.top { margin-top: -11px; }
   .inner-page-content h2.staff-title { margin-top: 0; }
 
   .short-content-min-height {
     min-height: 360px;
   }
-
-  /* Page Footer */
-  .page-footer { margin: 11px 0 0; }
-  .page-footer .copyright, .page-footer .contact { padding: 20px 30px; }
 }
-/* Style rules up to 991 (mobile and wide tablets only, exclude desktop -- probably this is for "hacks" as well...???) */
+
+/* Style rules up to 991 (mobile and wide tablets only, exclude desktop -- "hacks"! */
 @media only screen and (max-width: 991px) {
   .page-header { background-position-x: 64%; }
   .map-container { overflow-x: auto; width: 100%; }
   .inner-page-content .col-xs-12 { margin-bottom: 11px; }
 }
 
+/* Style between 768 and 991 (wider tablets only, exclude desktop -- "hacks"! */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .event-list { margin-right: -11px; }
 }
@@ -411,18 +414,18 @@
 
 /* Large Devices, Wide Screens (these rules affect 1200 and up) */
 @media only screen and (min-width : 1200px) {
+  /* Homepage (v1.0) */
   .header-svc-time { margin-top: 50px; }
   .service-time { width: 40.00%; }
   .service-desc { width: 60.00%; }
+
+  /* Headings (some impacting Homepage v1.0) */
   .module-container h2, .inner-page-content h2, h1.page-title { font-size: 22px; }
+
+  /* Misc. Inner Page Content */
   .preschool-fees .price { margin-left: -22px; }
-  .audio-file-entry {
-    display: flex;
-    align-items: center;
-  }
-  .audio-file-list .audio-player, .audio-file-list .audio-download {
-    margin-top: 0;
-  }
+
+  /* BEGIN: Worship Service Audio (Audio List Style v2.0) */
   .audio-file-list-v2 .audio-file-entry {
     align-items: center;
   }
@@ -437,4 +440,5 @@
     flex: 0 1 18%;
     margin-top: 0;
   }
+  /* END: Worship Service Audio (Audio List Style v2.0) */
 }
