@@ -29,7 +29,7 @@
             </p>
           </div>
         </div>
-        <div class="audio-file-list">
+        <div class="audio-file-list-v2">
           <?php
             $audioFilesJson = file_get_contents('./app-data/audio-files.json');
             $audioFiles = json_decode($audioFilesJson, TRUE);
@@ -40,7 +40,7 @@
               $date = date('l, F j, Y', $fileDateTime);
               $time = date('g:i A', $fileDateTime);
               $entry = array_merge($audioFile, array('date' => $date, 'time' => $time));
-              display('./partials/worship-audio-entry.phtml', $entry);
+              display('./partials/worship-audio-entry-v2.phtml', $entry);
             }
           ?>
         </div>

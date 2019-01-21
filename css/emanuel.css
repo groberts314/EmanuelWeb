@@ -1,4 +1,4 @@
-/* Shared Style Rules for all Sizes */
+/* BEGIN: Shared Style Rules for all Sizes */
   body { background-color: #ddd8d2; }
 
   /* Page Header */
@@ -201,6 +201,7 @@
   .tuition-table th, .tuition-table td { width: 33.3%; }
   .tuition-divider { border-top-color: #80715e; }
 
+  /* BEGIN: Current Audio Style */
   .audio-file-entry {
     margin-top: 22px;
   }
@@ -218,6 +219,52 @@
     max-width: 500px;
     width: 100%;
   }
+  /* END: Current Audio Style */
+
+  /* BEGIN: Audio Style v2.0 */
+  .audio-file-list-v2 {
+    margin-bottom: 22px;
+  }
+  .audio-file-list-v2 img {
+    max-width: 24px;
+    width: 100%;
+  }
+  .audio-file-list-v2 .audio-file-entry {
+    border-bottom: solid 1px #80715e;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 22px;
+  }
+  .audio-file-list-v2 .audio-file-entry:last-child {
+    border-bottom: none;
+  }
+  .audio-file-list-v2 .audio-file-entry .icon {
+    flex: 0 0 16.67%; /* 1/6 (2/12) */
+    max-width: 24px;
+    margin-right: 15px;
+  }
+  .audio-file-list-v2 .audio-file-entry .description {
+    flex: 0 1 83.33%; /* 5/12 */
+    margin-right: 15px;
+  }
+  .audio-file-list-v2 .audio-file-entry .player {
+    flex: 0 1 100%;
+    max-width: 500px;
+    margin-right: 15px;
+    margin-top: 22px;
+  }
+  .audio-file-list-v2 .audio-file-entry .player audio {
+    max-width: 500px;
+    width: 100%;
+  }
+  .audio-file-list-v2 .audio-file-entry .download {
+    flex: 0 1 100%;
+    margin-left: 39px;
+    margin-top: 22px;
+  }
+  /* END: Audio Style v2.0 */
+
+/* END: Shared Style Rules for all Sizes */
 
 /* Max Width 419 (mobile and narrower tablets) */
 @media only screen and (max-width: 419px) {
@@ -374,6 +421,20 @@
     align-items: center;
   }
   .audio-file-list .audio-player, .audio-file-list .audio-download {
+    margin-top: 0;
+  }
+  .audio-file-list-v2 .audio-file-entry {
+    align-items: center;
+  }
+  .audio-file-list-v2 .audio-file-entry .description {
+    flex: 0 1 25%; /* col-lg-3 */
+  }
+  .audio-file-list-v2 .audio-file-entry .player {
+    flex: 0 1 41.67%; /* col-lg-3 */
+    margin-top: 0;
+  }
+  .audio-file-list-v2 .audio-file-entry .download {
+    flex: 0 1 18%;
     margin-top: 0;
   }
 }

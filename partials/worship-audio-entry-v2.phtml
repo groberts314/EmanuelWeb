@@ -1,0 +1,28 @@
+<?php require_once('./app-code/helper-functions.php') ?>
+<div class="audio-file-entry">
+  <div class="icon">
+    <img src="images/audio.png" alt="Audio" />
+  </div>
+  <div class="description">
+    <strong>
+      <?php
+        $safePrefix = get($prefix);
+      ?>
+      <?= $safePrefix === NULL ? NULL : $safePrefix . '<br />' ?>
+      <?= $date ?>
+      <br  />
+      <?= $time ?>
+    </strong>
+  </div>
+  <div class="player">
+    <audio controls preload="none">
+      <source src="<?= $path ?>" type="audio/mp4" />
+      <p>Your browser does not support HTML5 audio.</p>
+    </audio>
+  </div>
+  <div class="download">
+    <a href="<?= $path ?>">
+      <strong>Download (M4A)</strong>
+    </a>
+  </div>
+</div>
