@@ -65,9 +65,36 @@
   .navbar-default .dropdown-header { color: #ffd700; font-size: 14px; font-weight: bold; }
   /* END: Main Navigation */
 
-  /* BEGIN: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
+  /* BEGIN: Homepage v2.0 Flexbox Layout */
+  .homepage-v2 .main-content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 
-  /* END: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .homepage-v2 .module-container {
+    /* TEMP STYLES FOR LAYOUT DEBUGGING! */
+    background: tomato;
+    padding: 5px;
+    width: 100%; /* At mobile all modules take up full width of parent container */
+    height: 150px;
+    margin-top: 10px;
+
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    /* TEMP STYLES FOR LAYOUT DEBUGGING! */
+  }
+  /* BEGIN: TEMP FIXED HEIGHTS FOR MODULES FOR LAYOUT DEBUGGING */
+  .homepage-v2 .welcome { height: 190px; }
+  /* END: TEMP FIXED HEIGHTS FOR MODULES FOR LAYOUT DEBUGGING */
+  /* END: Homepage v2.0 Flexbox Layout */
 
   /* BEGIN: Heading Styles */
   .module-container h2,
@@ -165,6 +192,14 @@
     left: 10%;
     right: 10%;
   }
+
+  /* BEGIN: Homepage v2.0 Style overrides for photo carousel (TEMP) */
+  .homepage-v2 .photo-carousel-container {
+    margin: 11px auto 22px;
+    max-width: 720px;
+    width: 100%;
+  }
+  /* END: Homepage v2.0 Style overrides for photo carousel (TEMP) */
 
   .module-container.images .elca-logo {
     display: block;
@@ -420,6 +455,9 @@
   /* BEGIN: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
   .homepage-v2 .navbar-nav { width: 94%; }
   /* END: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
+  /* BEGIN: Homepage v2.0 Photo Carousel overrides (TEMP) */
+  .homepage-v2 .photo-carousel-container { margin-top: 0; }
+  /* END: Homepage v2.0 Photo Carousel overrides (TEMP) */
 
   .caret { border-top: 8px dashed; border-right: 8px solid transparent; border-left: 8px solid transparent; }
   .module-container h2, h1.page-title { font-size: 18px; }
@@ -443,9 +481,13 @@
   .service-desc { width: 60.00%; }
 
   /* BEGIN: Homepage (v2.0) */
+  .container-fluid.homepage-v2 {
+    max-width: 1200px;
+    padding: 0;
+  }
   .homepage-v2 .page-header {
-    background-color: #000;
-    background-position: center top;
+    background-image: url('../images/emanuel-masthead.jpg');
+    background-position: right top;
     background-repeat: no-repeat;
   }
   /* END: Homepage (v2.0) */
