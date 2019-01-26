@@ -15,8 +15,8 @@
       <div class="col-xs-12">
         <h1 class="page-title">Event Calendar</h1>
         <p>
-          <a href="./calendars/calendar-2019-01.pdf" target="_blank">January 2019 printer-friendly calendar</a><br />
-          <a href="./calendars/calendar-2018-12.pdf" target="_blank">December 2018 printer-friendly calendar</a>
+          <a href="./calendars/calendar-2019-02.pdf" target="_blank">February 2019 printer-friendly calendar</a><br />
+          <a href="./calendars/calendar-2019-01.pdf" target="_blank">January 2019 printer-friendly calendar</a>
         </p>
         <iframe src="https://emanuellutheran.breezechms.com/embed/calendar/grid?size=medium&color=gray&calendars=srg9ErllnQBH%2BDD4NjLNQb4cUJHWej5sy5FLrtsbUc4x%2FLSC%2Fo4x2MFxxOZAJ4jli3mdvTLaVJQ5UvZ8ZI%2B31Q%3D%3D"
                 seamless="seamless"

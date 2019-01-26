@@ -127,43 +127,6 @@
                 <li class="event-date-entry">
                   <div class="event-calendar-container">
                     <div class="event-calendar">
-                      <div class="event-calendar-month">Dec</div>
-                      <div class="event-calendar-date">30</div>
-                      <div class="event-calendar-day">Sunday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <strong>Combined Worship Service at 10:00 AM</strong>
-                       </div>
-                       <div class="event-time">10 AM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Jan</div>
-                      <div class="event-calendar-date">18</div>
-                      <div class="event-calendar-day">Friday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2019-01-18-confirmation-youth-retreat.jpg" target="_blank">
-                           <strong>Confirmation Youth Retreat</strong>
-                         </a>
-                         the weekend of January 18-20
-                        (MLK Weekend) at Luther Glen Camp and Farm
-                       </div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
                       <div class="event-calendar-month">Jan</div>
                       <div class="event-calendar-date">26</div>
                       <div class="event-calendar-day">Saturday</div>
@@ -175,8 +138,73 @@
                          <a href="event-fliers/2019-01-26-new-member-class.jpg" target="_blank">
                            <strong>New Member Class</strong>
                          </a>
+                         <br />
+                         Hope Center Library
                        </div>
                        <div class="event-time">10 AM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Feb</div>
+                      <div class="event-calendar-date">10</div>
+                      <div class="event-calendar-day">Sunday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-02-10-first-communion.jpg" target="_blank">
+                           <strong>First Communion Class</strong>
+                         </a>
+                         (First of two)<br />
+                         Hope Center Library
+                       </div>
+                       <div class="event-time">12 PM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Feb</div>
+                      <div class="event-calendar-date">17</div>
+                      <div class="event-calendar-day">Sunday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-02-10-first-communion.jpg" target="_blank">
+                           <strong>First Communion Class</strong>
+                         </a>
+                         (2nd week)<br />
+                         Hope Center Library
+                       </div>
+                       <div class="event-time">12 PM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Feb</div>
+                      <div class="event-calendar-date">22</div>
+                      <div class="event-calendar-day">Friday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-02-22-high-school-youth-retreat.jpg" target="_blank">
+                           <strong>High School Youth Retreat</strong>
+                         </a>
+                         at Luther Glen Camp<br />
+                         Fri Feb 22 &ndash; Sun Feb 24<br />
+                         Registration due by <strong>Sunday, February 3</strong>.
+                       </div>
                      </div>
                   </div>
                 </li>
