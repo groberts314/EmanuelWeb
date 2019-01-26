@@ -126,6 +126,14 @@
   .service-time, .service-desc { float: left; }
   .service-time { width: 33.33%; }
   .service-desc { width: 66.67%; }
+  .homepage-v2 h2.worship-schedule-title { margin-top: 22px; }
+  .homepage-v2 .service-times .notice { font-weight: bold; }
+
+  /* BEGIN: Home Page v2.0 Audio Promo module styles */
+  .homepage-v2 .worship-audio .description {
+    font-weight: bold;
+  }
+  /* END: Home Page v2.0 Audio Promo module styles */
 
   /* BEGIN: Upcoming Events (Homepage) */
   .upcoming-events-container { margin-bottom: 22px }
@@ -514,19 +522,17 @@
     justify-content: flex-start;
   }
   .homepage-v2 .service-times {
-    flex: 0 0 25%;
+    flex: 1 0 25%;
     order: 1;
-    width: 25%;
   }
   .homepage-v2 .photo-carousel {
-    flex: 0 0 50%;
+    flex: 0 0 550px;
     order: 2;
-    width: 50%;
+    width: 550px;
   }
   .homepage-v2 .worship-audio {
-    flex: 0 0 25%;
+    flex: 1 0 25%;
     order: 3;
-    width: 25%;
   }
   .homepage-v2 .location {
     flex: 0 0 50%;
@@ -548,20 +554,15 @@
   .homepage-v2 .module-content.right {
     padding-left: 22px;
   }
-  .homepage-v2 .service-times .notice {
-    font-weight: bold;
-  }
-  .homepage-v2 .worship-audio .description {
-    font-weight: bold;
-  }
   .homepage-v2 .worship-audio .player {
 
   }
   .homepage-v2 audio {
-
+    max-width: 500px;
+    width: 100%;
   }
   .homepage-v2 .worship-audio .download {
-    
+
   }
   /* END: Homepage v2.0 Module Flexbox Layout (3 Columns for 1200px and up) */
   /* END: Homepage (v2.0) */
@@ -588,4 +589,12 @@
     margin-top: 0;
   }
   /* END: Worship Service Audio (Audio List Style v2.0) */
+}
+
+@media only screen and (min-width : 1260px) {
+  .container.homepage-v2 {
+    padding-left: 0;
+    padding-right: 0;
+    width: 1200px;
+  }
 }
