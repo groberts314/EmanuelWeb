@@ -113,7 +113,7 @@
   .page-footer .facebook img { width: 20px; }
 
   /* Common unordered list style to suppress default bullets and spacing */
-  .list { list-style-type: none; padding-left: 0; }
+  .list { list-style-type: none; padding-left: 0; } /* General style reset for lists; TODO: Convert some more specific classes with dupe styles to use this instead */
   /* END: Common Site-wide Styles */
 
   /* BEGIN: Home Page Module Styles (v1.0) */
@@ -121,7 +121,7 @@
   .service-times-container { margin-bottom: 22px }
   .service-times-container h2.worship-schedule-title { margin-top: 22px; }
   .service-times-container .notice { font-weight: bold; }
-  .service-time-list { list-style-type: none; padding-left: 0; }
+  .service-time-list { list-style-type: none; padding-left: 0; } /* TODO/FIXME: Retire in favor of just .list */
   .service-time-entry { margin-bottom: 11px; }
   .service-time, .service-desc { float: left; }
   .service-time { width: 33.33%; }
@@ -129,41 +129,41 @@
 
   /* BEGIN: Upcoming Events (Homepage) */
   .upcoming-events-container { margin-bottom: 22px }
-  .event-list { list-style-type: none; padding-left: 0; }
+  .event-list { list-style-type: none; padding-left: 0; } /* TODO/FIXME: Retire in favor of just .list */
   .event-date-entry { display: flex; margin-bottom: 11px; }
   .event-calendar-container { width: 75px; }
   .event-details { flex: 1; }
   .event-calendar {
-      background: #80715e;
-      color: white;
-      font-family: Arial, sans-serif;
-      font-weight: bold;
-      height: 78px;
-      margin-bottom: 1.375em;
-      margin-right: 11px;
-      margin-left: 0;
-      padding: 0.8em 0.35em 0.35em 0.35em;
-      text-align: center;
+    background: #80715e;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    height: 78px;
+    margin-bottom: 1.375em;
+    margin-right: 11px;
+    margin-left: 0;
+    padding: 0.8em 0.35em 0.35em 0.35em;
+    text-align: center;
   }
   .event-calendar-month {
-      display: block;
-      font-size: 0.875em;
-      letter-spacing: 1.1px;
-      line-height: 0.8em;
-      text-transform: uppercase;
+    display: block;
+    font-size: 0.875em;
+    letter-spacing: 1.1px;
+    line-height: 0.8em;
+    text-transform: uppercase;
   }
   .event-calendar-date {
-      display: block;
-      font-size: 2.625em;
-      height: 38px;
-      line-height: 1.05em;
-      margin-bottom: 2px;
+    display: block;
+    font-size: 2.625em;
+    height: 38px;
+    line-height: 1.05em;
+    margin-bottom: 2px;
   }
   .event-calendar-day {
-      display: block;
-      font-size: 0.5625em;
-      line-height: 1.22em;
-      text-transform: uppercase;
+    display: block;
+    font-size: 0.5625em;
+    line-height: 1.22em;
+    text-transform: uppercase;
   }
   .event-detail { display: flex; margin-bottom: 11px; }
   .event-description { flex: 1; }
@@ -538,6 +538,30 @@
     flex: 0 0 50%;
     order: 5;
     width: 50%;
+  }
+  .homepage-v2 .module-container h2 {
+    margin-bottom: 22px;
+  }
+  .homepage-v2 .module-content.left {
+    padding-right: 22px;
+  }
+  .homepage-v2 .module-content.right {
+    padding-left: 22px;
+  }
+  .homepage-v2 .service-times .notice {
+    font-weight: bold;
+  }
+  .homepage-v2 .worship-audio .description {
+    font-weight: bold;
+  }
+  .homepage-v2 .worship-audio .player {
+
+  }
+  .homepage-v2 audio {
+
+  }
+  .homepage-v2 .worship-audio .download {
+    
   }
   /* END: Homepage v2.0 Module Flexbox Layout (3 Columns for 1200px and up) */
   /* END: Homepage (v2.0) */

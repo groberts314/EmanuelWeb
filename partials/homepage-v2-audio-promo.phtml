@@ -1,5 +1,40 @@
-<div style="background: gold; display: block; height: 217px; position: relative; text-align: center;">
-  <div style="color: white; font-size: 3em; font-weight: bold; height: 50%; margin-top: calc(-25% + 2em); position: absolute; top: 50%; text-align:center; width: calc(100%)">
-    Audio Promo
+<?php
+  require_once('./app-code/helper-functions.php');
+?>
+<h2>Worship Audio</h2>
+<div class="module-content right">
+  <p>
+    Did you wish worshiping with us?  Here&rsquo;s an audio recording of a
+    recent worship service; you can listen online!
+  </p>
+  <?php
+    $audioFilesJson = file_get_contents('./app-data/audio-files.json');
+    $audioFiles = json_decode($audioFilesJson, TRUE);
+    date_sort_descending($audioFiles);
+    $audioFile = $audioFiles[0];
+    $fileDateTime = strtotime($audioFile['dateTime']);
+    $date = date('l, F j, Y', $fileDateTime);
+    $time = date('g:i A', $fileDateTime);
+    $entry = array_merge($audioFile, array('date' => $date, 'time' => $time));
+    $safePrefix = get($entry['prefix']);
+  ?>
+  <div class="description">
+    <p>
+      <?= $safePrefix === NULL ? NULL : $safePrefix . '<br />' ?>
+      <?= $date ?>
+      <br  />
+      <?= $time ?>
+    </p>
+  </div>
+  <div class="player">
+    <audio controls preload="none">
+      <source src="<?= $entry['path'] ?>" type="audio/mp4" />
+      <p>Your browser does not support HTML5 audio.</p>
+    </audio>
+  </div>
+  <div class="download">
+    <a href="<?= $entry['path'] ?>">
+      <strong>Download (M4A)</strong>
+    </a>
   </div>
 </div>
