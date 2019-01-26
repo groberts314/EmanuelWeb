@@ -8,8 +8,8 @@
 </head>
 
 <body>
-  <div class="container-fluid homepage-v2">
-    <?php require_once('./partials/masthead-top-nav-v2.phtml') ?>
+  <div class="container homepage-v2">
+    <?php require_once('./partials/masthead-top-nav.phtml') ?>
 
     <div class="main-content">
       <div class="module-container service-times">

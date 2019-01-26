@@ -504,10 +504,6 @@
   .service-desc { width: 60.00%; }
 
   /* BEGIN: Homepage (v2.0) */
-  .container-fluid.homepage-v2 {
-    max-width: 1200px;
-    padding: 0;
-  }
   .homepage-v2 .page-header {
     background-image: url('../images/emanuel-masthead.jpg');
     background-position: right top;
