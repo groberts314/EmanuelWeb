@@ -12,13 +12,21 @@
     <?php require_once('./partials/masthead-top-nav-v2.phtml') ?>
 
     <div class="main-content">
-      <div class="module-container welcome">Welcome</div>
-      <div class="module-container service-times">Service Times</div>
-      <div class="module-container location">Location</div>
-      <div class="module-container map">Map</div>
-      <div class="module-container photo-carousel">Photo Carousel</div>
-      <div class="module-container worship-audio">NEW Audio Promo</div>
-      <div class="module-container upcoming-events">Upcoming Events</div>
+      <div class="module-container service-times">
+          <?php require_once('./partials/homepage-v2-service-times.phtml') ?>
+      </div>
+      <div class="module-container worship-audio">
+          <?php require_once('./partials/homepage-v2-audio-promo.phtml') ?>
+      </div>
+      <div class="module-container location">
+          <?php require_once('./partials/homepage-v2-location-and-contact.phtml') ?>
+      </div>
+      <div class="module-container photo-carousel">
+          <?php require_once('./partials/homepage-v2-photo-carousel.phtml') ?>
+      </div>
+      <div class="module-container upcoming-events">
+          <?php require_once('./partials/homepage-v2-upcoming-events.phtml') ?>
+      </div>
     </div>
 
     <?php require_once('./partials/footer.phtml') ?>

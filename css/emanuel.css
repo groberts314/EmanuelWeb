@@ -77,23 +77,10 @@
     justify-content: space-around;
   }
   .homepage-v2 .module-container {
-    /* TEMP STYLES FOR LAYOUT DEBUGGING! */
-    background: tomato;
-    padding: 5px;
+    /* Actual Styles we'll likely keep */
+    margin-bottom: 22px; /* All modules need spacing before the next one */
     width: 100%; /* At mobile all modules take up full width of parent container */
-    height: 150px;
-    margin-top: 10px;
-
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-    /* TEMP STYLES FOR LAYOUT DEBUGGING! */
   }
-  /* BEGIN: TEMP FIXED HEIGHTS FOR MODULES FOR LAYOUT DEBUGGING */
-  .homepage-v2 .welcome { height: 190px; }
-  /* END: TEMP FIXED HEIGHTS FOR MODULES FOR LAYOUT DEBUGGING */
   /* END: Homepage v2.0 Flexbox Layout */
 
   /* BEGIN: Heading Styles */
@@ -124,13 +111,16 @@
   /* Page Footer */
   .page-footer { background-color: #000; color: #fff; }
   .page-footer .facebook img { width: 20px; }
+
+  /* Common unordered list style to suppress default bullets and spacing */
+  .list { list-style-type: none; padding-left: 0; }
   /* END: Common Site-wide Styles */
 
   /* BEGIN: Home Page Module Styles (v1.0) */
   /* Worship Services (Homepage) */
   .service-times-container { margin-bottom: 22px }
   .service-times-container h2.worship-schedule-title { margin-top: 22px; }
-  .service-times-container .notice { font-weight: bold;}
+  .service-times-container .notice { font-weight: bold; }
   .service-time-list { list-style-type: none; padding-left: 0; }
   .service-time-entry { margin-bottom: 11px; }
   .service-time, .service-desc { float: left; }
@@ -406,9 +396,41 @@
   .homepage-v2 .navbar-nav > li.news-and-events { width: 16%; } */
   /* END: Homepage v2.0 Main Navigation Menu overrides (TEMP) */
 
+  /* BEGIN: Homepage v2.0 Module Flexbox Layout for 768 - 1199 */
+  .homepage-v2 .service-times {
+    flex: 0 0 50%;
+    order: 1;
+    width: 50%;
+  }
+  .homepage-v2 .worship-audio {
+    flex: 0 0 50%;
+    order: 2;
+    width: 50%;
+  }
+  .homepage-v2 .photo-carousel {
+    flex: 0 0 100%;
+    order: 3;
+  }
+  .homepage-v2 .location {
+    flex: 0 0 50%;
+    order: 4;
+    width: 50%;
+  }
+  .homepage-v2 .upcoming-events {
+    flex: 0 0 50%;
+    order: 5;
+    width: 50%;
+  }
+  /* END: Homepage v2.0 Module Flexbox Layout for 768 - 1199 */
+
   /* Page Footer */
   .page-footer { margin: 11px 0 0; }
   .page-footer .copyright, .page-footer .contact { padding: 20px 30px; }
+
+  /* Homepage v2.0 Flexbox Layout */
+  .homepage-v2 .main-content {
+    flex-wrap: wrap;
+  }
 
   /* Homepage Module Titles (v1.0) */
   .module-container h2.left-top, .module-container h2.right-top { margin: 0 -15px 22px 0; }
@@ -426,19 +448,20 @@
   .inner-page-content h2.section-title.top { margin-top: -11px; }
   .inner-page-content h2.staff-title { margin-top: 0; }
 
-  .short-content-min-height {
+  .short-content-min-height { /* TODO: Consider just adding this to .inner-page-content ! */
     min-height: 360px;
   }
 }
 
-/* Style rules up to 991 (mobile and wide tablets only, exclude desktop -- "hacks"! */
+/* Style rules up to 991 (mobile and wide tablets only, exclude desktop */
 @media only screen and (max-width: 991px) {
   .page-header { background-position-x: 64%; }
   .map-container { overflow-x: auto; width: 100%; }
   .inner-page-content .col-xs-12 { margin-bottom: 11px; }
 }
 
-/* Style between 768 and 991 (wider tablets only, exclude desktop -- "hacks"! */
+/* Style between 768 and 991 (wider tablets only, exclude mobile at low end and desktop at high end */
+/* TODO/FIXME: This is likely a hack; hopefully it can go away for v2.0 layout */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .event-list { margin-right: -11px; }
 }
@@ -490,6 +513,37 @@
     background-position: right top;
     background-repeat: no-repeat;
   }
+  /* BEGIN: Homepage v2.0 Module Flexbox Layout (3 Columns for 1200px and up) */
+  .homepage-v2 .main-content {
+    justify-content: flex-start;
+  }
+  .homepage-v2 .service-times {
+    flex: 0 0 25%;
+    order: 1;
+    width: 25%;
+  }
+  .homepage-v2 .photo-carousel {
+    flex: 0 0 50%;
+    order: 2;
+    width: 50%;
+  }
+  .homepage-v2 .worship-audio {
+    flex: 0 0 25%;
+    order: 3;
+    width: 25%;
+  }
+  .homepage-v2 .location {
+    flex: 0 0 50%;
+    order: 4;
+    width: 50%;
+    align-self: flex-start;
+  }
+  .homepage-v2 .upcoming-events {
+    flex: 0 0 50%;
+    order: 5;
+    width: 50%;
+  }
+  /* END: Homepage v2.0 Module Flexbox Layout (3 Columns for 1200px and up) */
   /* END: Homepage (v2.0) */
 
   /* Headings (some impacting Homepage v1.0) */
