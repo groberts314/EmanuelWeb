@@ -528,6 +528,13 @@
   }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1259px) {
+  .homepage-v2 .map-container {
+    overflow-x: auto;
+    width: 100%;
+  }
+}
+
 /* Large Devices, Wide Screens (these rules affect 1200 and up) */
 @media only screen and (min-width: 1200px) {
   /* Homepage (v1.0) */
