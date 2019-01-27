@@ -137,6 +137,9 @@
     margin-top: 22px;
     margin-left: 15px;
   }
+  .homepage-v2 .worship-audio .elca-logo {
+    display: none;
+  }
   /* END: Home Page v2.0 Audio Promo module styles */
 
   /* BEGIN: Upcoming Events (Homepage) */
@@ -194,14 +197,6 @@
     left: 10%;
     right: 10%;
   }
-
-  /* BEGIN: Homepage v2.0 Style overrides for photo carousel (TEMP) */
-  .homepage-v2 .photo-carousel-container {
-    margin: 11px auto 22px;
-    max-width: 720px;
-    width: 100%;
-  }
-  /* END: Homepage v2.0 Style overrides for photo carousel (TEMP) */
 
   .module-container.images .elca-logo {
     display: block;
@@ -267,11 +262,13 @@
     width: 100%;
   }
   .audio-file-entry {
-    border-bottom: solid 1px #80715e;
     display: flex;
     flex-wrap: wrap;
     margin-top: 22px;
     padding-bottom: 22px;
+  }
+  .audio-file-list-v2 .audio-file-entry {
+    border-bottom: solid 1px #80715e;
   }
   .audio-file-list-v2 .audio-file-entry:last-child {
     border-bottom: none;
@@ -455,9 +452,6 @@
     padding-left: 15px;
   }
 
-  .homepage-v2 .worship-audio .audio-file-entry {
-    border-bottom: none;
-  }
   .homepage-v2 .worship-audio .description {
     margin-right: 0;
   }
@@ -493,7 +487,7 @@
 }
 
 /* Medium Devices, Desktops (these rules affect 992 and up) */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width: 992px) {
   /* Page Header */
   .header-verse-container { width: 50%; }
 
@@ -519,6 +513,13 @@
   .photo-left { text-align: left; }
   .photo-right { text-align: right; }
   .preschool-fees .price { margin-left: -11px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .homepage-v2 .upcoming-events {
+    max-height: 546px;
+    overflow-y: auto;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -563,8 +564,14 @@
     width: 550px;
   }
   .homepage-v2 .worship-audio {
-    flex: 1 0 25%;
-    order: 3;
+    /* Top Right */
+    /*flex: 1 0 25%;
+    order: 3;*/
+
+    /* Bottom Right */
+    flex: 0 0 50%;
+    order: 5;
+    width: 50%;
   }
   .homepage-v2 .location {
     flex: 0 0 50%;
@@ -573,9 +580,16 @@
     align-self: flex-start;
   }
   .homepage-v2 .upcoming-events {
-    flex: 0 0 50%;
+    /* Bottom Right */
+    /*flex: 0 0 50%;
     order: 5;
-    width: 50%;
+    width: 50%;*/
+
+    /* Top Right */
+    flex: 1 0 25%;
+    order: 3;
+    max-height: 450px;
+    overflow-y: auto;
   }
   .homepage-v2 .module-container h2 {
     margin-bottom: 22px;
@@ -596,8 +610,10 @@
     max-width: 500px;
     width: 100%;
   }
-  .homepage-v2 .worship-audio .download {
-
+  .homepage-v2 .worship-audio .elca-logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
   }
   /* END: Homepage v2.0 Module Flexbox Layout (3 Columns for 1200px and up) */
   /* END: Homepage (v2.0) */
