@@ -21,7 +21,7 @@
               <p>For first-time visitors make sure to check out the <a href="./who-we-are">Who We Are</a> and <a href="./worship">Worship</a> sections of our website.</p>
               <h2 class="worship-schedule-title left-top">Worship Schedule</h2>
               <p class="notice">All Sunday worship services offer communion</p>
-              <ul class="service-time-list">
+              <ul class="list">
                 <li class="service-time-entry clearfix">
                   <div class="service-time">9:00 am</div>
                   <div class="service-desc">Traditional Worship Service</div>

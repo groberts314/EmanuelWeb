@@ -113,7 +113,7 @@
   .page-footer .facebook img { width: 20px; }
 
   /* Common unordered list style to suppress default bullets and spacing */
-  .list { list-style-type: none; padding-left: 0; } /* General style reset for lists; TODO: Convert some more specific classes with dupe styles to use this instead */
+  .list { list-style-type: none; padding-left: 0; }
   /* END: Common Site-wide Styles */
 
   /* BEGIN: Home Page Module Styles (v1.0) */
@@ -121,7 +121,6 @@
   .service-times-container { margin-bottom: 22px }
   .service-times-container h2.worship-schedule-title { margin-top: 22px; }
   .service-times-container .notice { font-weight: bold; }
-  .service-time-list { list-style-type: none; padding-left: 0; } /* TODO/FIXME: Retire in favor of just .list */
   .service-time-entry { margin-bottom: 11px; }
   .service-time, .service-desc { float: left; }
   .service-time { width: 33.33%; }
