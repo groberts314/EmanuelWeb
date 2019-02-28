@@ -15,8 +15,8 @@
     $fileDateTime = strtotime($audioFile['dateTime']);
     $date = date('l, F j, Y', $fileDateTime);
     $time = date('g:i A', $fileDateTime);
-    $entry = array_merge($audioFile, array('date' => $date, 'time' => $time));
-    $safePrefix = get($entry['prefix']);
+    $safePrefix = get($audioFile['prefix']);
+    $path = $audioFile['path'];
   ?>
   <div class="audio-file-entry">
     <div class="icon">
@@ -32,12 +32,12 @@
     </div>
     <div class="player">
       <audio controls preload="none">
-        <source src="<?= $entry['path'] ?>" type="audio/mp4" />
+        <source src="<?= $path ?>" type="audio/mp4" />
         <p>Your browser does not support HTML5 audio.</p>
       </audio>
     </div>
     <div class="download">
-      <a href="<?= $entry['path'] ?>">
+      <a href="<?= $path ?>">
         <strong>Download (M4A)</strong>
       </a>
     </div>
