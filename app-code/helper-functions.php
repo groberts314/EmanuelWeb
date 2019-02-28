@@ -5,12 +5,12 @@ function date_sort_descending(&$array, $dateKey = 'dateTime') {
   });
 }
 
-function get(&$var, $default = null) {
-    return isset($var) ? $var : $default;
+function display($template, $params = array()) {
+  extract($params);
+  include $template;
 }
 
-function function_get_output($fn)
-{
+function function_get_output($fn) {
   $args = func_get_args();
   unset($args[0]);
   ob_start();
@@ -20,14 +20,11 @@ function function_get_output($fn)
   return $output;
 }
 
-function display($template, $params = array())
-{
-  extract($params);
-  include $template;
+function get(&$var, $default = null) {
+    return isset($var) ? $var : $default;
 }
 
-function render($template, $params = array())
-{
+function render($template, $params = array()) {
   return function_get_output('display', $template, $params);
 }
 ?>
