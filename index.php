@@ -127,19 +127,166 @@
                 <li class="event-date-entry">
                   <div class="event-calendar-container">
                     <div class="event-calendar">
-                      <div class="event-calendar-month">Jan</div>
-                      <div class="event-calendar-date">26</div>
+                      <div class="event-calendar-month">Mar</div>
+                      <div class="event-calendar-date">6</div>
+                      <div class="event-calendar-day">Wednesday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Ash Wednesday</strong>
+                         </a>
+                         <br />
+                         Morning Service
+                       </div>
+                       <div class="event-time" style="padding-top: 21px">10:15 AM</div>
+                     </div>
+                     <div class="event-detail">
+                       <div class="event-description">
+                         Evening Service
+                       </div>
+                       <div class="event-time">7 PM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Mar</div>
+                      <div class="event-calendar-date">13</div>
+                      <div class="event-calendar-day">Wednesday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Morning Service</strong>
+                         </a>
+                       </div>
+                       <div class="event-time">10:15 AM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Mar</div>
+                      <div class="event-calendar-date">14</div>
+                      <div class="event-calendar-day">Thursday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Evening Service</strong>
+                         </a>
+                       </div>
+                       <div class="event-time">6:45 PM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Mar</div>
+                      <div class="event-calendar-date">20</div>
+                      <div class="event-calendar-day">Wednesday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Morning Service</strong>
+                         </a>
+                       </div>
+                       <div class="event-time">10:15 AM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Mar</div>
+                      <div class="event-calendar-date">21</div>
+                      <div class="event-calendar-day">Thursday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Evening Service</strong>
+                         </a>
+                       </div>
+                       <div class="event-time">6:45 PM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Mar</div>
+                      <div class="event-calendar-date">27</div>
+                      <div class="event-calendar-day">Wednesday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Morning Service</strong>
+                         </a>
+                       </div>
+                       <div class="event-time">10:15 AM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Mar</div>
+                      <div class="event-calendar-date">28</div>
+                      <div class="event-calendar-day">Thursday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Evening Service</strong>
+                         </a>
+                       </div>
+                       <div class="event-time">6:45 PM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Mar</div>
+                      <div class="event-calendar-date">30</div>
                       <div class="event-calendar-day">Saturday</div>
                     </div>
                   </div>
                   <div class="event-details">
                      <div class="event-detail">
                        <div class="event-description">
-                         <a href="event-fliers/2019-01-26-new-member-class.jpg" target="_blank">
-                           <strong>New Member Class</strong>
+                         <a href="event-fliers/2019-03-30-property-care.jpg" target="_blank">
+                           <strong>Property Care Team Meeting</strong>
                          </a>
-                         <br />
-                         Hope Center Library
+                       </div>
+                       <div class="event-time">8:30 AM</div>
+                     </div>
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-30-women-interfaith.jpg" target="_blank">
+                           <strong>Celebration of Women in Faith</strong>
+                         </a>
                        </div>
                        <div class="event-time">10 AM</div>
                      </div>
@@ -148,63 +295,95 @@
                 <li class="event-date-entry">
                   <div class="event-calendar-container">
                     <div class="event-calendar">
-                      <div class="event-calendar-month">Feb</div>
+                      <div class="event-calendar-month">Apr</div>
+                      <div class="event-calendar-date">3</div>
+                      <div class="event-calendar-day">Wednesday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Morning Service</strong>
+                         </a>
+                       </div>
+                       <div class="event-time">10:15 AM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Apr</div>
+                      <div class="event-calendar-date">4</div>
+                      <div class="event-calendar-day">Thursday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Evening Service</strong>
+                         </a>
+                       </div>
+                       <div class="event-time">6:45 PM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Apr</div>
+                      <div class="event-calendar-date">7</div>
+                      <div class="event-calendar-day">Sunday</div>
+                    </div>
+                  </div>
+                  <div class="event-details">
+                     <div class="event-detail">
+                       <div class="event-description">
+                         <a href="event-fliers/2019-04-07-preschool-appreciation-sunday.jpg" target="_blank">
+                           <strong>Preschool Appreciation Sunday</strong>
+                         </a>
+                       </div>
+                       <div class="event-time">10:45 AM</div>
+                     </div>
+                  </div>
+                </li>
+                <li class="event-date-entry">
+                  <div class="event-calendar-container">
+                    <div class="event-calendar">
+                      <div class="event-calendar-month">Apr</div>
                       <div class="event-calendar-date">10</div>
-                      <div class="event-calendar-day">Sunday</div>
+                      <div class="event-calendar-day">Wednesday</div>
                     </div>
                   </div>
                   <div class="event-details">
                      <div class="event-detail">
                        <div class="event-description">
-                         <a href="event-fliers/2019-02-10-first-communion.jpg" target="_blank">
-                           <strong>First Communion Class</strong>
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Morning Service</strong>
                          </a>
-                         (First of two)<br />
-                         Hope Center Library
                        </div>
-                       <div class="event-time">12 PM</div>
+                       <div class="event-time">10:15 AM</div>
                      </div>
                   </div>
                 </li>
                 <li class="event-date-entry">
                   <div class="event-calendar-container">
                     <div class="event-calendar">
-                      <div class="event-calendar-month">Feb</div>
-                      <div class="event-calendar-date">17</div>
-                      <div class="event-calendar-day">Sunday</div>
+                      <div class="event-calendar-month">Apr</div>
+                      <div class="event-calendar-date">11</div>
+                      <div class="event-calendar-day">Thursday</div>
                     </div>
                   </div>
                   <div class="event-details">
                      <div class="event-detail">
                        <div class="event-description">
-                         <a href="event-fliers/2019-02-10-first-communion.jpg" target="_blank">
-                           <strong>First Communion Class</strong>
+                         <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
+                           <strong>Lenten Midweek Evening Service</strong>
                          </a>
-                         (2nd week)<br />
-                         Hope Center Library
                        </div>
-                       <div class="event-time">12 PM</div>
-                     </div>
-                  </div>
-                </li>
-                <li class="event-date-entry">
-                  <div class="event-calendar-container">
-                    <div class="event-calendar">
-                      <div class="event-calendar-month">Feb</div>
-                      <div class="event-calendar-date">22</div>
-                      <div class="event-calendar-day">Friday</div>
-                    </div>
-                  </div>
-                  <div class="event-details">
-                     <div class="event-detail">
-                       <div class="event-description">
-                         <a href="event-fliers/2019-02-22-high-school-youth-retreat.jpg" target="_blank">
-                           <strong>High School Youth Retreat</strong>
-                         </a>
-                         at Luther Glen Camp<br />
-                         Fri Feb 22 &ndash; Sun Feb 24<br />
-                         Registration due by <strong>Sunday, February 3</strong>.
-                       </div>
+                       <div class="event-time">6:45 PM</div>
                      </div>
                   </div>
                 </li>
