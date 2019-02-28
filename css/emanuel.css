@@ -373,7 +373,7 @@
 }
 
 /* Style Rules for 768 and Up */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
   /* Page Header */
   .main-title-wrap { margin-left: 40px; }
   .main-title-wrap h1, .main-title-wrap .main-title {
@@ -431,6 +431,13 @@
     flex: 0 0 50%;
     order: 5;
     width: 50%;
+  }
+  .homepage-v2 .module-container.upcoming-events h2 {
+    margin-bottom: 0;
+  }
+  .upcoming-events-content {
+    overflow-y: auto;
+    padding: 11px 11px 0 22px;
   }
   /* END: Homepage v2.0 Module Flexbox Layout for 768 - 1199 */
 
@@ -517,7 +524,10 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .homepage-v2 .upcoming-events {
     max-height: 546px;
-    overflow-y: auto;
+    overflow-y: hidden;
+  }
+  .upcoming-events-content {
+    max-height: 502px; /* 546px module container height - 42px height of the h2 (24px + 11px top and bottom padding) */
   }
 }
 
@@ -588,7 +598,10 @@
     flex: 1 0 25%;
     order: 3;
     max-height: 450px;
-    overflow-y: auto;
+    overflow-y: hidden;
+  }
+  .upcoming-events-content {
+    max-height: 404px; /* 450px module container height - 42px height of the h2 (24px + 11px top and bottom padding) */
   }
   .homepage-v2 .module-container h2 {
     margin-bottom: 22px;
