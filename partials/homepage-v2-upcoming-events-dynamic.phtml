@@ -1,0 +1,35 @@
+<?php
+  require_once('./app-code/helper-functions.php');
+?>
+<h2>Upcoming Events</h2>
+<div class="upcoming-events-content">
+  <ul class="event-list">
+  <?php
+    $events = require_once('./app-data/upcoming-events.php');
+    $now = new DateTime("now", new DateTimeZone('America/Los_Angeles'));
+
+    foreach ($events as $key => $event) {
+      $eventDate = new DateTime($event['date']);
+      $keepUntil = get($event['keepUntil']);
+      $keepUntilDate = $keepUntil === NULL
+        ? new DateTime($event['date'])
+        : new DateTime($keepUntil);
+      $keepUntilDate->add(new DateInterval('P1D'));
+
+      if ($keepUntilDate > $now) {
+        $month = $eventDate->format('M');
+        $dayOfMonth = $eventDate->format('j');
+        $dayOfWeek = $eventDate->format('l');
+        $params = array(
+          'month' => $month,
+          'dayOfMonth' => $dayOfMonth,
+          'dayOfWeek' => $dayOfWeek,
+          'content' => $event['content']
+        );
+
+        display('./partials/upcoming-event-listing.phtml', $params);
+      }
+    }
+  ?>
+  </ul>
+</div>

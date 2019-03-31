@@ -1,3 +1,8 @@
+<?php
+  // Turn on Error reporting
+  error_reporting(E_ALL);
+  ini_set('display_errors', 1);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,7 +30,7 @@
           <?php require_once('./partials/homepage-v2-photo-carousel.phtml') ?>
       </div>
       <div class="module-container upcoming-events">
-          <?php require_once('./partials/homepage-v2-upcoming-events.phtml') ?>
+          <?php require_once('./partials/homepage-v2-upcoming-events-dynamic.phtml') ?>
       </div>
     </div>
 
