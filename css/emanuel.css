@@ -660,7 +660,7 @@
 }
 
 @media only screen and (min-width : 1260px) {
-  .container.homepage-v2 {
+  .container.homepage-v2, .container.layout-v2 {
     padding-left: 0;
     padding-right: 0;
     width: 1200px;

@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container layout-v2">
     <?php require_once('./partials/masthead-top-nav.phtml') ?>
 
     <div class="row main-content inner-page-content">
