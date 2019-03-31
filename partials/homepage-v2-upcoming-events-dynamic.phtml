@@ -10,12 +10,24 @@
 
     foreach ($events as $key => $event) {
       $eventDate = new DateTime($event['date']);
+
+      // Calculate a "keep until" date
+      // By default, most events should get kept until the end of day of their
+      // date (i.e. they are "single day events").
+      // Sometimes, we have a "multi-day" event like a weekend retreat, etc.
+      // Allowing the data source to specify an optional "keep until" date
+      // gives us the flexibility to keep such multi-day events on the calendar
+      // as long as desired.
       $keepUntil = get($event['keepUntil']);
       $keepUntilDate = $keepUntil === NULL
         ? new DateTime($event['date'])
         : new DateTime($keepUntil);
+
+      // Add one day so we retain events until end of day on the specified
+      // "keep until" date
       $keepUntilDate->add(new DateInterval('P1D'));
 
+      // Only render events where the "keep until" date is in the future
       if ($keepUntilDate > $now) {
         $month = $eventDate->format('M');
         $dayOfMonth = $eventDate->format('j');
