@@ -191,6 +191,21 @@ EVENT10
   </div>
 </div>
 EVENT11
+    ),
+    12 => array(
+      'date' => '2019-05-03',
+      'keepUntil' => '2019-05-05',
+      'content' => <<<EVENT12
+<div class="event-detail">
+  <div class="event-description">
+    <a href="event-fliers/2019-05-03-womens-retreat.jpg" target="_blank">
+      <strong>Women&rsquo;s Retreat</strong>
+    </a>
+    <br />
+    May 3 - 5 at the Murrietta Hot Springs Conference Center.
+  </div>
+</div>
+EVENT12
     )
   );
 ?>
