@@ -1,261 +1,58 @@
+<?php
+  require_once('./app-code/helper-functions.php');
+?>
 <h2>Upcoming Events</h2>
 <div class="upcoming-events-content">
-  <?php /* TODO: Make me data-driven and smart (hide past events)! */ ?>
   <ul class="event-list">
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">3</div>
-          <div class="event-calendar-day">Wednesday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
-               <strong>Lenten Midweek Morning Service</strong>
-             </a>
-           </div>
-           <div class="event-time">10:15 AM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">4</div>
-          <div class="event-calendar-day">Thursday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
-               <strong>Lenten Midweek Evening Service</strong>
-             </a>
-           </div>
-           <div class="event-time">6:45 PM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">7</div>
-          <div class="event-calendar-day">Sunday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-04-07-preschool-appreciation-sunday.jpg" target="_blank">
-               <strong>Preschool Appreciation Sunday</strong>
-             </a>
-           </div>
-           <div class="event-time">10:45 AM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">10</div>
-          <div class="event-calendar-day">Wednesday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
-               <strong>Lenten Midweek Morning Service</strong>
-             </a>
-           </div>
-           <div class="event-time">10:15 AM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">11</div>
-          <div class="event-calendar-day">Thursday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
-               <strong>Lenten Midweek Evening Service</strong>
-             </a>
-           </div>
-           <div class="event-time">6:45 PM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">14</div>
-          <div class="event-calendar-day">Sunday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-04-14-holy-week-schedule.jpg" target="_blank">
-               <strong>Palm Sunday</strong>
-             </a>
-             <br />
-             Procession with Palms at 9 and 10:45 AM worship services.
-           </div>
-           <div class="event-time">9 AM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">18</div>
-          <div class="event-calendar-day">Thursday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-04-14-holy-week-schedule.jpg" target="_blank">
-               <strong>Maundy Thursday</strong>
-             </a>
-             Evening Worship
-           </div>
-           <div class="event-time">7 PM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">19</div>
-          <div class="event-calendar-day">Friday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-04-14-holy-week-schedule.jpg" target="_blank">
-               <strong>Good Friday</strong>
-             </a>
-             Evening Worship
-           </div>
-           <div class="event-time">7 PM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">21</div>
-          <div class="event-calendar-day">Sunday</div>
-        </div>
-      </div>
-      <div class="event-details">
-        <div class="event-detail">
-          <div class="event-description">
-            <a href="event-fliers/2019-04-14-holy-week-schedule.jpg" target="_blank">
-              <strong>Easter Sunday</strong>
-            </a>
-            <br />
-            The Resurrection of our Lord!  ALLELUIA!
-          </div>
-        </div>
-         <div class="event-detail">
-           <div class="event-description">
-             Sunrise Service
-           </div>
-           <div class="event-time">6:30 AM</div>
-         </div>
-         <div class="event-detail">
-           <div class="event-description">
-             Traditional Service
-           </div>
-           <div class="event-time">9 AM</div>
-         </div>
-         <div class="event-detail">
-           <div class="event-description">
-             Praise Service
-           </div>
-           <div class="event-time">10:45 AM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">27</div>
-          <div class="event-calendar-day">Saturday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-04-27-synesthesia-concert.jpg" target="_blank">
-               <strong>&ldquo;American Landscapes&rdquo; Concert</strong>
-             </a>
-             <br />
-             by Synesthesia Sinfonietta
-           </div>
-           <div class="event-time">7 PM</div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">Apr</div>
-          <div class="event-calendar-date">29</div>
-          <div class="event-calendar-day">Monday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-04-29-black-bear-diner-fundraiser.jpg" target="_blank">
-               <strong>&ldquo;Dine and Donate&rdquo; Fundraiser</strong>
-             </a>
-             at the <strong>Black Bear Diner</strong> in La Habra.<br />
-             <strong>4 PM - 8 PM</strong>
-           </div>
-         </div>
-      </div>
-    </li>
-    <li class="event-date-entry">
-      <div class="event-calendar-container">
-        <div class="event-calendar">
-          <div class="event-calendar-month">May</div>
-          <div class="event-calendar-date">3</div>
-          <div class="event-calendar-day">Friday</div>
-        </div>
-      </div>
-      <div class="event-details">
-         <div class="event-detail">
-           <div class="event-description">
-             <a href="event-fliers/2019-05-03-womens-retreat.jpg" target="_blank">
-               <strong>Women&rsquo;s Retreat</strong>
-             </a>
-             <br />
-             May 3 - 5 at the Murrietta Hot Springs Conference Center.
-           </div>
-         </div>
-      </div>
-    </li>
+  <?php
+    $events = require_once('./app-data/upcoming-events.php');
+    $now = new DateTime("now", new DateTimeZone('America/Los_Angeles'));
+    $numEvents = 0;
+
+    foreach ($events as $key => $event) {
+      $eventDate = new DateTime($event['date']);
+
+      // Calculate a "keep until" date
+      // By default, most events should get kept until the end of day of their
+      // date (i.e. they are "single day events").
+      // Sometimes, we have a "multi-day" event like a weekend retreat, etc.
+      // Allowing the data source to specify an optional "keep until" date
+      // gives us the flexibility to keep such multi-day events on the calendar
+      // as long as desired.
+      $keepUntil = get($event['keepUntil']);
+      $keepUntilDate = $keepUntil === NULL
+        ? new DateTime($event['date'])
+        : new DateTime($keepUntil);
+
+      // Add one day so we retain events until end of day on the specified
+      // "keep until" date
+      $keepUntilDate->add(new DateInterval('P1D'));
+
+      // Only render events where the "keep until" date is in the future
+      if ($keepUntilDate > $now) {
+        $month = $eventDate->format('M');
+        $dayOfMonth = $eventDate->format('j');
+        $dayOfWeek = $eventDate->format('l');
+        $params = array(
+          'month' => $month,
+          'dayOfMonth' => $dayOfMonth,
+          'dayOfWeek' => $dayOfWeek,
+          'content' => $event['content']
+        );
+
+        display('./partials/upcoming-event-listing.phtml', $params);
+        ++$numEvents;
+      }
+    }
+
+    if ($numEvents == 0) {
+      echo <<<HTML
+      <p style="margin-top: 11px">
+        There are no upcoming events on our calendar right now.  Check back with
+        us soon for updates.
+      </p>
+HTML;
+    }
+  ?>
   </ul>
 </div>
