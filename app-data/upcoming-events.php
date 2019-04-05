@@ -2,7 +2,7 @@
   return array(
     0 => array(
       'date' => '2019-03-30',
-      'content' => <<<EVENT0
+      'content' => <<<HTML
 <div class="event-detail">
    <div class="event-description">
      <a href="event-fliers/2019-03-30-property-care.jpg" target="_blank">
@@ -19,11 +19,11 @@
    </div>
    <div class="event-time">10 AM</div>
 </div>
-EVENT0
+HTML
     ),
     1 => array(
       'date' => '2019-04-03',
-      'content' => <<<EVENT1
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
@@ -32,11 +32,11 @@ EVENT0
   </div>
   <div class="event-time">10:15 AM</div>
 </div>
-EVENT1
+HTML
     ),
     2 => array(
       'date' => '2019-04-04',
-      'content' => <<<EVENT2
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
@@ -45,11 +45,11 @@ EVENT1
   </div>
   <div class="event-time">6:45 PM</div>
 </div>
-EVENT2
+HTML
     ),
     3 => array(
       'date' => '2019-04-07',
-      'content' => <<<EVENT3
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-04-07-preschool-appreciation-sunday.jpg" target="_blank">
@@ -58,11 +58,11 @@ EVENT2
   </div>
   <div class="event-time">10:45 AM</div>
 </div>
-EVENT3
+HTML
     ),
     4 => array(
       'date' => '2019-04-10',
-      'content' => <<<EVENT4
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
@@ -71,11 +71,11 @@ EVENT3
   </div>
   <div class="event-time">10:15 AM</div>
 </div>
-EVENT4
+HTML
     ),
     5 => array(
       'date' => '2019-04-11',
-      'content' => <<<EVENT5
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-03-06-ash-wednesday.jpg" target="_blank">
@@ -84,11 +84,11 @@ EVENT4
   </div>
   <div class="event-time">6:45 PM</div>
 </div>
-EVENT5
+HTML
     ),
     6 => array(
       'date' => '2019-04-14',
-      'content' => <<<EVENT6
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-04-14-holy-week-schedule.jpg" target="_blank">
@@ -99,11 +99,11 @@ EVENT5
   </div>
   <div class="event-time">9 AM</div>
 </div>
-EVENT6
+HTML
     ),
     7 => array(
       'date' => '2019-04-18',
-      'content' => <<<EVENT7
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-04-14-holy-week-schedule.jpg" target="_blank">
@@ -114,11 +114,11 @@ EVENT6
   </div>
   <div class="event-time">7 PM</div>
 </div>
-EVENT7
+HTML
     ),
     8 => array(
       'date' => '2019-04-19',
-      'content' => <<<EVENT8
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-04-14-holy-week-schedule.jpg" target="_blank">
@@ -129,11 +129,11 @@ EVENT7
   </div>
   <div class="event-time">7 PM</div>
 </div>
-EVENT8
+HTML
     ),
     9 => array(
       'date' => '2019-04-21',
-      'content' => <<<EVENT9
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-04-14-holy-week-schedule.jpg" target="_blank">
@@ -161,11 +161,11 @@ EVENT8
   </div>
   <div class="event-time">10:45 AM</div>
 </div>
-EVENT9
+HTML
     ),
     10 => array(
       'date' => '2019-04-27',
-      'content' => <<<EVENT10
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-04-27-synesthesia-concert.jpg" target="_blank">
@@ -176,11 +176,11 @@ EVENT9
   </div>
   <div class="event-time">7 PM</div>
 </div>
-EVENT10
+HTML
     ),
     11 => array(
       'date' => '2019-04-29',
-      'content' => <<<EVENT11
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-04-29-black-bear-diner-fundraiser.jpg" target="_blank">
@@ -190,12 +190,12 @@ EVENT10
     <strong>4 PM - 8 PM</strong>
   </div>
 </div>
-EVENT11
+HTML
     ),
     12 => array(
       'date' => '2019-05-03',
       'keepUntil' => '2019-05-05',
-      'content' => <<<EVENT12
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-05-03-womens-retreat.jpg" target="_blank">
@@ -205,7 +205,7 @@ EVENT11
     May 3 - 5 at the Murrietta Hot Springs Conference Center.
   </div>
 </div>
-EVENT12
+HTML
     )
   );
 ?>
