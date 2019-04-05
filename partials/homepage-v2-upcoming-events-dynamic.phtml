@@ -7,6 +7,7 @@
   <?php
     $events = require_once('./app-data/upcoming-events.php');
     $now = new DateTime("now", new DateTimeZone('America/Los_Angeles'));
+    $numEvents = 0;
 
     foreach ($events as $key => $event) {
       $eventDate = new DateTime($event['date']);
@@ -40,7 +41,17 @@
         );
 
         display('./partials/upcoming-event-listing.phtml', $params);
+        ++$numEvents;
       }
+    }
+
+    if ($numEvents == 0) {
+      echo <<<HTML
+      <p style="margin-top: 11px">
+        There are no upcoming events on our calendar right now.  Check back with
+        us soon for updates.
+      </p>
+HTML;
     }
   ?>
   </ul>
