@@ -18,12 +18,13 @@
           <div class="col-xs-12">
             <h2 class="section-title no-top-margin">Current Issue</h2>
             <p>
-              <a href="../newsletters/newsletter-2019-04.pdf" target="_blank">April 2019</a>
+              <a href="../newsletters/newsletter-2019-05.pdf" target="_blank">May 2019</a>
             </p>
             <h2 class="section-title">Past Issues</h2>
           </div>
           <div class="col-xs-12 col-sm-3">
             <ul class="list newsletter-list">
+              <li><a href="../newsletters/newsletter-2019-04.pdf" target="_blank">April 2019</a></li>
               <li><a href="../newsletters/newsletter-2019-03.pdf" target="_blank">March 2019</a></li>
               <li><a href="../newsletters/newsletter-2019-02.pdf" target="_blank">February 2019</a></li>
               <li><a href="../newsletters/newsletter-2019-01.pdf" target="_blank">January 2019</a></li>
@@ -72,7 +73,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 photo-right no-btm-margin">
-        <img src="images/newsletter/newsletter-2019-04.jpg" alt="The Good News: April 2019" />
+        <img src="images/newsletter/newsletter-2019-05.jpg" alt="The Good News: May 2019" />
       </div>
     </div>
 
