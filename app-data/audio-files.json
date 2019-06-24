@@ -104,5 +104,30 @@
   {
     "dateTime": "2019-05-05T09:00:00-07:00",
     "path": "audio/emanuel-worship-2019-05-05-0900-sunday.m4a"
+  },
+  {
+    "dateTime": "2019-05-12T09:00:00-07:00",
+    "path": "audio/emanuel-worship-2019-05-12-0900-sunday.m4a"
+  },
+  {
+    "dateTime": "2019-05-19T10:00:00-07:00",
+    "path": "audio/emanuel-worship-2019-05-19-1000-confirmation-sunday.m4a",
+    "prefix": "Confirmation Sunday"
+  },
+  {
+    "dateTime": "2019-05-26T09:00:00-07:00",
+    "path": "audio/emanuel-worship-2019-05-26-0900-sunday.m4a"
+  },
+  {
+    "dateTime": "2019-06-02T09:00:00-07:00",
+    "path": "audio/emanuel-worship-2019-06-02-0900-sunday.m4a"
+  },
+  {
+    "dateTime": "2019-06-09T09:00:00-07:00",
+    "path": "audio/emanuel-worship-2019-06-09-0900-sunday.m4a"
+  },
+  {
+    "dateTime": "2019-06-16T09:00:00-07:00",
+    "path": "audio/emanuel-worship-2019-06-16-0900-sunday.m4a"
   }
 ]
