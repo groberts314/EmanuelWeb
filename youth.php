@@ -3,7 +3,7 @@
 
 <head>
   <?php require_once('./partials/head-metas.phtml') ?>
-  <title>[BETA] Youth &amp; Children | Emanuel Evangelical Lutheran Church</title>
+  <title>Youth &amp; Children | Emanuel Evangelical Lutheran Church</title>
   <?php require_once('./partials/head-includes.phtml') ?>
 </head>
 
