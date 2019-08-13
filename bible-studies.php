@@ -14,21 +14,47 @@
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Bible Studies</h1>
-        <div class="row">
-          <div class="col-xs-12">
-            <p>
-              This portion of our recently redesigned website is still under contruction.
-              We should have the information you are looking for posted here very shortly.
-              Please check back soon.  And thank you for pardoning our dust.
-            </p>
-          </div>
-          <div class="col-xs-12 col-sm-4 photo-left">
-            <img src="images/who-we-are/emanuel-sign.jpg" alt="Emanuel: God With Us" />
-          </div>
-        </div>
+        <h2 class="section-title">Wednesday Morning Bible Study</h2>
+        <p>
+          The Wednesday Morning Bible Study is a group of men and women of
+          diverse ages who meet every Wednesday morning at 9:00 AM in the
+          Hope Center Conference room. The purpose of the group is to
+          create a no pressure, open, and lively discussion of God&rsquo;s
+          Word, concentrating on one book of the Bible at a time. It is a
+          time for fellowship and study, but all are welcome, it is not
+          assumed you know it all. The study is pastor led, has 10-15
+          participants each week, and uses whichever biblical translation
+          you bring. We move at our own pace and historical, cultural, and
+          contextual connections are encouraged to deepen our understanding
+          of scripture in the midst of our ever changing world.
+        </p>
+        <h2 class="section-title">Joy Circle</h2>
+        <p>
+          Joy Circle is a women’s group that meets every third Monday of
+          the month at 9:30 AM in the Hope Center Library for fellowship,
+          treats, and to participate together in a Bible study taken from
+          Gather Magazine, the magazine published by Women of the ELCA.
+        </p>
+        <h2 class="section-title">Thursday Evening Lay Led Bible Study</h2>
+        <p>
+          Twice a month (normally on the first and third Thursdays) a group
+          of members from the congregation gather in Hope center from
+          4:30-5:30. This in-depth Bible study that covers a variety of
+          topic is completely led by lay members of the congregation and
+          open to all.
+        </p>
+        <h2 class="section-title">Bible Study Fellowship</h2>
+        <p>
+          Bible Study Fellowship (BSF) is an international Christian
+          interdenominational  Bible Study focused on in depth Bible Study
+          for all ages. Tuesday Evenings a  women’s Bible study meets from
+          September-May. A thriving Children&rsquo;s ministry also
+          accompanies this program. To find out more or to sign up please
+          visit the <a href="https://www.bsfinternational.org" target="_blank">Bible Study Fellowship Website</a>.
+        </p>
       </div>
       <div class="col-xs-12 col-sm-4 photo-right no-btm-margin">
-        <img src="images/coming-soon.png" alt="Coming Soon" />
+        <img src="images/who-we-are/emanuel-sign.jpg" alt="Emanuel: God With Us" />
       </div>
     </div>
 
