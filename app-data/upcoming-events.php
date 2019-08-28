@@ -1,54 +1,66 @@
 <?php
   return array(
     0 => array(
-    'date' => '2019-08-04',
+    'date' => '2019-09-12',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2019-08-04-maria-farewell.jpg" target="_blank">
-      <strong>Vicar Maria&rsquo;s Farewell Potluck Party</strong>
-    </a>
+    <strong>Seekers resumes</strong>
   </div>
-  <div class="event-time">4 PM</div>
+  <div class="event-time">
+    6 PM
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Handbell Choir resumes</strong>
+  </div>
+  <div class="event-time">
+    6:30 PM
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Chancel Choir resumes</strong>
+  </div>
+  <div class="event-time">
+    7:30 PM
+  </div>
 </div>
 HTML
   ),
   1 => array(
-    'date' => '2019-08-06',
+    'date' => '2019-09-15',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2019-08-06-youth-beach-outing.jpg" target="_blank">
-      <strong>Youth Beach Outing</strong>
+    <a href="event-fliers/2019-09-15-farm-sunday.jpg" target="_blank">
+      <strong>Farm Sunday at Emanuel</strong>
     </a>
+    <br />
+    Visit from Luther Glen staff during both worship services.  Farm fresh eggs &amp; produce for sale on the patio.
   </div>
-  <div class="event-time">9 AM</div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Confirmation Kick-Off</strong>
+  </div>
+  <div class="event-time">
+    2 PM
+  </div>
 </div>
 HTML
   ),
   2 => array(
-    'date' => '2019-08-25',
+    'date' => '2019-09-19',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2019-08-25-legacy-planning.jpg" target="_blank">
-      <strong>Legacy Planning Workshop</strong>
-    </a>
+    <strong>Confirmation Starts</strong>
   </div>
-  <div class="event-time">12 PM</div>
-</div>
-HTML
-  ),
-  3 => array(
-    'date' => '2019-08-27',
-    'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <a href="/study-buddies">
-      <strong>Study Buddies</strong>
-    </a> resumes.
+  <div class="event-time">
+    6 PM
   </div>
-  <div class="event-time">12 PM</div>
 </div>
 HTML
   )
