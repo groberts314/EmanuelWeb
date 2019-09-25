@@ -169,5 +169,15 @@
   {
     "dateTime": "2019-09-01T09:00:00-07:00",
     "path": "audio/emanuel-worship-2019-09-01-0900-sunday.m4a"
+  },
+  {
+    "dateTime": "2019-09-08T09:00:00-07:00",
+    "path": "audio/emanuel-worship-2019-09-08-0900-sunday.m4a",
+    "speaker": "Vicar Matt Polsdofer"
+  },
+  {
+    "dateTime": "2019-09-15T09:00:00-07:00",
+    "path": "audio/emanuel-worship-2019-09-15-0900-sunday.m4a",
+    "speaker": "Pastor Cate Luehr"
   }
 ]
