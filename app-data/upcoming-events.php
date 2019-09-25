@@ -1,65 +1,79 @@
 <?php
   return array(
     0 => array(
-    'date' => '2019-09-12',
+    'date' => '2019-10-13',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Seekers resumes</strong>
+    <a href="event-fliers/2019-10-13-bishops-gathering.jpg" target="_blank">
+      <strong>2019 Bishops&rsquo; Gathering</strong>
+    </a>
+    at Messiah Lutheran Church in Yorba Linda
   </div>
   <div class="event-time">
-    6 PM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Handbell Choir resumes</strong>
-  </div>
-  <div class="event-time">
-    6:30 PM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Chancel Choir resumes</strong>
-  </div>
-  <div class="event-time">
-    7:30 PM
+    2:30 PM
   </div>
 </div>
 HTML
   ),
   1 => array(
-    'date' => '2019-09-15',
+    'date' => '2019-10-19',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2019-09-15-farm-sunday.jpg" target="_blank">
-      <strong>Farm Sunday at Emanuel</strong>
+    <a href="event-fliers/2019-10-19-catechism-revisted-at-luther-glen.jpg" target="_blank">
+      <strong>&ldquo;Catechism Revisited: On Tour&rdquo;</strong>
     </a>
-    <br />
-    Visit from Luther Glen staff during both worship services.  Farm fresh eggs &amp; produce for sale on the patio.
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Confirmation Kick-Off</strong>
+    at Luther Glen Farm
   </div>
   <div class="event-time">
-    2 PM
+    9:30 AM
   </div>
 </div>
 HTML
   ),
   2 => array(
-    'date' => '2019-09-19',
+    'date' => '2019-10-27',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Confirmation Starts</strong>
+    <a href="event-fliers/2019-10-27-trunk-or-treat.jpg" target="_blank">
+      <strong>Trunk or Treat</strong>
+    </a>
   </div>
   <div class="event-time">
-    6 PM
+    5:00 PM
+  </div>
+</div>
+HTML
+  ),
+  3 => array(
+    'date' => '2019-11-02',
+    'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <a href="event-fliers/2019-11-02-polsdofer-baby-shower.jpg" target="_blank">
+      <strong>Baby Shower</strong>
+    </a>
+    for Vicar Matt and Jenni Polsdofer
+  </div>
+  <div class="event-time">
+    10:00 AM
+  </div>
+</div>
+HTML
+  ),
+  4 => array(
+    'date' => '2019-11-02',
+    'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <a href="event-fliers/2019-11-10-annual-congregational-meeting.jpg" target="_blank">
+      <strong>Annual Congregational Meeting</strong>
+    </a>
+  </div>
+  <div class="event-time">
+    4:00 PM
   </div>
 </div>
 HTML
