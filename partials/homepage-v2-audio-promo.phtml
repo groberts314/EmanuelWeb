@@ -17,6 +17,7 @@
     $date = date('l, F j, Y', $fileDateTime);
     $time = date('g:i A', $fileDateTime);
     $safePrefix = get($audioFile['prefix']);
+    $safeSpeaker = get($audioFile['speaker']);
     $path = $audioFile['path'];
   ?>
   <div class="audio-file-entry">
@@ -29,6 +30,7 @@
         <?= $date ?>
         <br  />
         <?= $time ?>
+        <?= $safeSpeaker === NULL ? NULL : '<br /><br />' . $safeSpeaker ?>
       </p>
     </div>
     <div class="player">

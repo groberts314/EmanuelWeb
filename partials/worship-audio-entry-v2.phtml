@@ -7,11 +7,13 @@
     <strong>
       <?php
         $safePrefix = get($prefix);
+        $safeSpeaker = get($speaker);
       ?>
       <?= $safePrefix === NULL ? NULL : $safePrefix . '<br />' ?>
       <?= $date ?>
       <br  />
       <?= $time ?>
+      <?= $safeSpeaker === NULL ? NULL : '<br /><br />' . $safeSpeaker ?>
     </strong>
   </div>
   <div class="player">
