@@ -1,8 +1,23 @@
 <?php
   return array(
     0 => array(
-    'date' => '2019-10-13',
-    'content' => <<<HTML
+      'date' => '2019-09-29',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <a href="event-fliers/2019-09-29-maldonado-concert.jpg" target="_blank">
+      <strong>Concert featuring Jos&eacute; Maldonado</strong>
+    </a>
+  </div>
+  <div class="event-time">
+    6:00 PM
+  </div>
+</div>
+HTML
+    ),
+    1 => array(
+      'date' => '2019-10-13',
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2019-10-13-bishops-gathering.jpg" target="_blank">
@@ -16,7 +31,7 @@
 </div>
 HTML
   ),
-  1 => array(
+  2 => array(
     'date' => '2019-10-19',
     'content' => <<<HTML
 <div class="event-detail">
@@ -32,7 +47,7 @@ HTML
 </div>
 HTML
   ),
-  2 => array(
+  3 => array(
     'date' => '2019-10-27',
     'content' => <<<HTML
 <div class="event-detail">
@@ -47,7 +62,7 @@ HTML
 </div>
 HTML
   ),
-  3 => array(
+  4 => array(
     'date' => '2019-11-02',
     'content' => <<<HTML
 <div class="event-detail">
@@ -63,7 +78,7 @@ HTML
 </div>
 HTML
   ),
-  4 => array(
+  5 => array(
     'date' => '2019-11-02',
     'content' => <<<HTML
 <div class="event-detail">
