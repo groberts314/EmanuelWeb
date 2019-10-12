@@ -40,24 +40,10 @@
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-4 photo-left">
         <h2 class="staff-title no-top-margin no-btm-margin">
-          Ms. Norrie<br />
-          Teacher
-        </h2>
-        <img src="images/preschool-staff/norrie.jpg" alt="Ms. Norrie, Teacher" />
-      </div>
-      <div class="col-xs-12 col-sm-4 photo-left">
-        <h2 class="staff-title no-top-margin no-btm-margin">
           Ms. Pam<br />
           Teacher
         </h2>
         <img src="images/preschool-staff/pam.jpg" alt="Ms. Pam, Teacher" />
-      </div>
-      <div class="col-xs-12 col-sm-4 photo-left">
-        <h2 class="staff-title no-top-margin no-btm-margin">
-          Ms. Katie<br />
-          Teacher/Aide
-        </h2>
-        <img src="images/preschool-staff/katie.jpg" alt="Ms. Katie, Teacher/Aide" />
       </div>
     </div>
 

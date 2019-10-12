@@ -45,27 +45,45 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-4">
         <h2 class="staff-title">
-          Vicar Maria Markman
+          Vicar Matt Polsdofer
         </h2>
         <p>
-          Maria joined Emanuel in August of 2018 as a part of her Pastoral Education. She currently is a graduate
-          student at Luther Seminary in St. Paul, Minnesota earning her Master of Divinity degree. Maria is excited to
-          learn and grow with Emanuel during her year-long internship here in La Habra, California. Before pursuing her
-          call to ministry, Maria taught and performed around the world with the Young Americans and got her
-          undergraduate degree in English with an emphasis on creative writing from Concordia University in St. Paul.
+          Matt joined Emanuel in June of 2019 as part of his pastoral education.
+          He is currently a graduate studentat Luther Seminary in St. Paul,
+          Minnesota. He is part of a pilot program with Luther in their new
+          program called &ldquo;MDivX.&rdquo; The traditional time it takes to
+          get through seminary is 4 years, but in this pilot program it is 2
+          years. Instead of doing a traditional year long internship Matt will
+          be with Emanuel for 2 years in this program. Before moving to La Habra
+          and serving Emanuel, Matt was a full time stay at home dad and worked
+          part time at serving Immanuel Lutheran in Forest City, Iowa. He worked
+          there for 7 years doing middle school and high school youth ministry.
+          Prior to church work Matt has worked as an admissions counselor,
+          insurance agent and in the retirement industry.
         </p>
         <p>
-          From the moment Maria met Pastor Cate and learned about Emanuel Lutheran Church, she knew this was the place
-          she wanted to learn how to be a pastor. Maria is fascinated by the innate spirituality of children and love to
-          cultivate wonder filled faith in all ages. She will focus her learning on preaching, parish life, and
-          proclaiming the light of Christ through the many ministry opportunities at Emanuel.
+          Matt graduated from Concordia University Chicago where he met his
+          wonderful wife Jenni. They have two children together and are excited
+          for their third child! They previously lived in Forest City, Iowa for
+          9 years. It has been amazing to see how the congregation has opened
+          its arm to the Polsdofer family.
         </p>
         <p>
-          <a href="mailto:vicar@elclh.org">Contact Maria Markman</a>
+          When Matt was meeting with Pastor Cate Luehr, he felt God calling him
+          to Emanuel. He knew that this would be a great environment for himself
+          and his family to grow into their ministry call. Matt enjoys working
+          with people of all ages and building relationships. It is amazing to
+          get to know people more and hear their faith stories and how God is
+          impacting their lives. He will focus on learning congregational care,
+          preaching and sharing Christ&rsquo;s love with all the many ministry
+          opportunities here at Emanuel.
+        </p>
+        <p>
+          <a href="mailto:vicar@elclh.org">Contact Matt Polsdofer</a>
         </p>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
-        <img src="images/staff/vicar-maria-markman.jpg" alt="Vicar Maria Markman" />
+        <img src="images/staff/vicar-matt-polsdofer.jpg" alt="Vicar Matt Polsdofer" />
       </div>
     </div>
     <div class="row main-content inner-page-content">
