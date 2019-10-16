@@ -14,7 +14,7 @@
     date_sort_descending($audioFiles);
     $audioFile = $audioFiles[0];
     $fileDateTime = strtotime($audioFile['dateTime']);
-    $date = date('l, F j, Y', $fileDateTime);
+    $date = date('F j, Y', $fileDateTime);
     $time = date('g:i A', $fileDateTime);
     $safePrefix = get($audioFile['prefix']);
     $safeSpeaker = get($audioFile['speaker']);

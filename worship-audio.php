@@ -37,7 +37,7 @@
 
             foreach ($audioFiles as $key => $audioFile) {
               $fileDateTime = strtotime($audioFile['dateTime']);
-              $date = date('l, F j, Y', $fileDateTime);
+              $date = date('F j, Y', $fileDateTime);
               $time = date('g:i A', $fileDateTime);
               $entry = array_merge($audioFile, array('date' => $date, 'time' => $time));
               display('./partials/worship-audio-entry-v2.phtml', $entry);
