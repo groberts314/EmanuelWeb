@@ -189,5 +189,16 @@
     "dateTime": "2019-10-13T09:00:00-07:00",
     "path": "audio/emanuel-worship-2019-10-13-0900-sunday.m4a",
     "speaker": "Pastor Cate Luehr"
+  },
+  {
+    "dateTime": "2019-10-27T09:00:00-07:00",
+    "path": "audio/emanuel-worship-2019-10-27-0900-reformation-sunday.m4a",
+    "prefix": "Reformation Sunday",
+    "speaker": "Pastor Cate Luehr"
+  },
+  {
+    "dateTime": "2019-11-03T09:00:00-08:00",
+    "path": "audio/emanuel-worship-2019-11-03-0900-sunday.m4a",
+    "speaker": "Pastor Cate Luehr"
   }
 ]
