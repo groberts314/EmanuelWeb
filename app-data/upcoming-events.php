@@ -1,64 +1,73 @@
 <?php
   return array(
     0 => array(
-        'date' => '2019-11-02',
+        'date' => '2019-12-07',
         'content' => <<<HTML
   <div class="event-detail">
     <div class="event-description">
-      <a href="event-fliers/2019-11-02-polsdofer-baby-shower.jpg" target="_blank">
-        <strong>Baby Shower</strong>
+      <a href="event-fliers/2019-12-07-ELFFFs-chirstmas-party.jpg" target="_blank">
+        <strong>ELFFFs Christmas Party</strong>
       </a>
-      for Vicar Matt and Jenni Polsdofer
     </div>
     <div class="event-time">
-      10:00 AM
+      5:00 PM
     </div>
   </div>
 HTML
     ),
     1 => array(
-      'date' => '2019-11-09',
+      'date' => '2019-12-13',
       'content' => <<<HTML
   <div class="event-detail">
     <div class="event-description">
-      <a href="event-fliers/2019-11-09-patriots-and-paws.jpg" target="_blank">
-        <strong>Patriots &amp; Paws</strong>
+      <a href="event-fliers/2019-12-19-youth-crafts.jpg" target="_blank">
+        <strong>Youth Decorate the Church!</strong>
       </a>
-      Holiday Bag assembly
+      <br />
+      All Youth are invited to help the congregation decorate the church for Christmas.
     </div>
     <div class="event-time">
-      10:00 AM
+      5:00 PM
     </div>
   </div>
 HTML
     ),
     2 => array(
-      'date' => '2019-11-10',
+      'date' => '2019-12-15',
       'content' => <<<HTML
   <div class="event-detail">
     <div class="event-description">
-      <a href="event-fliers/2019-11-10-annual-congregational-meeting.jpg" target="_blank">
-        <strong>Annual Congregational Meeting</strong>
+      <a href="event-fliers/2019-12-15-lessons-and-carols.jpg" target="_blank">
+        <strong>Lessons &amp; Carols Worship Service</strong>
       </a>
     </div>
     <div class="event-time">
-      4:00 PM
+      9:00 AM
+    </div>
+  </div>
+  <div class="event-detail">
+    <div class="event-description">
+      <a href="event-fliers/2019-12-15-childrens-christmas-musical.jpg" target="_blank">
+        <strong>Children&rsquo;s Chirstmas Musical</strong>
+      </a>
+    </div>
+    <div class="event-time">
+      10:45 AM
     </div>
   </div>
 HTML
     ),
     3 => array(
-      'date' => '2019-11-16',
+      'date' => '2019-12-19',
       'content' => <<<HTML
   <div class="event-detail">
     <div class="event-description">
-      <a href="event-fliers/2019-11-16-move-furniture.jpg" target="_blank">
-        <strong>Move Furniture</strong>
+      <a href="event-fliers/2019-12-19-youth-crafts.jpg" target="_blank">
+        <strong>Youth &amp; Children Craft Night</strong>
       </a>
-      in Moerer Hall for floor stripping and waxing.
     </div>
     <div class="event-time">
-      7:00 AM
+      6:00 PM
     </div>
   </div>
 HTML
