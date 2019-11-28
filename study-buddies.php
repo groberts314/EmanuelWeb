@@ -16,7 +16,7 @@
         <h1 class="page-title">Study Buddies</h1>
         <p>
           Study Buddies, our new free tutoring program for grades 1-6, takes place here at Emanuel on Tuesdays and
-          Thursdays from 3:30-5:30 PM in the Hope Center Library.  This tutoring group is open to all children and
+          Thursdays from 3:30-5:00 PM in the Hope Center Library.  This tutoring group is open to all children and
           students are welcome to come on an as-needed basis. We often have enough volunteer tutors for students to
           receive one-on-one attention.
         </p>
