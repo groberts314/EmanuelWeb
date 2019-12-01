@@ -49,7 +49,7 @@
         </h2>
         <p>
           Matt joined Emanuel in June of 2019 as part of his pastoral education.
-          He is currently a graduate studentat Luther Seminary in St. Paul,
+          He is currently a graduate student at Luther Seminary in St. Paul,
           Minnesota. He is part of a pilot program with Luther in their new
           program called &ldquo;MDivX.&rdquo; The traditional time it takes to
           get through seminary is 4 years, but in this pilot program it is 2
@@ -63,10 +63,10 @@
         </p>
         <p>
           Matt graduated from Concordia University Chicago where he met his
-          wonderful wife Jenni. They have two children together and are excited
-          for their third child! They previously lived in Forest City, Iowa for
-          9 years. It has been amazing to see how the congregation has opened
-          its arm to the Polsdofer family.
+          wonderful wife Jenni. They have three children together. They
+          previously lived in Forest City, Iowa for 9 years. It has been amazing
+          to see how the congregation has opened its arm to the Polsdofer
+          family.
         </p>
         <p>
           When Matt was meeting with Pastor Cate Luehr, he felt God calling him
