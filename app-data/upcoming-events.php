@@ -1,73 +1,47 @@
 <?php
   return array(
     0 => array(
-        'date' => '2019-12-07',
+        'date' => '2020-01-13',
         'content' => <<<HTML
   <div class="event-detail">
     <div class="event-description">
-      <a href="event-fliers/2019-12-07-ELFFFs-chirstmas-party.jpg" target="_blank">
-        <strong>ELFFFs Christmas Party</strong>
+      <a href="event-fliers/2020-01-13-joy-circle.jpg" target="_blank">
+        <strong>Joy Circle Bible Study</strong>
       </a>
+      <br />
+      NOTE: One week earlier than usual.
     </div>
     <div class="event-time">
-      5:00 PM
+      9:30 AM
     </div>
   </div>
 HTML
     ),
     1 => array(
-      'date' => '2019-12-13',
+      'date' => '2020-01-19',
       'content' => <<<HTML
   <div class="event-detail">
     <div class="event-description">
-      <a href="event-fliers/2019-12-19-youth-crafts.jpg" target="_blank">
-        <strong>Youth Decorate the Church!</strong>
+      <a href="event-fliers/2020-01-19-museum-of-tolerance.jpg" target="_blank">
+        <strong>Museum of Tolerance Confirmands Trip</strong>
       </a>
-      <br />
-      All Youth are invited to help the congregation decorate the church for Christmas.
-    </div>
-    <div class="event-time">
-      5:00 PM
     </div>
   </div>
 HTML
     ),
     2 => array(
-      'date' => '2019-12-15',
+      'date' => '2020-01-26',
       'content' => <<<HTML
   <div class="event-detail">
     <div class="event-description">
-      <a href="event-fliers/2019-12-15-lessons-and-carols.jpg" target="_blank">
-        <strong>Lessons &amp; Carols Worship Service</strong>
+      <a href="event-fliers/2020-01-26-60th-anniversary.jpg" target="_blank">
+        <strong>Emanuel&rsquo;s 60th Anniversary Celebration</strong>
       </a>
+      <br />
+      Combined worship at 10:00 AM.  Luncheon following service.
     </div>
     <div class="event-time">
-      9:00 AM
-    </div>
-  </div>
-  <div class="event-detail">
-    <div class="event-description">
-      <a href="event-fliers/2019-12-15-childrens-christmas-musical.jpg" target="_blank">
-        <strong>Children&rsquo;s Chirstmas Musical</strong>
-      </a>
-    </div>
-    <div class="event-time">
-      10:45 AM
-    </div>
-  </div>
-HTML
-    ),
-    3 => array(
-      'date' => '2019-12-19',
-      'content' => <<<HTML
-  <div class="event-detail">
-    <div class="event-description">
-      <a href="event-fliers/2019-12-19-youth-crafts.jpg" target="_blank">
-        <strong>Youth &amp; Children Craft Night</strong>
-      </a>
-    </div>
-    <div class="event-time">
-      6:00 PM
+      10:00 AM
     </div>
   </div>
 HTML
