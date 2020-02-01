@@ -18,11 +18,16 @@
           <div class="col-xs-12">
             <h2 class="section-title no-top-margin">Current Issue</h2>
             <p>
-              <a href="../newsletters/newsletter-2020-01.pdf" target="_blank">January 2020</a>
+              <a href="../newsletters/newsletter-2020-02.pdf" target="_blank">February 2020</a>
             </p>
             <h2 class="section-title">Past Issues</h2>
           </div>
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-4">
+            <ul class="list newsletter-list">
+              <li><a href="../newsletters/newsletter-2020-01.pdf" target="_blank">January 2020</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4">
             <ul class="list newsletter-list">
               <li><a href="../newsletters/newsletter-2019-12.pdf" target="_blank">December 2019</a></li>
               <li><a href="../newsletters/newsletter-2019-11.pdf" target="_blank">November 2019</a></li>
@@ -38,7 +43,7 @@
               <li><a href="../newsletters/newsletter-2019-01.pdf" target="_blank">January 2019</a></li>
             </ul>
           </div>
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-4">
             <ul class="list newsletter-list">
               <li><a href="../newsletters/newsletter-2018-12.pdf" target="_blank">December 2018</a></li>
               <li><a href="../newsletters/newsletter-2018-11.pdf" target="_blank">November 2018</a></li>
@@ -57,7 +62,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 photo-right no-btm-margin">
-        <img src="images/newsletter/newsletter-2020-01.jpg" alt="The Good News: January 2020" />
+        <img src="images/newsletter/newsletter-2020-02.jpg" alt="The Good News: February 2020" />
       </div>
     </div>
 
