@@ -298,6 +298,24 @@
   }
   /* END: Worship Service Audio (Audio List Style v2.0) */
 
+  /* BEGIN: Newsletter Archive Styles */
+  .newsletter-container {
+    display: flex;
+  }
+  .newsletter-issue-list {
+    flex: 0 0 33%;
+  }
+  .newsletter-current-issue-thumbnail-mobile {
+    flex: 0 1 67%;
+    text-align: right;
+  }
+  .newsletter-current-issue-thumbnail-mobile img {
+    width: 100%;
+  }
+  .newsletter-additional-issues-list .col-xs-12 {
+    padding-left: 0;
+  }
+  /* END: Newsletter Archive Styles */
 /* END: Shared Style Rules for all Sizes */
 
 /* Max Width 419 (mobile and narrower tablets) */
@@ -479,6 +497,11 @@
   .short-content-min-height { /* TODO: Consider just adding this to .inner-page-content ! */
     min-height: 360px;
   }
+
+  /* Newsletter Page Content */
+  .newsletter-current-issue-thumbnail-mobile {
+    margin-top: -22px;
+  }
 }
 
 /* Style rules up to 991 (mobile and wide tablets only, exclude desktop */
@@ -521,6 +544,11 @@
   .photo-left { text-align: left; }
   .photo-right { text-align: right; }
   .preschool-fees .price { margin-left: -11px; }
+
+  /* Newsletter Page Content */
+  .newsletter-issue-list {
+    flex: 0 0 100%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
