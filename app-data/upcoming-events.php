@@ -24,7 +24,7 @@ HTML
 <div class="event-detail">
   <div class="event-description">
     <a href="event-fliers/2020-03-06-middle-school-youth-retreat.jpg" target="_blank">
-      <strong>High School Youth Retreat</strong>
+      <strong>Middle School Youth Retreat</strong>
     </a>
     <br />
     March 6-8 at Luther Glen Camp and Farm.
