@@ -304,13 +304,6 @@
   }
   .newsletter-issue-list {
     flex: 0 0 40%;
-    position: relative;
-  }
-  .newsletter-issue-list h2.section-title.past-issues {
-    bottom: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    position: absolute;
   }
   .newsletter-current-issue-thumbnail-mobile {
     flex: 0 1 60%;
@@ -329,17 +322,20 @@
     box-shadow: none;
   }
   .newsletter-additional-issues-list .panel-heading {
-      border: none;
-      border-radius: 0;
-      background-color: #80715e;
-      color: #fff;
-      font-family: 'Cinzel', serif;
-      font-size: 22px;
-      margin-top: 0;
-      margin-bottom: 0;
-      padding: 11px;
+    border: none;
+    border-radius: 0;
+    background-color: #80715e;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 11px;
+  }
+  .newsletter-additional-issues-list .panel-title {
+    font-size: 22px;
   }
   .newsletter-additional-issues-list .panel-body {
+    border: none !important;
     display: flex;
     padding-left: 0;
     padding-right: 0;
@@ -563,6 +559,9 @@
   .newsletter-year-issue-thumbnail img {
     max-width: 350px;
   }
+  .newsletter-additional-issues-list .list-group {
+    width: 250px;
+  }
 }
 
 /* Style rules up to 991 (mobile and wide tablets only, exclude desktop */
@@ -613,6 +612,15 @@
   }
   .newsletter-additional-issues-list {
     padding-top: 22px;
+  }
+  .newsletter-additional-issues-list .panel-heading {
+    width: 617px;
+  }
+  .newsletter-additional-issues-list .panel-title {
+    font-size: 18px;
+  }
+  .newsletter-year-issue-thumbnail {
+    margin-top: -56px;
   }
   .newsletter-year-issue-thumbnail img {
     width: 293px;
@@ -757,6 +765,9 @@
   /* Newsletter Page Content */
   .newsletter-issue-list {
     min-height: 165px;
+  }
+  .newsletter-additional-issues-list .panel-title {
+    font-size: 22px;
   }
   .newsletter-year-issue-thumbnail img {
     max-width: 360px;
