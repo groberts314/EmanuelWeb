@@ -303,17 +303,65 @@
     display: flex;
   }
   .newsletter-issue-list {
-    flex: 0 0 33%;
+    flex: 0 0 40%;
+    position: relative;
+  }
+  .newsletter-issue-list h2.section-title.past-issues {
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: absolute;
   }
   .newsletter-current-issue-thumbnail-mobile {
-    flex: 0 1 67%;
+    flex: 0 1 60%;
     text-align: right;
   }
   .newsletter-current-issue-thumbnail-mobile img {
     width: 100%;
   }
-  .newsletter-additional-issues-list .col-xs-12 {
+  .newsletter-additional-issues-list {
+    padding-top: 11px;
+  }
+  .newsletter-additional-issues-list .panel.panel-default {
+    background-color: #ddd8d2;
+    border: none !important;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .newsletter-additional-issues-list .panel-heading {
+      border: none;
+      border-radius: 0;
+      background-color: #80715e;
+      color: #fff;
+      font-family: 'Cinzel', serif;
+      font-size: 22px;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 11px;
+  }
+  .newsletter-additional-issues-list .panel-body {
+    display: flex;
     padding-left: 0;
+    padding-right: 0;
+  }
+  .newsletter-additional-issues-list .list-group-item {
+    background-color: #ddd8d2;
+    border: 1px solid #80715e;
+    border-radius: 0;
+    padding: 10px;
+  }
+  .newsletter-additional-issues-list .list-group-item:hover {
+    background-color: LightGray;
+  }
+  .newsletter-year-issue-list {
+    flex: 0 0 40%;
+    padding-right: 11px;
+  }
+  .newsletter-year-issue-thumbnail {
+    flex: 0 0 60%;
+  }
+  .newsletter-year-issue-thumbnail img {
+    width: 100%;
   }
   /* END: Newsletter Archive Styles */
 /* END: Shared Style Rules for all Sizes */
@@ -499,8 +547,21 @@
   }
 
   /* Newsletter Page Content */
+  .newsletter-issue-list {
+    flex: 0 0 50%;
+  }
   .newsletter-current-issue-thumbnail-mobile {
+    flex: 0 0 50%;
     margin-top: -22px;
+    text-align: right;
+  }
+  .newsletter-year-issue-thumbnail {
+    margin-top: -15px;
+    text-align: right;
+  }
+  .newsletter-current-issue-thumbnail-mobile img,
+  .newsletter-year-issue-thumbnail img {
+    max-width: 350px;
   }
 }
 
@@ -548,6 +609,13 @@
   /* Newsletter Page Content */
   .newsletter-issue-list {
     flex: 0 0 100%;
+    min-height: 126px;
+  }
+  .newsletter-additional-issues-list {
+    padding-top: 22px;
+  }
+  .newsletter-year-issue-thumbnail img {
+    width: 293px;
   }
 }
 
@@ -685,6 +753,15 @@
     margin-top: 0;
   }
   /* END: Worship Service Audio (Audio List Style v2.0) */
+
+  /* Newsletter Page Content */
+  .newsletter-issue-list {
+    min-height: 165px;
+  }
+  .newsletter-year-issue-thumbnail img {
+    max-width: 360px;
+    width: 360px;
+  }
 }
 
 @media only screen and (min-width : 1260px) {
@@ -692,5 +769,12 @@
     padding-left: 0;
     padding-right: 0;
     width: 1200px;
+  }
+  .newsletter-issue-list {
+    min-height: 176px;
+  }
+  .newsletter-year-issue-thumbnail img {
+    max-width: 380px;
+    width: 380px;
   }
 }
