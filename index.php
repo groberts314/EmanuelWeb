@@ -25,7 +25,8 @@
           <?php require_once('./partials/homepage-v2-photo-carousel.phtml') ?>
       </div>
       <div class="module-container upcoming-events">
-          <?php require_once('./partials/homepage-v2-upcoming-events.phtml') ?>
+          <?php /*require_once('./partials/homepage-v2-upcoming-events.phtml')*/ ?>
+          <?php require_once('./partials/homepage-v2-temp-coronavirus-upcoming-events.phtml') ?>
       </div>
     </div>
 
