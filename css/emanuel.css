@@ -81,6 +81,10 @@
     margin-bottom: 22px; /* All modules need spacing before the next one */
     width: 100%; /* At mobile all modules take up full width of parent container */
   }
+
+  .homepage-v2 .module-container video {
+    width: 100%;
+  }
   /* END: Homepage v2.0 Flexbox Layout */
 
   /* BEGIN: Heading Styles */
