@@ -15,48 +15,40 @@
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Coronavirus Precaution Communication</h1>
         <p>
-          In this time of near universal concern about the spread of the
-          Coronavirus/COVID-19 and based on recommendations and information from
-          the <a href="https://www.cdc.gov/" target="_blank">CDC (The Centers for Disease Control and Prevention)</a>,
-          state agencies and the synod office, our main focus is to protect our
-          members and to limit/avoid spreading of COVID-19 in our church, our
-          community, and society.  As we do have many elderly and potentially
-          vulnerable members in our congregation, we want lovingly to protect,
-          cautiously to prevent and diligently to promote safety, social
-          distance and sensible precaution. We would rather error on the side of
-          caution while this is unfolding.
+          As many of you have been watching the news you have likely read that
+          the <a href="https://www.cdc.gov/" target="_blank">CDC (The Centers for Disease Control and Prevention)</a>
+          and <a href="https://covid19.ca.gov/" target="_blank">State of California</a>
+          has recommended that people avoid gathering in groups to help slow the
+          spread of COVID-19. Instead, we are asked to shelter in place.
+          Because we wish to keep our congregation healthy and do our part as
+          good neighbors in the community where God has placed us, the
+          congregational council, Pastor, and Vicar have made the following
+          decisions.
         </p>
         <p>
           <strong>
-            This coming Sunday, March 15, Worship will not be held live at Emanuel.
+            Emanuel will not have any groups gathering for worship, Bible Study,
+            small groups or meetings effective today through at least April 5.
           </strong>
-          Instead we will be recording a short service of Scripture, song,
-          sermon and prayers for you to watch. This will be up on our Facebook
-          page as well as this website beginning Sunday morning.  We invite you
-          to participate in this time of church together. This can be a time
-          when even though we are all physically apart, we know that as a
-          congregation we are all together in worship.
         </p>
         <p>
-          The following events have also been cancelled this week: Joy Circle,
-          Study Buddies, Wednesday Bible Study, Mentor Dinner Night and Lenten
-          Midweek Gathering.  Any other groups meeting this week will be
-          contacted by their leaders regarding whether or not their groups are
-          meeting. Emanuel Lutheran Preschool has decided to follow the
-          precautionary measures taken by the La Habra City School District and
-          will be closed for two weeks starting March 16.
+          This decision was made with heavy hearts as we know the importance of
+          gathering with sisters and brothers in Christ. I personally thank the
+          council for their dedication to continuing God&rsquo;s ministry during
+          this difficult time.  Outside groups have also been asked not to meet
+          at Emanuel during this time. If state or national precautions change
+          during this time we will change accordingly.
         </p>
         <p>
-          As of Friday, March 13,  we do not have plans to change worship and
-          cancel other activities beyond this week; however, if that changes we
-          will be notifying you via email. The church phone is listed below but
-          may not be answered as our office is normally closed over the weekend.
-          If your phone call is not immediately answered, please leave a message
-          and you will be contacted. Responding to email at this time may result
-          in a faster response. Please do not hesitate to call Pastor Cate Luehr
-          or Vicar Matt Polsdofer (phone numbers can be found in your church
-          directory), if you have any concerns to address, questions to ask, or
-          simply need to talk.
+          However, just because we are not meeting in person does not mean that
+          we cannot continue to BE the Church of Christ! We are called to be the
+          church wherever we are; in our homes, at work, at school, in our
+          neighborhoods, and even during a pandemic. We are the Church. I also
+          believe that this is a time when we are given the great responsibility
+          to shine the light of Christ into the dark places of our world.  To
+          help you along with your continued mission and to offer you guidance
+          during this season of Lent, we will be offering the following modified
+          ministries:
         </p>
         <p>
           While we know that nothing can really compare to being in the presence
@@ -67,6 +59,38 @@
           to 50 participants in person the previous week.  Perhaps we can look
           at this as a chance for us the share our message of the Grace of God
           beyond our walls.
+        </p>
+        <p>
+          <strong>Emanuel Sunday Worship Online &ndash;</strong>
+          As we did last week, we will be recording a short service of
+          Scripture, song, sermon and prayers for you to watch. This will be up
+          on our Facebook page as well as our
+          <a href="http://elclh.org">church website</a> each Sunday morning.
+          We invite you to participate in this time of church together.
+          Additionally we will be emailing a weekly Bulletin, it will contain
+          some information needed for the worship service as well as
+          announcements for the ministries we are continuing.
+        </p>
+        <p>
+          <strong>Wednesday Bible Study by Zoom &ndash;</strong>
+          Our regular Wednesday morning Bible Study at 9am will meet using the
+          video conferencing platform
+          <a href="https://zoom.us/" target="_blank">Zoom</a>. Vicar Matt
+          Polsdofer uses this for most of his classes. This Bible Study can be'
+          accessed via computer, tablet, or smartphone.  If you would like to
+          join each Wednesday from 9 to 10 AM, simply contact the church office
+          using the info below and you will be added to the list for next week.
+        </p>
+        <p>
+          <strong>Thursday Night Lenten Gathering- Facebook Livestream &ndash;</strong>
+          Please join Vicar Matt Polsdofer and Jeff Ward on
+          <a href="https://www.facebook.com/emanuel.lutheran.1" target="_blank">
+            Emanuel&rsquo;s Facebook page
+          </a>
+          Thursday nights at 6:30 PM for our midweek Lenten service March 19
+          &amp; 26 and April 2. We will be discussing when, where, and why God
+          is with us. Jeff will be playing a few songs as well! We would love to
+          have you join us live if possible for a conversation around our theme.
         </p>
         <p>
           <strong>Finally, remember – you are not alone. God is with you, with us all.</strong>
