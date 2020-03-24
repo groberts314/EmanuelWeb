@@ -24,11 +24,11 @@
       <div class="module-container photo-carousel">
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
           <video controls>
-            <source src="./video/EmanuelWorship_2020-03-15.mp4" type="video/mp4">
+            <source src="./video/EmanuelWorship_2020-03-22.mp4" type="video/mp4">
               Your browser does not support the video tag.
           </video>
           <p style="margin-top: 22px; text-align: center">
-            <strong>Emanuel Online March 15, 2020</strong>
+            <strong>Emanuel Online March 22, 2020</strong>
           </p>
       </div>
       <div class="module-container upcoming-events">
