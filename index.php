@@ -21,7 +21,7 @@
       <div class="module-container location">
           <?php require_once('./partials/homepage-v2-location-and-contact.phtml') ?>
       </div>
-      <div class="module-container photo-carousel">
+      <div class="module-container photo-carousel" id="photo-carousel-container">
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
           <video controls>
             <source src="./video/EmanuelWorship_2020-03-22.mp4" type="video/mp4">
@@ -32,8 +32,8 @@
           </p>
       </div>
       <div class="module-container upcoming-events">
-          <?php /*require_once('./partials/homepage-v2-upcoming-events.phtml')*/ ?>
-          <?php require_once('./partials/homepage-v2-temp-coronavirus-upcoming-events.phtml') ?>
+          <?php require_once('./partials/homepage-v2-upcoming-events.phtml') ?>
+          <?php /*require_once('./partials/homepage-v2-temp-coronavirus-upcoming-events.phtml')*/ ?>
       </div>
     </div>
 

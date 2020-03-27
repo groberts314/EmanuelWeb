@@ -1,116 +1,139 @@
 <?php
   return array(
     0 => array(
-      'date' => '2020-03-05',
+      'date' => '2020-03-29',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2020-lenten-midweek-gatherings.jpg" target="_blank">
-      <strong>Lenten Midweek Gathering</strong>
-    </a>
-    <br />
-    Theme: Is God With Us?
-  </div>
-  <div class="event-time">
-    6:00 PM
+    Sunday of Lent Morning Online Worship
   </div>
 </div>
 HTML
     ),
     1 => array(
-      'date' => '2020-03-06',
-      'keepUntil' => '2020-03-08',
+      'date' => '2020-04-01',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2020-03-06-middle-school-youth-retreat.jpg" target="_blank">
-      <strong>Middle School Youth Retreat</strong>
-    </a>
-    <br />
-    March 6-8 at Luther Glen Camp and Farm.
+    Zoom Bible Study
+  </div>
+  <div class="event-time">
+    9:00 AM
   </div>
 </div>
 HTML
     ),
     2 => array(
-      'date' => '2020-03-12',
+      'date' => '2020-04-02',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2020-lenten-midweek-gatherings.jpg" target="_blank">
-      <strong>Lenten Midweek Gathering</strong>
-    </a>
-    <br />
-    Theme: How Is God With Us?
+    Lenten Midweek virtual gathering on
+    <a href="https://www.facebook.com/emanuel.lutheran.1">Facebook</a>
   </div>
   <div class="event-time">
-    6:00 PM
+    6:30 PM
   </div>
 </div>
 HTML
     ),
     3 => array(
-      'date' => '2020-03-19',
+      'date' => '2020-04-05',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2020-lenten-midweek-gatherings.jpg" target="_blank">
-      <strong>Lenten Midweek Gathering</strong>
-    </a>
-    <br />
-    Theme: Where Is God With Us?
-  </div>
-  <div class="event-time">
-    6:00 PM
+    Palm Sunday Morning Online worship
   </div>
 </div>
 HTML
     ),
     4 => array(
-      'date' => '2020-03-26',
+      'date' => '2020-04-08',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2020-lenten-midweek-gatherings.jpg" target="_blank">
-      <strong>Lenten Midweek Gathering</strong>
-    </a>
-    <br />
-    Theme: When Is God With Us?
+    Zoom Bible Study
   </div>
   <div class="event-time">
-    6:00 PM
+    9:00 AM
   </div>
 </div>
 HTML
     ),
     5 => array(
-      'date' => '2020-03-29',
+      'date' => '2020-04-09',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2020-03-29-preschool-sunday.jpg" target="_blank">
-      <strong>Preschool Invitied to Church</strong>
-    </a>
-  </div>
-  <div class="event-time">
-    10:45 AM
+    Maundy Thursday Evening Online worship
   </div>
 </div>
 HTML
     ),
     6 => array(
-      'date' => '2020-04-02',
+      'date' => '2020-04-10',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2020-lenten-midweek-gatherings.jpg" target="_blank">
-      <strong>Lenten Midweek Gathering</strong>
-    </a>
-    <br />
-    Theme: Why Is God With Us?
+    Good Friday Evening Online worship
+  </div>
+</div>
+HTML
+    ),
+    7 => array(
+      'date' => '2020-04-12',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    Easter Sunday Celebration
+    <br  />
+    Details TBD
+  </div>
+</div>
+HTML
+    ),
+    8 => array(
+      'date' => '2020-04-15',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    Zoom Bible Study
   </div>
   <div class="event-time">
-    6:00 PM
+    9:00 AM
+  </div>
+</div>
+HTML
+    ),
+    9 => array(
+      'date' => '2020-04-19',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    First Sunday of Easter Morning Online Worship
+  </div>
+</div>
+HTML
+    ),
+    10 => array(
+      'date' => '2020-04-22',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    Zoom Bible Study
+  </div>
+  <div class="event-time">
+    9:00 AM
+  </div>
+</div>
+HTML
+    ),
+    11 => array(
+      'date' => '2020-04-26',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    Second Sunday of Easter Morning Online Worship
   </div>
 </div>
 HTML

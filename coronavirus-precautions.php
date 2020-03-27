@@ -26,10 +26,18 @@
           decisions.
         </p>
         <p>
-          <strong>
-            Emanuel will not have any groups gathering for worship, Bible Study,
-            small groups or meetings effective today through at least April 5.
+          We originally put out word that Emanuel would be closed for in person
+          meetings of any kind including worship until at least April 5.
+          Following the recommendations of the state and local authorities,
+          <strong style="text-decoration:underline">
+            we are extending that on campus closure through May 1, and possibly
+            beyond if the threat of the virus still seems imminent.
           </strong>
+          While this saddens us not to meet in person, we know that we still
+          remain the Body of Christ. We know that this means not meeting
+          together for Easter Sunday, nevertheless, Christ will rise from the
+          tomb and conquer death even if we are singing His praises from our
+          own homes.
         </p>
         <p>
           This decision was made with heavy hearts as we know the importance of
@@ -51,16 +59,6 @@
           ministries:
         </p>
         <p>
-          While we know that nothing can really compare to being in the presence
-          of our brothers and sisters in Christ while we worship our Lord, we
-          also realize that sometimes this innovation allows for more people and
-          new people to hear the Good News! We did a live stream of our Thursday
-          Night Lenten Gathering this past week and have over 140 views compared
-          to 50 participants in person the previous week.  Perhaps we can look
-          at this as a chance for us the share our message of the Grace of God
-          beyond our walls.
-        </p>
-        <p>
           <strong>Emanuel Sunday Worship Online &ndash;</strong>
           As we did last week, we will be recording a short service of
           Scripture, song, sermon and prayers for you to watch. This will be up
@@ -69,7 +67,10 @@
           We invite you to participate in this time of church together.
           Additionally we will be emailing a weekly Bulletin, it will contain
           some information needed for the worship service as well as
-          announcements for the ministries we are continuing.
+          announcements for the ministries we are continuing.  If you would like
+          to receive this please email
+          <a href="mailto:churchinfo@elclh.org">churchinfo@elclh.org</a> to be
+          added to the mailing list.
         </p>
         <p>
           <strong>Wednesday Bible Study by Zoom &ndash;</strong>
@@ -80,17 +81,6 @@
           accessed via computer, tablet, or smartphone.  If you would like to
           join each Wednesday from 9 to 10 AM, simply contact the church office
           using the info below and you will be added to the list for next week.
-        </p>
-        <p>
-          <strong>Thursday Night Lenten Gathering- Facebook Livestream &ndash;</strong>
-          Please join Vicar Matt Polsdofer and Jeff Ward on
-          <a href="https://www.facebook.com/emanuel.lutheran.1" target="_blank">
-            Emanuel&rsquo;s Facebook page
-          </a>
-          Thursday nights at 6:30 PM for our midweek Lenten service March 19
-          &amp; 26 and April 2. We will be discussing when, where, and why God
-          is with us. Jeff will be playing a few songs as well! We would love to
-          have you join us live if possible for a conversation around our theme.
         </p>
         <p>
           <strong>Finally, remember – you are not alone. God is with you, with us all.</strong>
