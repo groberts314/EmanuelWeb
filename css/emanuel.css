@@ -708,12 +708,14 @@
     /* Top Right */
     flex: 1 0 25%;
     order: 3;
-    max-height: 473px; /* Service Times (on the top left) is 451px high + 22px margin bottom */
+    /*max-height: 473px;*/ /* Service Times (on the top left) is 451px high + 22px margin bottom */
+    max-height: 562px; /* TEMP extra height for Coronavirus notice */
     margin-bottom: 0;
     overflow-y: hidden;
   }
   .upcoming-events-content {
-    max-height: 427px; /* 473px module container height - 46px height of the h2 (24px + 11px top and bottom padding) */
+    /*max-height: 427px;*/ /* 473px module container height - 46px height of the h2 (24px + 11px top and bottom padding) */
+    max-height: 516px; /* TEMP extra height for Coronavirus notice */
     padding: 11px 11px 0 22px;
   }
   .homepage-v2 .module-container h2 {
