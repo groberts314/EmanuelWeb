@@ -23,10 +23,15 @@
       </div>
       <div class="module-container photo-carousel" id="photo-carousel-container">
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
-          <video controls>
+          <?php /*<video controls>
             <source src="./video/EmanuelWorship_2020-04-05.mp4" type="video/mp4">
               Your browser does not support the video tag.
           </video>
+          */?>
+          <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
+          <div class="fluid-width-video-wrapper">
+            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/9Yri2G5Ji4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <p style="margin-top: 22px; text-align: center">
             <strong>Emanuel Online Palm Sunday April 5, 2020</strong>
           </p>

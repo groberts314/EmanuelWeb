@@ -206,6 +206,25 @@
     margin: 0 auto;
     width: 250px;
   }
+
+  /* Styles for YouTube embed (iframe) video on Homepage */
+  /* This allows video iframe to have 100% width and proportional height without explicitly specifying either dimension in absolute terms */
+  .fluid-width-video-wrapper {
+  	width: 100%;
+  	position: relative;
+  	padding: 56.25% 0 0; /* Top padding 56.25% is a bit "magical" ... I'm not quite sure why it works, but it does! :-) */
+  }
+  .fluid-width-video-wrapper iframe {
+    position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
+  .video-iframe {
+  	width: 100%;
+  	z-index: 0;
+  }
   /* END: Home Page Module Styles (v1.0) */
 
   /* BEGIN: Interior Page Styles */
