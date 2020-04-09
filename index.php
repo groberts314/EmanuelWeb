@@ -30,10 +30,10 @@
           */?>
           <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/9Yri2G5Ji4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/4wi_SUIl55A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p style="margin-top: 22px; text-align: center">
-            <strong>Emanuel Online Palm Sunday April 5, 2020</strong>
+            <strong>Emanuel Online Maundy Thursday April 9, 2020</strong>
           </p>
       </div>
       <div class="module-container upcoming-events">
