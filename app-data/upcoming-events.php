@@ -85,9 +85,10 @@ HTML
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    Easter Sunday Celebration
+    <strong>Easter Sunday Celebration</strong>
     <br  />
-    Details TBD
+    Online Worship Service<br />
+    Zoom Virtual Easter Breakfast
   </div>
 </div>
 HTML
