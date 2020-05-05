@@ -30,8 +30,9 @@
           meetings of any kind including worship until at least April 5.
           Following the recommendations of the state and local authorities,
           <strong style="text-decoration:underline">
-            we are extending that on campus closure through May 1, and possibly
-            beyond if the threat of the virus still seems imminent.
+            on-campus closure until further notice when  local, state and
+            national guidelines indicate it is safe to gather again in large
+            groups.
           </strong>
           While this saddens us not to meet in person, we know that we still
           remain the Body of Christ. We know that this means not meeting
