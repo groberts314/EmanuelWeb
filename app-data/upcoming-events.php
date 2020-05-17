@@ -2,7 +2,6 @@
   return array(
     0 => array(
       'date' => '2020-05-10',
-      'keepUntil' => '2020-05-17',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -34,7 +33,7 @@ HTML
     ),
     2 => array(
       'date' => '2020-05-17',
-      'keepUntil' => '2020-05-24',
+      'keepUntil' => '2020-05-23',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -66,7 +65,7 @@ HTML
     ),
     4 => array(
       'date' => '2020-05-24',
-      'keepUntil' => '2020-05-31',
+      'keepUntil' => '2020-05-30',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -96,5 +95,21 @@ HTML
 </div>
 HTML
     ),
+    6 => array(
+      'date' => '2020-05-31',
+      'keepUntil' => '2020-06-06',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    Penetcost Sunday Morning Online Worship
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <a href="/sunday-school-online">Sunday School Online</a>
+  </div>
+</div>
+HTML
+    )
   );
 ?>
