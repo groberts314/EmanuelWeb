@@ -15,6 +15,15 @@
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Sunday School Online</h1>
         <div class="fluid-width-video-wrapper">
+          <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/SH7AS-y5RIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p style="margin-top: 22px">
+          The bookmark project referenced in the lesson can be downloaded
+          <a href="sunday-school-files/HouseOnTheRockSlides.pdf">here</a>.
+        </p>
+
+        <h2 class="section-title">Lesson #4: Sunday, May 17, 2020</h2>
+        <div class="fluid-width-video-wrapper">
           <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/BfXFJnu_CSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <p style="margin-top: 22px">
