@@ -30,13 +30,10 @@
           */?>
           <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/S8qmSz8nLe4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/7EabMRBowcA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p style="margin-top: 22px; text-align: center">
-            <strong>Emanuel Online Pentecost Sunday May 31, 2020</strong><br />
-            <a href="event-fliers/2020-05-31-online-worship-bulletin.pdf" target="_blank">
-              Click here for the bulletin
-            </a>
+            <strong>Emanuel Online Sunday June 7, 2020</strong><br />
           </p>
       </div>
       <div class="module-container upcoming-events">
