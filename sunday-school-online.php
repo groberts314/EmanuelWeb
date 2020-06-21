@@ -15,6 +15,20 @@
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Sunday School Online</h1>
         <div class="fluid-width-video-wrapper">
+          <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/sj74md90GI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h2 class="section-title">Lesson #8: Sunday, June 14, 2020</h2>
+        <div class="fluid-width-video-wrapper">
+          <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/YisvtOnQSRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p style="margin-top: 22px">
+          The maze referenced in the lesson can be downloaded
+          <a href="sunday-school-files/A-Maze-ingSeedsSolution.pdf">here</a>.
+        </p>
+
+        <h2 class="section-title">Lesson #7: Sunday, June 7, 2020</h2>
+        <div class="fluid-width-video-wrapper">
           <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/yTbW85-JXVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
