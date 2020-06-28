@@ -15,6 +15,15 @@
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Sunday School Online</h1>
         <div class="fluid-width-video-wrapper">
+          <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/N8_34cGzzsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p style="margin-top: 22px">
+          The &ldquo;hidden pictures&rdquo; handout referenced in the lesson can be downloaded
+          <a href="sunday-school-files/TenThanksHiddenPicture.pdf">here</a>.
+        </p>
+
+        <h2 class="section-title">Lesson #9: Sunday, June 21, 2020</h2>
+        <div class="fluid-width-video-wrapper">
           <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/sj74md90GI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
