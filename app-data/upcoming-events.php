@@ -1,8 +1,8 @@
 <?php
   return array(
     0 => array(
-      'date' => '2020-06-28',
-      'keepUntil' => '2020-07-05',
+      'date' => '2020-07-12',
+      'keepUntil' => '2020-07-19',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
