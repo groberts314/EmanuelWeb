@@ -19,44 +19,37 @@
           the <a href="https://www.cdc.gov/" target="_blank">CDC (The Centers for Disease Control and Prevention)</a>
           and <a href="https://covid19.ca.gov/" target="_blank">State of California</a>
           has recommended that people avoid gathering in groups to help slow the
-          spread of COVID-19. Instead, we are asked to shelter in place.
-          Because we wish to keep our congregation healthy and do our part as
-          good neighbors in the community where God has placed us, the
-          congregational council, Pastor, and Vicar have made the following
-          decisions.
+          spread of COVID-19.  Because we wish to keep our congregation healthy
+          and do our part as good neighbors in the community where God has
+          placed us, the congregational council, Pastor, and Vicar have made
+          the following decisions.
         </p>
         <p>
           We originally put out word that Emanuel would be closed for in person
-          meetings of any kind including worship until at least April 5.
-          Following the recommendations of the state and local authorities,
-          <strong style="text-decoration:underline">
-            on-campus closure until further notice when  local, state and
-            national guidelines indicate it is safe to gather again in large
-            groups.
-          </strong>
-          While this saddens us not to meet in person, we know that we still
-          remain the Body of Christ. We know that this means not meeting
-          together for Easter Sunday, nevertheless, Christ will rise from the
-          tomb and conquer death even if we are singing His praises from our
-          own homes.
+          meetings of any kind.  While this saddens us not to meet in person,
+          we know that we still remain the Body of Christ. Christ will rise
+          from the tomb and conquer death even if we are singing His praises
+          from our own homes.
         </p>
         <p>
           This decision was made with heavy hearts as we know the importance of
           gathering with sisters and brothers in Christ. I personally thank the
           council for their dedication to continuing God&rsquo;s ministry during
-          this difficult time.  Outside groups have also been asked not to meet
-          at Emanuel during this time. If state or national precautions change
-          during this time we will change accordingly.
+          this difficult time.  As we are learning more about this virus and as
+          proper precautions are being put into place to ensure safety, we are
+          carefully resuming some on campus gatherings with the understanding
+          that it is not the same as we have previously been the church and
+          things can change at a rapid pace.
         </p>
         <p>
-          However, just because we are not meeting in person does not mean that
-          we cannot continue to BE the Church of Christ! We are called to be the
-          church wherever we are; in our homes, at work, at school, in our
-          neighborhoods, and even during a pandemic. We are the Church. I also
-          believe that this is a time when we are given the great responsibility
-          to shine the light of Christ into the dark places of our world.  To
-          help you along with your continued mission and to offer you guidance
-          during this season of Lent, we will be offering the following modified
+          However, just because we are not regularly meeting in person does not
+          mean that we cannot continue to BE the Church of Christ! We are
+          called to be the church wherever we are; in our homes, at work, at
+          school, in our neighborhoods, and even during a pandemic. We are the
+          Church. I also believe that this is a time when we are given the
+          great responsibility to shine the light of Christ into the dark
+          places of our world.  To help you along with your continued mission
+          and to offer you guidance, we will be offering the following modified
           ministries:
         </p>
         <p>
