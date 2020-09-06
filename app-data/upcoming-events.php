@@ -160,7 +160,7 @@ HTML
 HTML
     ),
     6 => array(
-      'date' => '2020-09-13',
+      'date' => '2020-09-27',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
