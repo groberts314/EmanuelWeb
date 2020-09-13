@@ -26,10 +26,10 @@
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
           <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/mhZPomjemsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/VqTxaCM3JIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p style="margin-top: 22px; text-align: center">
-            <strong>Emanuel Online Sunday September 6, 2020</strong><br />
+            <strong>Emanuel Online Sunday September 13, 2020</strong><br />
           </p>
       </div>
       <div class="module-container upcoming-events">
