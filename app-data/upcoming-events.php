@@ -209,6 +209,31 @@ HTML
   </div>
 </div>
 HTML
+    ),
+    8 => array(
+      'date' => '2020-11-01',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Sunday Morning Online Worship</strong>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <a href="/sunday-school-online"><strong>Sunday School Online</strong></a>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <a href="/event-fliers/2020-10-drive-thru-communion.jpg" target="_blank"><strong>Drive Thru Communion and Prayer Service</strong></a>
+    <br />
+    RSVP required. Information <a href="https://www.youtube.com/watch?v=jHWKjSmaFls" target="_blank">here</a>.
+  </div>
+  <div class="event-time">
+    8 AM
+  </div>
+</div>
+HTML
     )
   );
 ?>
