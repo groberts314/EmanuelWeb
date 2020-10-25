@@ -230,7 +230,7 @@ HTML
     RSVP required. Information <a href="https://www.youtube.com/watch?v=jHWKjSmaFls" target="_blank">here</a>.
   </div>
   <div class="event-time">
-    8 AM
+    10 AM
   </div>
 </div>
 HTML
