@@ -15,6 +15,11 @@
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Sunday School Online</h1>
         <div class="fluid-width-video-wrapper">
+          <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/20QX0W0azyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h2 class="section-title">Lesson #28: Sunday, November 15, 2020</h2>
+        <div class="fluid-width-video-wrapper">
           <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/ZjIVZQU0YKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
