@@ -18,16 +18,16 @@
           <div class="newsletter-issue-list">
             <h2 class="section-title no-top-margin">Current Issue</h2>
             <p>
-              <a href="../newsletters/newsletter-2020-11.pdf" target="_blank">November 2020</a>
+              <a href="../newsletters/newsletter-2020-12.pdf" target="_blank">December 2020</a>
             </p>
           </div>
           <div class="newsletter-current-issue-thumbnail-mobile hidden-md hidden-lg">
-            <img src="images/newsletter/newsletter-2020-11.jpg" alt="The Good News: November 2020" />
+            <img src="images/newsletter/newsletter-2020-12.jpg" alt="The Good News: December 2020" />
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 photo-right no-btm-margin hidden-xs hidden-sm">
-        <img src="images/newsletter/newsletter-2020-11.jpg" alt="The Good News: November 2020" />
+        <img src="images/newsletter/newsletter-2020-12.jpg" alt="The Good News: December 2020" />
       </div>
       <div class="col-xs-12">
         <div class="newsletter-additional-issues-list">
@@ -44,6 +44,9 @@
                 <div class="panel-body">
                   <div class="newsletter-year-issue-list">
                     <ul class="list-group">
+                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-11.jpg" data-target="#thumbnail-2020">
+                        <a href="../newsletters/newsletter-2020-11.pdf" target="_blank">November 2020</a>
+                      </li>
                       <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-10.jpg" data-target="#thumbnail-2020">
                         <a href="../newsletters/newsletter-2020-10.pdf" target="_blank">October 2020</a>
                       </li>
