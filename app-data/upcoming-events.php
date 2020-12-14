@@ -59,6 +59,36 @@ HTML
   </div>
 </div>
 HTML
+    ),
+    4 => array(
+      'date' => '2021-01-03',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Sunday Morning Online Worship</strong>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <a href="/sunday-school-online"><strong>Sunday School Online</strong></a>
+  </div>
+</div>
+HTML
+    ),
+    5 => array(
+      'date' => '2021-01-04',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <a href="/event-fliers/2021-01-04-blood-drive.jpg" target="_blank">
+      <strong>Blood Drive</strong>
+    </a>
+  </div>
+  <div class="event-time">
+    12 PM
+  </div>
+</div>
+HTML
     )
   );
 ?>
