@@ -28,10 +28,14 @@
           <div class="fluid-width-video-wrapper">
             <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/EcjKQuMTOeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <p style="margin-top: 22px; text-align: center">
-            <strong>Emanuel Online Sunday December 20, 2020</strong><br />
-            <strong>
-              NOTE: We will NOT be holding in person worship on Christmas Eve or for the weeks to follow. We will continue to post online worship here. Please check back in Mid-January for an update when we may  return to in person worship.</strong>
+          <p style="font-weight: bold; margin-top: 22px; text-align: center">
+            Emanuel Online Sunday December 20, 2020
+          </p>
+          <p style="font-weight: bold">
+              NOTE: We will NOT be holding in person worship on Christmas Eve
+              or for the weeks to follow. We will continue to post online
+              worship here. Please check back in mid-January for an update on
+              when we may  return to in person worship.
           </p>
       </div>
       <div class="module-container upcoming-events">
