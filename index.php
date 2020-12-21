@@ -26,11 +26,12 @@
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
           <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/BSfeyUrW2_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/EcjKQuMTOeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p style="margin-top: 22px; text-align: center">
-            <strong>Emanuel Online Sunday December 13, 2020</strong><br />
-            <strong>NOTE: In-Person Worship cancelled December 13 and 20.</strong>
+            <strong>Emanuel Online Sunday December 20, 2020</strong><br />
+            <strong>
+              NOTE: We will NOT be holding in person worship on Christmas Eve or for the weeks to follow. We will continue to post online worship here. Please check back in Mid-January for an update when we may  return to in person worship.</strong>
           </p>
       </div>
       <div class="module-container upcoming-events">
