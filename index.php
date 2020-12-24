@@ -26,10 +26,10 @@
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
           <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/EcjKQuMTOeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/WplNDupMi3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p style="font-weight: bold; margin-top: 22px; text-align: center">
-            Emanuel Online Sunday December 20, 2020
+            Emanuel Online Christmas Eve December 24, 2020
           </p>
           <p style="font-weight: bold">
               NOTE: We will NOT be holding in person worship on Christmas Eve
