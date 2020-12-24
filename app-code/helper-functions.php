@@ -24,6 +24,14 @@ function get(&$var, $default = null) {
     return isset($var) ? $var : $default;
 }
 
+function is_date_in_range($startDate, $endDate, $dateToCheck) {
+  $startDate_ts = strtotime($startDate);
+  $endDate_ts = strtotime($endDate);
+  $dateToCheck_ts = strtotime($dateToCheck);
+
+  return (($dateToCheck_ts >= $startDate_ts) && ($dateToCheck_ts <= $endDate_ts));
+}
+
 function render($template, $params = array()) {
   return function_get_output('display', $template, $params);
 }

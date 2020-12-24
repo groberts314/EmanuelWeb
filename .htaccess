@@ -1,6 +1,12 @@
 RewriteEngine on
 
-# Create friendly URLs
+# Friendly URLs with /yyyy/mm suffix
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^([^/]+)/(\d{4})/(0[1-9]|1[0-2])$ $1.php?year=$2&month=$3 [L,QSA]
+
+# Regular Friendly URLs
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{DOCUMENT_ROOT}/$1.php -f

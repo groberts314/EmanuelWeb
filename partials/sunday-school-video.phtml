@@ -1,0 +1,9 @@
+<?php require_once('./app-code/helper-functions.php') ?>
+<h2 class="section-title"><?= $videoDate ?></h2>
+<div class="fluid-width-video-wrapper">
+  <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/<?= $videoId ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<?php
+  $safeAdditionalNotes = get($additionalNotes);
+?>
+<?= $safeAdditionalNotes === NULL ? NULL : $safeAdditionalNotes ?>
