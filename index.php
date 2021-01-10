@@ -26,10 +26,10 @@
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
           <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/trXbeK0YkH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/5_BLL_8Dd-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p style="font-weight: bold; margin-top: 22px; text-align: center">
-            Emanuel Online Sunday January 3, 2021
+            Emanuel Online Sunday January 10, 2021
           </p>
       </div>
       <div class="module-container upcoming-events">
