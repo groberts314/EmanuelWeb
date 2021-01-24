@@ -19,8 +19,6 @@
 
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-8">
-        <h1 class="page-title">Sunday School Online</h1>
-
         <?php
           // Default to Current Month
           $dateRangeStart = date('Y-m-01');
@@ -35,6 +33,9 @@
             $dateRangeStart = $year . '-' . $month . '-01';
             $dateRangeEnd = date('Y-m-t', strtotime($dateRangeStart));
           }
+
+          // Echo <h1> page title tag which includes month and year
+          echo '<h1 class="page-title">Sunday School Online &ndash; ' . date_format(date_create($dateRangeStart), 'F Y') . '</h1>';
 
           $nextMonthStart = date_format(date_add(date_create($dateRangeStart), date_interval_create_from_date_string('1 month')), 'Y-m-d');
           $nextMonthEnd = date('Y-m-t', strtotime($nextMonthStart));
@@ -75,6 +76,7 @@
             display('./partials/sunday-school-video.phtml', $videoEntry);
           }
         ?>
+
         <div class="row" style="margin: 22px auto">
           <div class="col-xs-6">
             <?php
