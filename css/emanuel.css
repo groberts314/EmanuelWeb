@@ -525,6 +525,20 @@
   }
   .upcoming-events-content {
     overflow-y: auto;
+    /* scrollbar customization for Firefox/Mozilla */
+    scrollbar-color: rgba(128, 113, 94, 0.5) #ddd8d2;
+    scrollbar-width: thin;
+  }
+
+  /* Webkit Scrollbar Customization for Upcoming Events */
+  .upcoming-events-content::-webkit-scrollbar {
+      width: .45rem;
+  }
+  .upcoming-events-content::-webkit-scrollbar-thumb {
+      background-color: rgba(128, 113, 94, 0.5);
+  }
+  .upcoming-events-content::-webkit-scrollbar-track{
+      background: transparent;
   }
   /* END: Homepage v2.0 Module Flexbox Layout for 768 and up */
 
