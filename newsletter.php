@@ -18,16 +18,16 @@
           <div class="newsletter-issue-list">
             <h2 class="section-title no-top-margin">Current Issue</h2>
             <p>
-              <a href="../newsletters/newsletter-2021-02.pdf" target="_blank">February 2021</a>
+              <a href="../newsletters/newsletter-2021-03.pdf" target="_blank">March 2021</a>
             </p>
           </div>
           <div class="newsletter-current-issue-thumbnail-mobile hidden-md hidden-lg">
-            <img src="images/newsletter/newsletter-2021-02.jpg" alt="The Good News: February 2021" />
+            <img src="images/newsletter/newsletter-2021-03.jpg" alt="The Good News: March 2021" />
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 photo-right no-btm-margin hidden-xs hidden-sm">
-        <img src="images/newsletter/newsletter-2021-02.jpg" alt="The Good News: February 2021" />
+        <img src="images/newsletter/newsletter-2021-03.jpg" alt="The Good News: March 2021" />
       </div>
       <div class="col-xs-12">
         <div class="newsletter-additional-issues-list">
@@ -44,13 +44,16 @@
                 <div class="panel-body">
                   <div class="newsletter-year-issue-list">
                     <ul class="list-group">
+                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-02.jpg" data-target="#thumbnail-2021">
+                        <a href="../newsletters/newsletter-2021-02.pdf" target="_blank">February 2021</a>
+                      </li>
                       <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-01.jpg" data-target="#thumbnail-2021">
                         <a href="../newsletters/newsletter-2021-01.pdf" target="_blank">January 2021</a>
                       </li>
                     </ul>
                   </div>
                   <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2021" src="images/newsletter/newsletter-2021-01.jpg" alt="The Good News: 2021" />
+                    <img id="thumbnail-2021" src="images/newsletter/newsletter-2021-02.jpg" alt="The Good News: 2021" />
                   </div>
                 </div>
               </div>
