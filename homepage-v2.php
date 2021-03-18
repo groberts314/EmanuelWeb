@@ -31,8 +31,11 @@
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
           <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <?php /* YouTube */ ?>
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/wdoDCUctrxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <?php /* YouTube Regular Video */ ?>
+            <?php /* <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/xeht_x2FQ2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */ ?>
+
+            <?php /* YouTube LiveStream Permalink */ ?>
+            <?php /*<iframe class="video-iframe" src="https://www.youtube.com/embed/live_stream?channel=UC4Fu6qvPdYF2MM92JzoU9uA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*/ ?>
 
             <?php /* Vimeo Live Stream */ ?>
             <?php /*<iframe class="video-iframe" src="https://player.vimeo.com/video/525286406" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
