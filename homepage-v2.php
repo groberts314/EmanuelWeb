@@ -37,8 +37,11 @@
             <?php /* YouTube LiveStream Permalink */ ?>
             <?php /*<iframe class="video-iframe" src="https://www.youtube.com/embed/live_stream?channel=UC4Fu6qvPdYF2MM92JzoU9uA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*/ ?>
 
-            <?php /* Vimeo Live Stream */ ?>
+            <?php /* Vimeo Live Stream (Specific Video) */ ?>
             <?php /*<iframe class="video-iframe" src="https://player.vimeo.com/video/525286406" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
+
+            <?php /* Vimeo Live Stream (Recurring Event) */ ?>
+            <iframe class="video-iframe" src="https://vimeo.com/event/812403/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           </div>
           <p style="font-weight: bold; margin-top: 22px; text-align: center">
             Emanuel Online Lenten Midweek Service Wednesday March 17, 2021
