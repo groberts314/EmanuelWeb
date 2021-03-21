@@ -24,12 +24,17 @@
       <div class="module-container photo-carousel" id="photo-carousel-container">
           <?php /* Photo Carousel */ ?>
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
+
           <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/a2YXQJi_J8Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/2Bvg2epmdv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
+
+          <?php /* Vimeo Live Stream (Recurring Event) */ ?>
+          <?php /* <iframe class="video-iframe" src="https://vimeo.com/event/812403/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
+
           <p style="font-weight: bold; margin-top: 22px; text-align: center">
-            Emanuel Online Lenten Midweek Service Wednesday March 17, 2021
+            Emanuel Online Sunday March 21, 2021
           </p>
       </div>
       <div class="module-container upcoming-events">
