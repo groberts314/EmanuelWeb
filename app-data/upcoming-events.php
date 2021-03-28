@@ -1,167 +1,13 @@
 <?php
   return array(
     0 => array(
-      'date' => '2021-02-27',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <a href="/event-fliers/2021-02-LRCC-virtual-winter-retreat.jpg" target="_blank">
-      <strong>2021 LRCC Winter Retreat</strong>
-    </a>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    Live Zoom Celebration
-  </div>
-  <div class="event-time">
-    3 PM
-  </div>
-</div>
-HTML
-    ),
-    1 => array(
-      'date' => '2021-02-28',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Sunday Morning Online Worship</strong>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <a href="/sunday-school-online"><strong>Sunday School Online</strong></a>
-  </div>
-</div>
-HTML
-    ),
-    2 => array(
-      'date' => '2021-03-03',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Lenten Midweek Online Worship</strong>
-  </div>
-</div>
-HTML
-    ),
-    3 => array(
-      'date' => '2021-03-07',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Sunday Morning Online Worship</strong>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <a href="/sunday-school-online"><strong>Sunday School Online</strong></a>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>In-Person Outdoor Worship</strong>
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-HTML
-    ),
-    4 => array(
-      'date' => '2021-03-10',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Lenten Midweek Online Worship</strong>
-  </div>
-</div>
-HTML
-    ),
-    5 => array(
-      'date' => '2021-03-14',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Sunday Morning Online Worship</strong>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <a href="/sunday-school-online"><strong>Sunday School Online</strong></a>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>In-Person Outdoor Worship</strong>
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-HTML
-    ),
-    6 => array(
-      'date' => '2021-03-17',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Lenten Midweek Online Worship</strong>
-  </div>
-</div>
-HTML
-    ),
-    7 => array(
-      'date' => '2021-03-21',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Sunday Morning Online Worship</strong>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <a href="/sunday-school-online"><strong>Sunday School Online</strong></a>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>In-Person Outdoor Worship</strong>
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-HTML
-    ),
-    8 => array(
-      'date' => '2021-03-24',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Lenten Midweek Online Worship</strong>
-  </div>
-</div>
-HTML
-    ),
-    9 => array(
-      'date' => '2021-03-26',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <a href="event-fliers/2021-03-26-palm-branches-needed.jpg" target="_blank">
-      <strong>Palm Branches Needed for Palm Sunday</strong>
-    </a>
-  </div>
-</div>
-HTML
-    ),
-    10 => array(
       'date' => '2021-03-28',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Palm Sunday</strong>
+    <strong>
+      <a href="event-fliers/2021-holy-week.pdf" target="_blank">Palm Sunday</a>
+    </strong>
   </div>
 </div>
 <div class="event-detail">
@@ -180,7 +26,7 @@ HTML
 </div>
 HTML
     ),
-    11 => array(
+    1 => array(
       'date' => '2021-03-31',
       'content' => <<<HTML
 <div class="event-detail">
@@ -194,27 +40,49 @@ HTML
 </div>
 HTML
     ),
-    12 => array(
+    2 => array(
       'date' => '2021-04-01',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Maundy Thursday</strong>
+    <strong>
+      <a href="event-fliers/2021-holy-week.pdf" target="_blank">Maundy Thursday</a>
+    </strong>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    Online worship service which will include the stirpping of the alter.
   </div>
 </div>
 HTML
     ),
-    13 => array(
+    3 => array(
       'date' => '2021-04-02',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Good Friday</strong>
+    <strong>
+      <a href="event-fliers/2021-holy-week.pdf" target="_blank">Good Friday</a>
+    </strong>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    Online worship featuring the Passion of St. John with scripture readings and musical selections.
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    In-Person Outdoor Worship in the Upper Parking Lot featuring the Biblical Stations of the Cross
+  </div>
+  <div class="event-time">
+    7 PM
   </div>
 </div>
 HTML
     ),
-    14 => array(
+    4 => array(
       'date' => '2021-04-03',
       'content' => <<<HTML
 <div class="event-detail">
@@ -226,14 +94,119 @@ HTML
 </div>
 HTML
     ),
-    15 => array(
+    5 => array(
       'date' => '2021-04-04',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Easter Sunday</strong>
+    <strong>
+      <a href="event-fliers/2021-holy-week.pdf" target="_blank">Easter Sunday</a>
+    </strong>
     <br />
-    He is Risen Indeed!  Hallelujah!
+    <strong>He is Risen Indeed!  Hallelujah!</strong>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    In-Person Outdoor Worship, Live-Streamed Online
+  </div>
+  <div class="event-time">10 AM</div>
+</div>
+HTML
+    ),
+    6 => array(
+      'date' => '2021-04-11',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Sunday Morning Online Worship</strong>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <a href="/sunday-school-online"><strong>Sunday School Online</strong></a>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    In-Person Outdoor Worship, Live-Streamed Online
+  </div>
+  <div class="event-time">
+    10 AM
+  </div>
+</div>
+HTML
+    ),
+    7 => array(
+      'date' => '2021-04-17',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <a href="event-fliers/2021-04-17-shred-event.jpg" target="_blank">
+      <strong>Thrivent Financial Shred Event/Food Drive</strong>
+    </a>
+    <br />
+    Christ Lutheran Church in Brea
+  </div>
+  <div class="event-time">8 AM</div>
+</div>
+HTML
+  ),
+  8 => array(
+    'date' => '2021-04-18',
+    'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Sunday Morning Online Worship</strong>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <a href="/sunday-school-online"><strong>Sunday School Online</strong></a>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    In-Person Outdoor Worship, Live-Streamed Online
+  </div>
+  <div class="event-time">
+    10 AM
+  </div>
+</div>
+HTML
+    ),
+    9 => array(
+      'date' => '2021-04-20',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <a href="event-fliers/2021-04-20-joy-circle.jpg" target="_blank">
+      <strong>Joy Circle on Zoom</strong>
+    </a>
+  </div>
+  <div class="event-time">9:30 AM</div>
+</div>
+HTML
+    ),
+    10 => array(
+      'date' => '2021-04-25',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Sunday Morning Online Worship</strong>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <a href="/sunday-school-online"><strong>Sunday School Online</strong></a>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    In-Person Outdoor Worship, Live-Streamed Online
+  </div>
+  <div class="event-time">
+    10 AM
   </div>
 </div>
 HTML
