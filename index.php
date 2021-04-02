@@ -27,14 +27,14 @@
 
           <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/urmtxrgvU6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/fpG8BLY_83M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <?php /* Vimeo Live Stream (Recurring Event) */ ?>
           <?php /* <iframe class="video-iframe" src="https://vimeo.com/event/812403/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
 
           <p style="font-weight: bold; margin-top: 22px; text-align: center">
-            Emanuel Online Maundy Thursday April 1, 2021
+            Emanuel Online Good Friday April 2, 2021
           </p>
       </div>
       <div class="module-container upcoming-events">
