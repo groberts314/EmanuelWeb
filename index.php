@@ -25,17 +25,17 @@
           <?php /* Photo Carousel */ ?>
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
 
-          <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
           <div class="fluid-width-video-wrapper">
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/fpG8BLY_83M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
+            <?php /*<iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/fpG8BLY_83M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*/ ?>
+
+            <?php /* Vimeo Live Stream (Recurring Event) */ ?>
+            <iframe class="video-iframe" src="https://vimeo.com/event/812403/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           </div>
 
-          <?php /* Vimeo Live Stream (Recurring Event) */ ?>
-          <?php /* <iframe class="video-iframe" src="https://vimeo.com/event/812403/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
-
-          <p style="font-weight: bold; margin-top: 22px; text-align: center">
+          <?php /*<p style="font-weight: bold; margin-top: 22px; text-align: center">
             Emanuel Online Good Friday April 2, 2021
-          </p>
+          </p>*/ ?>
       </div>
       <div class="module-container upcoming-events">
           <?php require_once('./partials/homepage-v2-upcoming-events.phtml') ?>
