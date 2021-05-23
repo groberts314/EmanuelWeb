@@ -86,7 +86,7 @@ HTML
 <div class="event-detail">
   <div class="event-description">
     <strong>Sunday Worship</strong><br />
-    In-Person/Outdoor &amp; Live-Streamed Online
+    In-Person/Indoor &amp; Live-Streamed Online
   </div>
   <div class="event-time">
     10 AM
@@ -105,7 +105,7 @@ HTML
 <div class="event-detail">
   <div class="event-description">
     <strong>Sunday Worship</strong><br />
-    In-Person/Outdoor &amp; Live-Streamed Online
+    In-Person/Indoor &amp; Live-Streamed Online
   </div>
   <div class="event-time">
     10 AM
@@ -146,7 +146,7 @@ HTML
 <div class="event-detail">
   <div class="event-description">
     <strong>Sunday Worship</strong><br />
-    In-Person/Outdoor &amp; Live-Streamed Online
+    In-Person/Indoor &amp; Live-Streamed Online
   </div>
   <div class="event-time">
     10 AM
