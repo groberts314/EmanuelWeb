@@ -1,3 +1,10 @@
+<?php
+  http_response_code(410);
+  require_once('./410.php');
+?>
+
+<?php
+/*
 <!DOCTYPE html>
 <html lang="en">
 
@@ -111,3 +118,5 @@
 </body>
 
 </html>
+*/
+?>

@@ -15,3 +15,4 @@ RewriteRule ^([^/]+)/?$ $1.php [L,QSA]
 RewriteRule ^/?$ index.php [L,QSA]
 
 ErrorDocument 404 /404.php
+ErrorDocument 410 /410.php
