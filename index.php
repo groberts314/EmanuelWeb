@@ -16,7 +16,8 @@
           <?php require_once('./partials/homepage-v2-service-times.phtml') ?>
       </div>
       <div class="module-container worship-audio">
-          <?php require_once('./partials/homepage-v2-audio-promo.phtml') ?>
+          <?php /*require_once('./partials/homepage-v2-audio-promo.phtml')*/ ?>
+          <?php require_once('./partials/homepage-v2-sunday-school-online-promo.phtml') ?>
       </div>
       <div class="module-container location">
           <?php require_once('./partials/homepage-v2-location-and-contact.phtml') ?>

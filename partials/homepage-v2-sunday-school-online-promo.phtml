@@ -1,0 +1,20 @@
+<?php
+  require_once('./app-code/helper-functions.php');
+?>
+<h2>Sunday School Online</h2>
+<div class="module-content right">
+  <?php
+    $sundaySchoolVideos = require_once('./app-data/sunday-school-online-videos.php');
+    date_sort_descending($sundaySchoolVideos, 'date');
+    $mostRecentVideo = $sundaySchoolVideos[0];
+    $videoDate = date('l, F j, Y', strtotime($mostRecentVideo['date']));
+    $safeAdditionalNotes = get($mostRecentVideo['additionalNotes']);
+  ?>
+  <div class="fluid-width-video-wrapper">
+    <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/<?= $mostRecentVideo['videoId'] ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <?= $safeAdditionalNotes === NULL ? NULL : $safeAdditionalNotes ?>
+  <p style="margin-top:22px">
+    See more Sunday School Online Videos <a href="./sunday-school-online">here</a>.
+  </p>
+</div>
