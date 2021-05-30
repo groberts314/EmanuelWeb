@@ -15,6 +15,12 @@
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Bible Studies</h1>
         <h2 class="section-title">Wednesday Morning Bible Study</h2>
+        <p class="notice" style="font-weight:bold">
+          Wednesday Bible Study currently meeting weekly on Zoom.<br />
+          Contact
+          <a href="mailto:churchinfor@elclh.org">churchinfor@elclh.org</a>
+          for the link.
+        </p>
         <p>
           The Wednesday Morning Bible Study is a group of men and women of
           diverse ages who meet every Wednesday morning at 9:00 AM in the

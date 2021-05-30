@@ -17,6 +17,13 @@
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Worship</h1>
+        <p class="notice" style="font-weight:bold">
+          We are currently adjusting holding one worship service in the
+          sanctuary at 10am every Sunday.  Our worship times and styles may
+          change as the months progress. Below is a description of our worship
+          life and practices before the pandemic. For most up do date worship
+          information please see our <a href="/#upcoming-events">Upcoming Events</a>.
+        </p>
         <p>
           When we gather to worship as a church, we explore the Word of God, partake of His sacraments and sing praises to the Lord
           together as family and friends. Emanuel Lutheran Church offers two Sunday morning worship settings because we recognize that
@@ -29,14 +36,14 @@
           Join us on Sunday mornings at 9:00 for our Traditional Worship service, a traditional Lutheran liturgical service with prayers
           and litany  from our hymnal Evangelical Lutheran Worship. Services features hymns, old and new, and are supported by an organ,
           the Chancel Choir and Handbell Choir.  We celebrate Holy Communion every Sunday. A children’s sermon is a regular part of this service.
-          Our Traditional worship includes a sermon by one of our pastors, which is based on the scripture readings for the day.
+          Our Traditional worship includes a sermon by our pastor, which is based on the scripture readings for the day.
         </p>
         <h2>Praise Service (10:45 AM)</h2>
         <p>
           This worship celebration features an informal style and contemporary music performed by the &ldquo;Praise Band.&rdquo;
           We celebrate the Lord&rsquo;s Supper every Sunday and gather around the altar to celebrate together. A children&rsquo;s
           sermon is a regular part of this service and children are regularly invited up to join the band in playing a tamborine
-          or other rhythm instrument. Our Praise worship includes a sermon by one of our pastors, which is based on the scripture
+          or other rhythm instrument. Our Praise worship includes a sermon by our pastor, which is based on the scripture
           readings for the day.
         </p>
         <h2>Frequently Asked Questions</h2>

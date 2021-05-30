@@ -77,7 +77,7 @@
         <p>
           Confirmation is a two year intentional faith formation program for
           youth in 7th grade and up.  Youth meet during the school year on
-          Thursday evenings from 6 to 7 for class led by the Pastors and attend an
+          Thursday evenings from 6 to 7 for class led by the Pastor and attend an
           annual confirmation retreat. Along with covering the Bible and
           Luther&rsquo;s Small Catechism, students have great discussions
           about what it means to be a person of faith.  Each student is also

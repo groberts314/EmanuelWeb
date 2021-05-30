@@ -40,13 +40,6 @@
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-4 photo-left">
         <h2 class="staff-title no-top-margin no-btm-margin">
-          Ms. Pam<br />
-          Teacher
-        </h2>
-        <img src="images/preschool-staff/pam.jpg" alt="Ms. Pam, Teacher" />
-      </div>
-      <div class="col-xs-12 col-sm-4 photo-left">
-        <h2 class="staff-title no-top-margin no-btm-margin">
           Ms. Priscilla<br />
           Teacher
         </h2>

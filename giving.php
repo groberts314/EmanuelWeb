@@ -17,7 +17,7 @@
         <div class="row">
           <div class="col-xs-12">
             <p>
-              There are now two new ways to give your offering or donation to Emanuel!
+              There are two online ways to give your offering or donation to Emanuel:
               <ol>
                   <li>
                       Visit our <a href="https://emanuellutheran.breezechms.com/give/online" target="=_blank">secure online giving page</a>
@@ -28,26 +28,6 @@
                       simply text a dollar amount to <a href="sms:+15622100007">(562) 210-0007</a>.
                   </li>
               </ol>
-            </p>
-            <p>
-              Online giving has been proven to increase total giving through creating healthy and regular giving habits;
-              however, online donations come with processing costs, anywhere from 1-2% of your offering goes toward these
-              fees.
-            </p>
-            <p>
-              Three ways you can help the church save processing fees:
-              <ul>
-                <li>
-                  Give directly from your bank account like you would your monthly bills rather than online with your
-                  bank account or credit card.
-                </li>
-                <li>
-                  Giving by cash or check on Sunday Morning or through the mail.
-                </li>
-                <li>
-                  Give an additional cover-the-cost offering.
-                </li>
-              </ul>
             </p>
           </div>
         </div>

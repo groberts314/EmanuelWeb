@@ -35,7 +35,7 @@
           us.
         </p>
         <p>
-          <strong>Contact:</strong> Pastor Cate Luehr<br />
+          <strong>Contact:</strong> Sharon Frazier<br />
           <strong>Phone:</strong> <a href="tel:+15626910656">(562) 691-0656</a><br />
           <strong>Fax:</strong> (562) 691-8897<br />
           <strong>Email: </strong> <a href="mailto:churchinfo@elclh.org">churchinfo@elclh.org</a>

@@ -45,45 +45,23 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-4">
         <h2 class="staff-title">
-          Vicar Matt Polsdofer
+          Jonine Sodders<br />
+          Preschool Director
         </h2>
         <p>
-          Matt joined Emanuel in June of 2019 as part of his pastoral education.
-          He is currently a graduate student at Luther Seminary in St. Paul,
-          Minnesota. He is part of a pilot program with Luther in their new
-          program called &ldquo;MDivX.&rdquo; The traditional time it takes to
-          get through seminary is 4 years, but in this pilot program it is 2
-          years. Instead of doing a traditional year long internship Matt will
-          be with Emanuel for 2 years in this program. Before moving to La Habra
-          and serving Emanuel, Matt was a full time stay at home dad and worked
-          part time at serving Immanuel Lutheran in Forest City, Iowa. He worked
-          there for 7 years doing middle school and high school youth ministry.
-          Prior to church work Matt has worked as an admissions counselor,
-          insurance agent and in the retirement industry.
+          Jonine Sodders has served as our Preschool Director since 2000.
+          She has a Bachelor&rsquo;s degree in Child Development from Cal State
+          Fullerton, and an Associate of Arts in Early Childhood Education from
+          Cerritos College. Working with children in many capacities, she has
+          found her love in the preschool environment.
         </p>
         <p>
-          Matt graduated from Concordia University Chicago where he met his
-          wonderful wife Jenni. They have three children together. They
-          previously lived in Forest City, Iowa for 9 years. It has been amazing
-          to see how the congregation has opened its arm to the Polsdofer
-          family.
-        </p>
-        <p>
-          When Matt was meeting with Pastor Cate Luehr, he felt God calling him
-          to Emanuel. He knew that this would be a great environment for himself
-          and his family to grow into their ministry call. Matt enjoys working
-          with people of all ages and building relationships. It is amazing to
-          get to know people more and hear their faith stories and how God is
-          impacting their lives. He will focus on learning congregational care,
-          preaching and sharing Christ&rsquo;s love with all the many ministry
-          opportunities here at Emanuel.
-        </p>
-        <p>
-          <a href="mailto:vicar@elclh.org">Contact Matt Polsdofer</a>
+          Jonine is married, with two energetic boys. While not at our preschool,
+          she can be found at the local inline hockey rink cheering for her sons.
         </p>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
-        <img src="images/staff/vicar-matt-polsdofer.jpg" alt="Vicar Matt Polsdofer" />
+        <img src="images/staff/jonine-sodders.jpg" alt="Jonine Sodders, Preschool Director" />
       </div>
     </div>
     <div class="row main-content inner-page-content">
@@ -126,28 +104,6 @@
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
         <img src="images/staff/kevin-wiley.png" alt="Kevin Wiley, Organist/Accompanist" />
-      </div>
-    </div>
-    <div class="row main-content inner-page-content">
-      <div class="col-xs-12 col-sm-8 col-md-4">
-        <h2 class="staff-title">
-          Jonine Sodders<br />
-          Preschool Director
-        </h2>
-        <p>
-          Jonine Sodders has served as our Preschool Director since 2000.
-          She has a Bachelor&rsquo;s degree in Child Development from Cal State
-          Fullerton, and an Associate of Arts in Early Childhood Education from
-          Cerritos College. Working with children in many capacities, she has
-          found her love in the preschool environment.
-        </p>
-        <p>
-          Jonine is married, with two energetic boys. While not at our preschool,
-          she can be found at the local inline hockey rink cheering for her sons.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
-        <img src="images/staff/jonine-sodders.jpg" alt="Jonine Sodders, Preschool Director" />
       </div>
     </div>
 
