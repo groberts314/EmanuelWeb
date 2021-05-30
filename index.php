@@ -15,13 +15,6 @@
       <div class="module-container service-times">
           <?php require_once('./partials/homepage-v2-service-times.phtml') ?>
       </div>
-      <div class="module-container worship-audio">
-          <?php /*require_once('./partials/homepage-v2-audio-promo.phtml')*/ ?>
-          <?php require_once('./partials/homepage-v2-sunday-school-online-promo.phtml') ?>
-      </div>
-      <div class="module-container location">
-          <?php require_once('./partials/homepage-v2-location-and-contact.phtml') ?>
-      </div>
       <div class="module-container photo-carousel" id="photo-carousel-container">
           <?php /* Photo Carousel */ ?>
           <?php /*require_once('./partials/homepage-v2-photo-carousel.phtml')*/ ?>
@@ -37,6 +30,13 @@
           <?php /*<p style="font-weight: bold; margin-top: 22px; text-align: center">
             Emanuel Online Good Friday April 2, 2021
           </p>*/ ?>
+      </div>
+      <div class="module-container worship-audio">
+          <?php /*require_once('./partials/homepage-v2-audio-promo.phtml')*/ ?>
+          <?php require_once('./partials/homepage-v2-sunday-school-online-promo.phtml') ?>
+      </div>
+      <div class="module-container location">
+          <?php require_once('./partials/homepage-v2-location-and-contact.phtml') ?>
       </div>
       <div class="module-container upcoming-events">
           <?php require_once('./partials/homepage-v2-upcoming-events.phtml') ?>
