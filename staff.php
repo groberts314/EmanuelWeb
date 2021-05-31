@@ -18,54 +18,6 @@
     </div>
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-8 col-md-4">
-        <h2 class="staff-title top">Pastor Cate Luehr</h2>
-        <p>
-          Pastor Cate Luehr joined the ministry staff at Emanuel Lutheran Church in July of 2009.
-          Her time at Emanuel has been focused on faith formation of all ages. With a history of
-          working with youth, fostering a growing and vibrant faith amongst young people has always
-          been part of Pastor Cate&rsquo;s ministry.  However she is quick to share that our lives of
-          faith never stop evolving and as adults we need to keep exploring how we live out our
-          relationship with our Lord. Just as our lives and world change and shape who we are, so do
-          our lives in Christ.  Pastor Cate&rsquo;s preaching and teaching reflect the promise that in
-          Jesus Christ we have been forgiven of our sins and called to be disciples, showing our
-          love of the Lord by loving our neighbor.
-        </p>
-        <p>
-          Pastor Cate grew up in Northern Minnesota.  In May 2009 she graduated from Luther Seminary in
-          St. Paul, Minnesota, and was ordained shortly following graduation. Prior to entering seminary Pastor
-          Cate worked as a Director of Educational Ministries in Salem, Virginia.  She is married to
-          Clayton Mark, a third grade teacher in the Whittier City School District.
-        </p>
-        <p>
-          <a href="mailto:pastorcate@elclh.org">Contact Pastor Cate</a>
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
-        <img src="images/staff/pastor-cate.png" alt="Pastor Cate Luehr" />
-      </div>
-      <div class="col-xs-12 col-sm-8 col-md-4">
-        <h2 class="staff-title">
-          Jonine Sodders<br />
-          Preschool Director
-        </h2>
-        <p>
-          Jonine Sodders has served as our Preschool Director since 2000.
-          She has a Bachelor&rsquo;s degree in Child Development from Cal State
-          Fullerton, and an Associate of Arts in Early Childhood Education from
-          Cerritos College. Working with children in many capacities, she has
-          found her love in the preschool environment.
-        </p>
-        <p>
-          Jonine is married, with two energetic boys. While not at our preschool,
-          she can be found at the local inline hockey rink cheering for her sons.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
-        <img src="images/staff/jonine-sodders.jpg" alt="Jonine Sodders, Preschool Director" />
-      </div>
-    </div>
-    <div class="row main-content inner-page-content">
-      <div class="col-xs-12 col-sm-8 col-md-4">
         <h2 class="staff-title">
           Stephanie Young<br />
           Director of Choirs
@@ -104,6 +56,28 @@
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
         <img src="images/staff/kevin-wiley.png" alt="Kevin Wiley, Organist/Accompanist" />
+      </div>
+    </div>
+    <div class="row main-content inner-page-content">
+      <div class="col-xs-12 col-sm-8 col-md-4">
+        <h2 class="staff-title">
+          Jonine Sodders<br />
+          Preschool Director
+        </h2>
+        <p>
+          Jonine Sodders has served as our Preschool Director since 2000.
+          She has a Bachelor&rsquo;s degree in Child Development from Cal State
+          Fullerton, and an Associate of Arts in Early Childhood Education from
+          Cerritos College. Working with children in many capacities, she has
+          found her love in the preschool environment.
+        </p>
+        <p>
+          Jonine is married, with two energetic boys. While not at our preschool,
+          she can be found at the local inline hockey rink cheering for her sons.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
+        <img src="images/staff/jonine-sodders.jpg" alt="Jonine Sodders, Preschool Director" />
       </div>
     </div>
 
