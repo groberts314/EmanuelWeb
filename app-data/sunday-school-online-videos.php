@@ -1,5 +1,17 @@
 <?php
   return array(
+    61 => array(
+      'date' => '2021-06-27',
+      'videoId' => 'e4NF3-oDgsk'
+    ),
+    60 => array(
+      'date' => '2021-06-20',
+      'videoId' => 'RXD5_J3VvTo'
+    ),
+    59 => array(
+      'date' => '2021-06-13',
+      'videoId' => 'LKHPjAJnvpI'
+    ),
     58 => array(
       'date' => '2021-06-06',
       'videoId' => '6b45EOhszzI'
