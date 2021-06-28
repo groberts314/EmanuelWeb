@@ -18,7 +18,7 @@
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Worship</h1>
         <p class="notice" style="font-weight:bold">
-          We are currently adjusting holding one worship service in the
+          We are currently just holding one worship service in the
           sanctuary at 10am every Sunday.  Our worship times and styles may
           change as the months progress. Below is a description of our worship
           life and practices before the pandemic. For most up do date worship
