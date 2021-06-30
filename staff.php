@@ -16,6 +16,62 @@
         <h1 class="page-title">Staff</h1>
       </div>
     </div>
+
+    <div class="row main-content inner-page-content">
+      <div class="col-xs-12 col-sm-8 col-md-4">
+        <h2 class="staff-title">
+          Pastor Sandy Bentz<br />
+          Interim Pastor
+        </h2>
+        <p>
+          Pastor Sandy joined us in June 2021 as Emanuel&rsquo;s Intentional
+          Interim Pastor. Besides doing the usual things pastors do (preach,
+          teach, lead worship, baptize, provide pastoral care, etc.), she has
+          special training in walking with congregations as they navigate
+          transitional times.  She loves the Lord and is looking forward to
+          helping us celebrate God&rsquo;s faithfulness as we discover and
+          explore the gifts God has given us, and move toward the new future
+          and new &ldquo;settled&rdquo; pastor God has planned for us.
+        </p>
+        <p>
+          Pastor Sandy grew up in Chicago and has pastored churches in the
+          Midwest as well as in Central and Southern California.  She delights
+          in daughters Kristin (Toph) and Kari (Jay) and grandkids James, Julia,
+          Kaitlyn and one-on-the-way.  Pastor Sandy&rsquo;s passion is sharing
+          with others the freedom and joy that comes from experiencing
+          God&rsquo;s grace and knowing that <em>WE ARE God&rsquo;s beloved children!</em>
+          Knowing God loves us completely and unconditionally frees us to live
+          for Jesus, for the sake of others. Real joy comes from trusting God to
+          work through us, in all times and circumstances, to embody God&rsquo;s
+          love, healing and wholeness for the world.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
+        <img src="images/staff/sandy-bentz.jpg" alt="Pastor Sandy Bentz, Interim Pastor" />
+      </div>
+
+      <div class="col-xs-12 col-sm-8 col-md-4">
+        <h2 class="staff-title">
+          Jonine Sodders<br />
+          Preschool Director
+        </h2>
+        <p>
+          Jonine Sodders has served as our Preschool Director since 2000.
+          She has a Bachelor&rsquo;s degree in Child Development from Cal State
+          Fullerton, and an Associate of Arts in Early Childhood Education from
+          Cerritos College. Working with children in many capacities, she has
+          found her love in the preschool environment.
+        </p>
+        <p>
+          Jonine is married, with two energetic boys. While not at our preschool,
+          she can be found at the local inline hockey rink cheering for her sons.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
+        <img src="images/staff/jonine-sodders.jpg" alt="Jonine Sodders, Preschool Director" />
+      </div>
+    </div>
+
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-8 col-md-4">
         <h2 class="staff-title">
@@ -37,6 +93,7 @@
       <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
         <img src="images/staff/stephanie-young.png" alt="Stephanie Young, Director of Choirs" />
       </div>
+
       <div class="col-xs-12 col-sm-8 col-md-4">
         <h2 class="staff-title">
           Kevin Wiley<br />
@@ -56,28 +113,6 @@
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
         <img src="images/staff/kevin-wiley.png" alt="Kevin Wiley, Organist/Accompanist" />
-      </div>
-    </div>
-    <div class="row main-content inner-page-content">
-      <div class="col-xs-12 col-sm-8 col-md-4">
-        <h2 class="staff-title">
-          Jonine Sodders<br />
-          Preschool Director
-        </h2>
-        <p>
-          Jonine Sodders has served as our Preschool Director since 2000.
-          She has a Bachelor&rsquo;s degree in Child Development from Cal State
-          Fullerton, and an Associate of Arts in Early Childhood Education from
-          Cerritos College. Working with children in many capacities, she has
-          found her love in the preschool environment.
-        </p>
-        <p>
-          Jonine is married, with two energetic boys. While not at our preschool,
-          she can be found at the local inline hockey rink cheering for her sons.
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
-        <img src="images/staff/jonine-sodders.jpg" alt="Jonine Sodders, Preschool Director" />
       </div>
     </div>
 
