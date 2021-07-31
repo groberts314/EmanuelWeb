@@ -1,7 +1,7 @@
 <?php
   return array(
     0 => array(
-      'date' => '2021-06-27',
+      'date' => '2021-08-01',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -20,7 +20,7 @@
 HTML
   ),
   1 => array(
-    'date' => '2021-07-04',
+    'date' => '2021-08-08',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -39,7 +39,7 @@ HTML
 HTML
   ),
   2 => array(
-    'date' => '2021-07-11',
+    'date' => '2021-08-15',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -58,7 +58,7 @@ HTML
 HTML
   ),
   3 => array(
-    'date' => '2021-07-18',
+    'date' => '2021-08-22',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -77,7 +77,7 @@ HTML
 HTML
   ),
   4 => array(
-    'date' => '2021-07-25',
+    'date' => '2021-08-29',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -96,7 +96,7 @@ HTML
 HTML
   ),
   5 => array(
-    'date' => '2021-08-01',
+    'date' => '2021-09-05',
     'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
