@@ -13,3 +13,6 @@ sunday-school-files/
 # Built Files
 *.min.css
 *.min.js
+
+# WordPress
+wp-*.php
