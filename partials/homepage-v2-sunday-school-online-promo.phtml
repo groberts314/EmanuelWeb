@@ -1,17 +1,27 @@
 <?php
   require_once('./app-code/helper-functions.php');
+  require_once('./app-code/db-config.php');
 ?>
 <h2>Sunday School Online</h2>
 <div class="module-content right">
   <?php
-    $sundaySchoolVideos = require_once('./app-data/sunday-school-online-videos.php');
-    date_sort_descending($sundaySchoolVideos, 'date');
-    $mostRecentVideo = $sundaySchoolVideos[0];
-    $videoDate = date('l, F j, Y', strtotime($mostRecentVideo['date']));
-    $safeAdditionalNotes = get($mostRecentVideo['additionalNotes']);
+    try {
+      $dbConn = new PDO(DB_PDO_CONNECTION_STRING, DB_USER, DB_PASSWORD);
+      $dbConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      $dbStmt = $dbConn->prepare("SELECT * FROM sunday_school_online_videos ORDER BY `date` DESC LIMIT 1;");
+      $dbStmt->execute();
+      $dbResult = $dbStmt->setFetchMode(PDO::FETCH_ASSOC);
+      $sundaySchoolVideos = $dbStmt->fetchAll();
+      $mostRecentVideo = $sundaySchoolVideos[0];
+      $dbConn = null;
+      $videoDate = date('l, F j, Y', strtotime($mostRecentVideo['date']));
+      $safeAdditionalNotes = get($mostRecentVideo['additional_notes']);
+    } catch (PDOException $e) {
+      echo '<p>An error has occurred.</p>';
+    }
   ?>
   <div class="fluid-width-video-wrapper">
-    <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/<?= $mostRecentVideo['videoId'] ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/<?= $mostRecentVideo['video_id'] ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <?= $safeAdditionalNotes === NULL ? NULL : $safeAdditionalNotes ?>
   <p style="margin-top:22px">
