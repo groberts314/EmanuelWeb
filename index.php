@@ -23,8 +23,10 @@
             <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
             <?php /*<iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/fpG8BLY_83M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>*/ ?>
 
-            <?php /* Vimeo Live Stream (Recurring Event) */ ?>
-            <iframe class="video-iframe" src="https://vimeo.com/event/812403/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <?php /* Vimeo Live Stream (Recurring Event - Original one) */ ?>
+            <?php /* <iframe class="video-iframe" src="https://vimeo.com/event/812403/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> */ ?>
+            <?php /* Vimeo Live Stream (Recurring Event - New One for 9 AM Traditional Worship) */ ?>
+            <iframe class="video-iframe" src="https://vimeo.com/event/1277638/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
             <?php /* Vimeo Live Stream (Specific Video) */ ?>
             <?php /*<iframe class="video-iframe" src="https://player.vimeo.com/video/594210586" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
@@ -34,9 +36,10 @@
             Emanuel Online Good Friday April 2, 2021
           </p>*/ ?>
       </div>
-      <div class="module-container worship-audio">
+      <div class="module-container worship-audio"> <?php /* TODO: Replace class `worship-audio` with something more appropriate */ ?>
           <?php /*require_once('./partials/homepage-v2-audio-promo.phtml')*/ ?>
-          <?php require_once('./partials/homepage-v2-sunday-school-online-promo.phtml') ?>
+          <?php /* require_once('./partials/homepage-v2-sunday-school-online-promo.phtml') */ ?>
+          <?php require_once('./partials/homepage-v2-praise-worship.phtml') ?>
       </div>
       <div class="module-container location">
           <?php require_once('./partials/homepage-v2-location-and-contact.phtml') ?>
