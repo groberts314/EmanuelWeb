@@ -17,13 +17,6 @@
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-8">
         <h1 class="page-title">Worship</h1>
-        <p class="notice" style="font-weight:bold">
-          We are currently just holding one worship service in the
-          sanctuary at 10am every Sunday.  Our worship times and styles may
-          change as the months progress. Below is a description of our worship
-          life and practices before the pandemic. For most up do date worship
-          information please see our <a href="/#upcoming-events">Upcoming Events</a>.
-        </p>
         <p>
           When we gather to worship as a church, we explore the Word of God, partake of His sacraments and sing praises to the Lord
           together as family and friends. Emanuel Lutheran Church offers two Sunday morning worship settings because we recognize that
@@ -75,7 +68,7 @@
         <h3>Do you have Sunday School?</h3>
         <p>
           Education Hour is provided for age three through teens at 10:00 a.m. Children gather in Moerer Hall before moving
-          to their classroom in the Education building. Teens meet in the Youth room at the Southern end of the campus.   
+          to their classroom in the Education building.   
         </p>
         <h3>Is there a social time after the service?</h3>
         <p>
