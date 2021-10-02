@@ -67,7 +67,7 @@
         </p>
         <h3>Do you have Sunday School?</h3>
         <p>
-          Education Hour is provided for age three through teens at 10:00 a.m. Children gather in Moerer Hall before moving
+          Education Hour is provided for age three through 6<sup>th</sup> grade at 10:00 a.m. Children gather in Moerer Hall before moving
           to their classroom in the Education building.   
         </p>
         <h3>Is there a social time after the service?</h3>
