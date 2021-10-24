@@ -150,6 +150,16 @@ HTML
     10:45 AM
   </div>
 </div>
+<div class="event-detail">
+  <div class="event-description">
+    <a href="/event-fliers/2021-10-24_trunk_or_treat.pdf" target="_blank">
+      <strong>Trunk-or-Treat</strong>
+    </a>
+  </div>
+  <div class="event-time">
+    6:30 PM
+  </div>
+</div>
 HTML
     ),
     6 => array(
