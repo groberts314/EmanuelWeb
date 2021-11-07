@@ -186,6 +186,7 @@
   .event-detail { display: flex; margin-bottom: 11px; }
   .event-description { flex: 1; }
   .event-time { text-align: right; width: 66px; }
+  .no-upcoming-events { margin-top: 11px; }
   /* END: Upcoming Events (Homepage) */
 
   /* Address & Map (Homepage) */
@@ -629,6 +630,11 @@
   /* BEGIN: Homepage v2.0 Photo Carousel overrides (TEMP) */
   .homepage-v2 .photo-carousel-container { margin-top: 0; }
   /* END: Homepage v2.0 Photo Carousel overrides (TEMP) */
+
+  /* Additional left margin for "No Upcoming Events" message */
+  .no-upcoming-events {
+    margin-left: 11px;
+  }
 
   .caret { border-top: 8px dashed; border-right: 8px solid transparent; border-left: 8px solid transparent; }
   .module-container h2, h1.page-title { font-size: 18px; }
