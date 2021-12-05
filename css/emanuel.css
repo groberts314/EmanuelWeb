@@ -747,12 +747,12 @@
     /* Top Right */
     flex: 1 0 25%;
     order: 3;
-    max-height: 470px; /* Service Times (on the top left) is 448px high + 22px margin bottom */
+    max-height: 550px; /* Service Times (on the top left) is 528px high + 22px margin bottom */
     margin-bottom: 0;
     overflow-y: hidden;
   }
   .upcoming-events-content {
-    max-height: 424px; /* 470px module container height - 46px height of the h2 (24px + 11px top and bottom padding) */
+    max-height: 504px; /* 550px module container height - 46px height of the h2 (24px + 11px top and bottom padding) */
     padding: 11px 11px 0 22px;
   }
   .homepage-v2 .module-container h2 {
