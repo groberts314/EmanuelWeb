@@ -547,9 +547,7 @@
   .page-footer { margin: 11px 0 0; }
   .page-footer .copyright, .page-footer .contact { padding: 20px 30px; }
 
-  /* Homepage Module Titles (v1.0) */
-  .module-container h2.left-top, .module-container h2.right-top { margin: 0 -15px 22px 0; }
-  .module-container h2.left-bottom, .module-container h2.right-bottom { margin: 0 0 22px -15px; }
+  /* Homepage Module Titles */
   .homepage-v2 .module-container h2 {
     margin-bottom: 22px;
   }
