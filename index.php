@@ -35,12 +35,6 @@
           <?php /*<p style="font-weight: bold; margin-top: 22px; text-align: center">
             Emanuel Online Good Friday April 2, 2021
           </p>*/ ?>
-          <h2 style="margin-top: 22px">Help Wanted</h2>
-          <p>
-            Warm and welcoming church seeks Energetic and Organized
-            people-person for Part-Time (M-Th, 24 hours per week)
-            <a href="event-fliers/2021-12-19-church-secretary-office-manager-part-time-job-posting.pdf" target="_blank">CHURCH SECRETARY/OFFICE MANAGER</a>
-          </p>
       </div>
       <div class="module-container worship-audio"> <?php /* TODO: Replace class `worship-audio` with something more appropriate */ ?>
           <?php /*require_once('./partials/homepage-v2-audio-promo.phtml')*/ ?>
