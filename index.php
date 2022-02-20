@@ -35,20 +35,6 @@
           <?php /*<p style="font-weight: bold; margin-top: 22px; text-align: center">
             Emanuel Online Good Friday April 2, 2021
           </p>*/ ?>
-          <h2 style="margin-top: 22px">Feedback Needed</h2>
-          <p>
-            Please take this survey to help out our Transition Team.
-          </p>
-          <div style="margin: 22px auto 0; text-align: center;">
-            <a
-              class="btn"
-              href="https://easy-feedback.com/EmanuelHeritageSurvey/1421256/RbA4BK-94bd0d00e32ab21df4c5cdfdb2125cb4"
-              style="background-color: #800000; border-color: #80715e; color: #fff; font-size: 18px;"
-              target="_blank">
-              Take the Survey
-              <span class="glyphicon glyphicon-new-window" aria-hidden="true" style="top: 3px;"></span>
-            </a>
-          </div>
       </div>
       <div class="module-container worship-audio"> <?php /* TODO: Replace class `worship-audio` with something more appropriate */ ?>
           <?php /*require_once('./partials/homepage-v2-audio-promo.phtml')*/ ?>
