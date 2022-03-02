@@ -35,6 +35,15 @@
           <?php /*<p style="font-weight: bold; margin-top: 22px; text-align: center">
             Emanuel Online Good Friday April 2, 2021
           </p>*/ ?>
+          <h2 style="margin-top: 22px">Ash Wednesday Online Worship</h2>
+          <p>
+            Ash Wednesday Worship will be live-streamed on
+            <a href="https://www.facebook.com/emanuel.lutheran.1" target="_blank">Facebook</a> and
+            <a href="https://www.youtube.com/channel/UC4Fu6qvPdYF2MM92JzoU9uA" target="_blank">YouTube</a>.
+            <br />
+            On our website, we will feature the live stream video on our new
+            <a href="/special-events">Special Events Live Video page</a>.
+          </p>
       </div>
       <div class="module-container worship-audio"> <?php /* TODO: Replace class `worship-audio` with something more appropriate */ ?>
           <?php /*require_once('./partials/homepage-v2-audio-promo.phtml')*/ ?>
