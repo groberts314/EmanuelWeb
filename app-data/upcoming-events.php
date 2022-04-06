@@ -29,19 +29,6 @@
 </div>
 HTML
     ),
-    1 => array(
-      'date' => '2022-04-06',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Lenten Midweek Bible Study &amp; Worship on Zoom</strong>
-  </div>
-  <div class="event-time">
-    6:30 PM
-  </div>
-</div>
-HTML
-    ),
     2 => array(
       'date' => '2022-04-09',
       'content' => <<<HTML
@@ -85,19 +72,6 @@ HTML
   </div>
   <div class="event-time">
     10:45 AM
-  </div>
-</div>
-HTML
-    ),
-    4 => array(
-      'date' => '2022-04-13',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Lenten Midweek Bible Study &amp; Worship on Zoom</strong>
-  </div>
-  <div class="event-time">
-    6:30 PM
   </div>
 </div>
 HTML
