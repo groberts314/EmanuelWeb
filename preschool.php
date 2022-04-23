@@ -61,6 +61,12 @@
               at <a href="tel:+15626945316">(562) 694-5316</a>.
             </strong>
           </p>
+          <p>
+            <strong>
+              We&rsquo;re hiring preschool teachers!<br />
+              <a href="event-fliers/2022-04-23-preschool-job-opening.pdf" target="_blank">Job Description</a>
+            </strong>
+          </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 photo-right">
           <img src="images/preschool/preschool-1.jpg" alt="Emanuel Lutheran Preschool Students in Class" />
