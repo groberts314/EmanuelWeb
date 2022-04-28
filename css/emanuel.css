@@ -271,6 +271,7 @@
     margin-right: 0;
     margin-left: 0;
     padding-left: 0;
+    padding-right: 0;
   }
   .tuition-table { width: 100%; }
   .tuition-table th, .tuition-table td { width: 33.3%; }

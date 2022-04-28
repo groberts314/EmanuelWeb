@@ -32,7 +32,7 @@
       <div class="col-xs-12 col-sm-4 photo-left">
         <h2 class="staff-title no-top-margin no-btm-margin">
           Ms. Ruby<br />
-          Teacher
+          Floater/Sub
         </h2>
         <img src="images/preschool-staff/ruby.jpg" alt="Ms. Ruby, Teacher" />
       </div>

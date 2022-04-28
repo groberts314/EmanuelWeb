@@ -93,18 +93,18 @@
             <tbody>
               <tr>
                 <th>5 days</th>
-                <td>$750.00</td>
-                <td>$620.00</td>
+                <td>$875.00</td>
+                <td>$720.00</td>
               </tr>
               <tr>
                 <th>3 days (M-W-F)</th>
-                <td>$540.00</td>
-                <td>$460.00</td>
+                <td>$630.00</td>
+                <td>$535.00</td>
               </tr>
               <tr>
                 <th>2 days (T-Th)</th>
+                <td>$420.00</td>
                 <td>$360.00</td>
-                <td>$310.00</td>
               </tr>
             </tbody>
           </table>
@@ -121,18 +121,18 @@
             <tbody>
               <tr>
                 <th>5 days</th>
-                <td>$535.00</td>
-                <td>$445.00</td>
+                <td>$665.00</td>
+                <td>$520.00</td>
               </tr>
               <tr>
                 <th>3 days (M-W-F)</th>
-                <td>$385.00</td>
-                <td>$335.00</td>
+                <td>$450.00</td>
+                <td>$390.00</td>
               </tr>
               <tr>
                 <th>2 days (T-Th)</th>
+                <td>$310.00</td>
                 <td>$265.00</td>
-                <td>$225.00</td>
               </tr>
             </tbody>
           </table>
@@ -144,12 +144,12 @@
             <div class="row">
               <div class="col-xs-1">A.</div>
               <div class="col-xs-8 col-sm-9 col-lg-10">New Enrollment and returning students</div>
-              <div class="col-xs-2 col-lg-1 price">$75.00</div>
+              <div class="col-xs-2 col-lg-1 price">$100.00</div>
             </div>
             <div class="row">
               <div class="col-xs-1">B.</div>
               <div class="col-xs-8 col-sm-9 col-lg-10">Annual registration fee&mdash;Year round students (Due in September)</div>
-              <div class="col-xs-2 col-lg-1 price">$50.00</div>
+              <div class="col-xs-2 col-lg-1 price">$75.00</div>
             </div>
           </div>
         </div>
