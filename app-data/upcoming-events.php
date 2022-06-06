@@ -1,158 +1,52 @@
 <?php
   return array(
     0 => array(
-      'date' => '2022-04-03',
+      'date' => '2022-06-09',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Traditional Worship</strong>
-  </div>
-  <div class="event-time">
-    9 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Sunday School</strong> &ndash; 3 Years thru 6th Grade &ndash; in Moerer Hall
+    <a href="event-fliers/2022-06-09-thurs-zoom-book-study.jpg" target="_blank">
+      New Zoom Book Study Begins
+    </a>
   </div>
   <div class="event-time">
     10 AM
   </div>
 </div>
+HTML
+    ),
+    1 => array(
+      'date' => '2022-06-12',
+      'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Praise Worship</strong>
+    Combined Worship
   </div>
   <div class="event-time">
-    10:45 AM
+    10 AM
   </div>
 </div>
 HTML
     ),
     2 => array(
-      'date' => '2022-04-09',
+      'date' => '2022-06-19',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Neighborhood Easter Event</strong>
+    Combined Worship
   </div>
   <div class="event-time">
-    11 AM
+    10 AM
   </div>
 </div>
 HTML
     ),
     3 => array(
-      'date' => '2022-04-10',
+      'date' => '2022-06-20',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Palm Sunday</strong>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    Traditional Worship
-  </div>
-  <div class="event-time">
-    9 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    Sunday School &ndash; 3 Years thru 6th Grade &ndash; in Moerer Hall
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    Praise Worship
-  </div>
-  <div class="event-time">
-    10:45 AM
-  </div>
-</div>
-HTML
-    ),
-    5 => array(
-      'date' => '2022-04-14',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Maundy Thursday Worship</strong>
-  </div>
-  <div class="event-time">
-    7 PM
-  </div>
-</div>
-HTML
-    ),
-    6 => array(
-      'date' => '2022-04-15',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Good Friday Worship</strong>
-  </div>
-  <div class="event-time">
-    7 PM
-  </div>
-</div>
-HTML
-    ),
-    7 => array(
-      'date' => '2022-04-17',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>
-      Easter Sunday<br />
-      HE Is Risen Indeed!  Alleluia!
-    </strong>
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    Sunrise Worship
-  </div>
-  <div class="event-time">
-    6:30 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    Traditional Worship
-  </div>
-  <div class="event-time">
-    9 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    Sunday School &ndash; 3 Years thru 6th Grade &ndash; in Moerer Hall
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    Praise Worship
-  </div>
-  <div class="event-time">
-    10:45 AM
-  </div>
-</div>
-HTML
-    ),
-    8 => array(
-      'date' => '2022-04-18',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <a href="event-fliers/2022-04-18-joy-circle.jpg" target="_blank">
+    <a href="event-fliers/2022-06-20-joy-circle.jpg" target="_blank">
       Joy Circle Women&rsquo;s Bible Study
     </a>
   </div>
@@ -162,60 +56,28 @@ HTML
 </div>
 HTML
     ),
-    9 => array(
-      'date' => '2022-04-24',
+    4 => array(
+      'date' => '2022-06-26',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Traditional Worship</strong>
-  </div>
-  <div class="event-time">
-    9 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Sunday School</strong> &ndash; 3 Years thru 6th Grade &ndash; in Moerer Hall
+    Combined Worship
   </div>
   <div class="event-time">
     10 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Praise Worship</strong>
-  </div>
-  <div class="event-time">
-    10:45 AM
   </div>
 </div>
 HTML
     ),
-    10 => array(
-      'date' => '2022-05-01',
+    5 => array(
+      'date' => '2022-07-03',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Traditional Worship</strong>
-  </div>
-  <div class="event-time">
-    9 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Sunday School</strong> &ndash; 3 Years thru 6th Grade &ndash; in Moerer Hall
+    Combined Worship
   </div>
   <div class="event-time">
     10 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Praise Worship</strong>
-  </div>
-  <div class="event-time">
-    10:45 AM
   </div>
 </div>
 HTML
