@@ -18,16 +18,16 @@
           <div class="newsletter-issue-list">
             <h2 class="section-title no-top-margin">Current Issue</h2>
             <p>
-              <a href="../newsletters/newsletter-2022-10.pdf" target="_blank">October 2022</a>
+              <a href="../newsletters/newsletter-2023-01.pdf" target="_blank">January 2023</a>
             </p>
           </div>
           <div class="newsletter-current-issue-thumbnail-mobile hidden-md hidden-lg">
-            <img src="images/newsletter/newsletter-2022-10.jpg" alt="The Good News: October 2022" />
+            <img src="images/newsletter/newsletter-2023-01.jpg" alt="The Good News: January 2023" />
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 photo-right no-btm-margin hidden-xs hidden-sm">
-        <img src="images/newsletter/newsletter-2022-10.jpg" alt="The Good News: October 2022" />
+        <img src="images/newsletter/newsletter-2023-01.jpg" alt="The Good News: January 2023" />
       </div>
       <div class="col-xs-12">
         <div class="newsletter-additional-issues-list">
@@ -45,6 +45,15 @@
                 <div class="panel-body">
                   <div class="newsletter-year-issue-list">
                     <ul class="list-group">
+                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-12.jpg" data-target="#thumbnail-2022">
+                        <a href="../newsletters/newsletter-2022-12.pdf" target="_blank">December 2022</a>
+                      </li>
+                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-11.jpg" data-target="#thumbnail-2022">
+                        <a href="../newsletters/newsletter-2022-11.pdf" target="_blank">November 2022</a>
+                      </li>
+                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-10.jpg" data-target="#thumbnail-2022">
+                        <a href="../newsletters/newsletter-2022-10.pdf" target="_blank">October 2022</a>
+                      </li>
                       <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-09.jpg" data-target="#thumbnail-2022">
                         <a href="../newsletters/newsletter-2022-09.pdf" target="_blank">September 2022</a>
                       </li>
@@ -75,7 +84,7 @@
                     </ul>
                   </div>
                   <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2022" src="images/newsletter/newsletter-2022-09.jpg" alt="The Good News: 2022" />
+                    <img id="thumbnail-2022" src="images/newsletter/newsletter-2022-12.jpg" alt="The Good News: 2022" />
                   </div>
                 </div>
               </div>
