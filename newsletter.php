@@ -18,16 +18,16 @@
           <div class="newsletter-issue-list">
             <h2 class="section-title no-top-margin">Current Issue</h2>
             <p>
-              <a href="../newsletters/newsletter-2023-04.pdf" target="_blank">April 2023</a>
+              <a href="../newsletters/newsletter-2023-06.pdf" target="_blank">June 2023</a>
             </p>
           </div>
           <div class="newsletter-current-issue-thumbnail-mobile hidden-md hidden-lg">
-            <img src="images/newsletter/newsletter-2023-04.jpg" alt="The Good News: April 2023" />
+            <img src="images/newsletter/newsletter-2023-06.jpg" alt="The Good News: June 2023" />
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 photo-right no-btm-margin hidden-xs hidden-sm">
-        <img src="images/newsletter/newsletter-2023-04.jpg" alt="The Good News: April 2023" />
+        <img src="images/newsletter/newsletter-2023-06.jpg" alt="The Good News: June 2023" />
       </div>
       <div class="col-xs-12">
         <div class="newsletter-additional-issues-list">
@@ -45,7 +45,10 @@
                 <div class="panel-body">
                   <div class="newsletter-year-issue-list">
                     <ul class="list-group">
-                    <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-03.jpg" data-target="#thumbnail-2023">
+                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-04.jpg" data-target="#thumbnail-2023">
+                        <a href="../newsletters/newsletter-2023-04.pdf" target="_blank">April 2023</a>
+                      </li>
+                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-03.jpg" data-target="#thumbnail-2023">
                         <a href="../newsletters/newsletter-2023-03.pdf" target="_blank">March 2023</a>
                       </li>
                       <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-02.jpg" data-target="#thumbnail-2023">
