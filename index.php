@@ -2,13 +2,24 @@
   // Turn on Error reporting
   //error_reporting(E_ALL);
   //ini_set('display_errors', 1);
+
+  // Require Helper Functions
+  require_once('./app-code/helper-functions.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <?php require_once('./partials/head-metas.phtml') ?>
-  <title>Emanuel Evangelical Lutheran Church - Welcome!</title>
+  <?php
+      $pageTitle = 'Emanuel Evangelical Lutheran Church - Welcome!';
+      $metadataTitle = 'Emanuel Evangelical Lutheran Church';
+      $metadataDescription = 'Emanuel Evangelical Lutheran Church in La Habra, California';
+      $metadata = array('title' => $metadataTitle, 'description' => $metadataDescription);
+  ?>
+  <title><?= $pageTitle ?></title>
+  <meta name="description" content="<?= $metadataDescription ?>">
+  <?php display('./partials/head-metas-social.phtml', $metadata); ?>
   <?php require_once('./partials/head-includes.phtml') ?>
 </head>
 
