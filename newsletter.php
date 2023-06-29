@@ -45,6 +45,9 @@
                 <div class="panel-body">
                   <div class="newsletter-year-issue-list">
                     <ul class="list-group">
+                    <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-05.jpg" data-target="#thumbnail-2023">
+                        <a href="../newsletters/newsletter-2023-05.pdf" target="_blank">May 2023</a>
+                      </li>
                       <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-04.jpg" data-target="#thumbnail-2023">
                         <a href="../newsletters/newsletter-2023-04.pdf" target="_blank">April 2023</a>
                       </li>
@@ -60,7 +63,7 @@
                     </ul>
                   </div>
                   <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2023" src="images/newsletter/newsletter-2023-03.jpg" alt="The Good News: 2023" />
+                    <img id="thumbnail-2023" src="images/newsletter/newsletter-2023-05.jpg" alt="The Good News: 2023" />
                   </div>
                 </div>
               </div>
