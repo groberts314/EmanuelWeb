@@ -73,6 +73,7 @@
     display: -webkit-flex;
     display: flex;
 
+    flex-flow: row wrap;
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
   }
@@ -276,6 +277,7 @@
   .tuition-table { width: 100%; }
   .tuition-table th, .tuition-table td { width: 33.3%; }
   .tuition-divider { border-top-color: #80715e; }
+  .tuition-table td, .tuition-table thead th { text-align: right; }
 
   /* BEGIN: Worship Service Audio (Audio List Style v2.0) */
   .audio-file-list-v2 {
@@ -788,6 +790,7 @@
 
   /* Misc. Inner Page Content */
   .preschool-fees .price { margin-left: -22px; }
+  .tuition-table { width: 66.7%; }
 
   /* BEGIN: Worship Service Audio (Audio List Style v2.0) */
   .audio-file-list-v2 .audio-file-entry {
