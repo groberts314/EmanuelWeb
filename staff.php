@@ -20,34 +20,34 @@
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-8 col-md-4">
         <h2 class="staff-title">
-          Pastor Sandy Bentz<br />
-          Interim Pastor
+          Pastor Dennis Laherty
         </h2>
         <p>
-          Pastor Sandy joined us in June 2021 as Emanuel&rsquo;s Intentional
-          Interim Pastor. Besides doing the usual things pastors do (preach,
-          teach, lead worship, baptize, provide pastoral care, etc.), she has
-          special training in walking with congregations as they navigate
-          transitional times.  She loves the Lord and is looking forward to
-          helping us celebrate God&rsquo;s faithfulness as we discover and
-          explore the gifts God has given us, and move toward the new future
-          and new &ldquo;settled&rdquo; pastor God has planned for us.
+          Pastor Dennis Laherty was Called as Pastor of Emanuel Lutheran Church for a second time in 2023.
+          His first time serving Emanuel began in 2005 and ended in 2018 with his retirement. After serving for
+          two years on the Pacifica Synod staff and actually retiring for two years, the Spirit Called him to
+          come back to Emanuel, as did the congregation.
         </p>
         <p>
-          Pastor Sandy grew up in Chicago and has pastored churches in the
-          Midwest as well as in Central and Southern California.  She delights
-          in daughters Kristin (Toph) and Kari (Jay) and grandkids James, Julia,
-          Kaitlyn and one-on-the-way.  Pastor Sandy&rsquo;s passion is sharing
-          with others the freedom and joy that comes from experiencing
-          God&rsquo;s grace and knowing that <em>WE ARE God&rsquo;s beloved children!</em>
-          Knowing God loves us completely and unconditionally frees us to live
-          for Jesus, for the sake of others. Real joy comes from trusting God to
-          work through us, in all times and circumstances, to embody God&rsquo;s
-          love, healing and wholeness for the world.
+          Pastor Laherty is a graduate of Christ Seminary/Seminex in Chicago. Following his Ordination he served
+          congregations in Los Angeles, California, South Bend, Indiana as well as rural southern Indiana and
+          Garden Grove, California. During his tenure at Emanuel, he has worked with a Co-Pastor as well as several
+          seminary interns from Luther Seminary in St. Paul, Minnesota.
+        </p>
+        <p>
+          Pastor Laherty served for 20 years in the U.S. Navy as a Chaplain. Currently, in addition to serving Emanuel,
+          he is also a member of the La Habra Heights City Council. He believes that the church is a significant part of
+          the Kingdom of God and that the Bible is not only a God-given guidebook for life but leads individuals to
+          forgiveness and redemption through Jesus Christ. Pastor Laherty preaches only sermons based on Biblical texts.
+          He also firmly believes that life in Christ is strengthened by the frequent reception of Holy Communion.
+        </p>
+        <p>
+          Pastor Laherty is married and has four adult children who live in four different parts of the country: Fresno CA,
+          Dallas TX, Bloomington IN and Charlotte, NC.
         </p>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
-        <img src="images/staff/sandy-bentz.jpg" alt="Pastor Sandy Bentz, Interim Pastor" />
+        <img src="images/staff/dennis-laherty.jpg" alt="Pastor Dennis Laherty" />
       </div>
 
       <div class="col-xs-12 col-sm-8 col-md-4">
