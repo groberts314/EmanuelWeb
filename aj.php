@@ -16,7 +16,9 @@
         <h1 class="page-title">AJ's Page</h1>
         <div class="row">
           <div class="col-xs-12">
-            Add stuff here...
+            <p>
+              hi
+            </p>
           </div>
         </div>
       </div>
