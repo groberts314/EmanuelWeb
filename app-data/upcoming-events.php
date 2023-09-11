@@ -118,7 +118,7 @@ HTML
     </a>
     <br />
     <a href="event-fliers/2023-09-12-study-buddies-donations.jpg" target="_blank">
-      See you you can donate
+      See how you can donate
     </a>
   </div>
   <div class="event-time">
