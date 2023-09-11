@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex, nofollow"> <!-- TEMPORARY: While we're in development / beta -->
   <title>Worship | Emanuel Evangelical Lutheran Church</title>
   <?php require_once('./partials/head-includes.phtml') ?>
 </head>
@@ -24,20 +23,10 @@
           change, each service has its own unique style of delivery and atmosphere. This page will assist you in selecting a service where
           you feel most comfortable and free to become fully engaged in the act of worship.
         </p>
-        <h2>Traditional Service (9:00 AM)</h2>
         <p>
-          Join us on Sunday mornings at 9:00 for our Traditional Worship service, a traditional Lutheran liturgical service with prayers
-          and litany  from our hymnal Evangelical Lutheran Worship. Services features hymns, old and new, and are supported by an organ,
-          the Chancel Choir and Handbell Choir.  We celebrate Holy Communion every Sunday. A children’s sermon is a regular part of this service.
-          Our Traditional worship includes a sermon by our pastor, which is based on the scripture readings for the day.
-        </p>
-        <h2>Praise Service (10:45 AM)</h2>
-        <p>
-          This worship celebration features an informal style and contemporary music performed by the &ldquo;Praise Band.&rdquo;
-          We celebrate the Lord&rsquo;s Supper every Sunday and gather around the altar to celebrate together. A children&rsquo;s
-          sermon is a regular part of this service and children are regularly invited up to join the band in playing a tamborine
-          or other rhythm instrument. Our Praise worship includes a sermon by our pastor, which is based on the scripture
-          readings for the day.
+          Worship is at 10:00am. The service is a musically blended service, bringing together both traditional and praise music every week.
+          Each service can include praise songs and solos or a traditional choir. Solo pieces are included periodically. A bell choir also offers
+          pieces every few weeks. The traditional songs are usually accompanied by an organ.
         </p>
         <h2>Frequently Asked Questions</h2>
         <h3>What about my children?</h3>
