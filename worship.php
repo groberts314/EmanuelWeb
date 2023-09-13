@@ -18,10 +18,7 @@
         <h1 class="page-title">Worship</h1>
         <p>
           When we gather to worship as a church, we explore the Word of God, partake of His sacraments and sing praises to the Lord
-          together as family and friends. Emanuel Lutheran Church offers two Sunday morning worship settings because we recognize that
-          people express their thoughts and feelings toward God in different ways. And, while our core beliefs as a church don&rsquo;t
-          change, each service has its own unique style of delivery and atmosphere. This page will assist you in selecting a service where
-          you feel most comfortable and free to become fully engaged in the act of worship.
+          together as family and friends.
         </p>
         <p>
           Worship is at 10:00am. The service is a musically blended service, bringing together both traditional and praise music every week.
@@ -45,7 +42,7 @@
         </p>
         <h3>Should I receive Holy Communion?</h3>
         <p>
-          All are welcome to receive the sacrament of the Lord’s Supper at Emanuel Lutheran. The ushers will indicate when it
+          All are welcome to receive the sacrament of the Lord&rsquo;s Supper at Emanuel Lutheran. The ushers will indicate when it
           is time for you to approach the front. If you choose not to receive Communion, please feel free to come forward for
           a blessing.
         </p>
@@ -57,7 +54,7 @@
         <h3>Do you have Sunday School?</h3>
         <p>
           Education Hour is provided for age three through 6<sup>th</sup> grade at 10:00 a.m. Children gather in Moerer Hall before moving
-          to their classroom in the Education building.   
+          to their classroom in the Education building.
         </p>
         <h3>Is there a social time after the service?</h3>
         <p>
