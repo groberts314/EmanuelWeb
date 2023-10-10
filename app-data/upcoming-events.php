@@ -131,7 +131,7 @@ HTML
 </div>
 <div class="event-detail">
   <div class="event-description">
-    <a href="event-fliers/2023-10-22-trunk-or-treat.pdf" target="_blank">
+    <a href="event-fliers/2023-10-22-trunk-or-treat.jpg" target="_blank">
       <strong>Trunk or Treat</strong>  
     </a>
   </div>
