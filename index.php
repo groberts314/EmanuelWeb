@@ -53,9 +53,10 @@
           </p>*/ ?>
       </div>
       <div class="module-container worship-audio"> <?php /* TODO: Replace class `worship-audio` with something more appropriate */ ?>
-          <?php /*require_once('./partials/homepage-v2-audio-promo.phtml')*/ ?>
+          <?php require_once('./partials/homepage-v2-bible-readings.phtml') ?>
+          <?php /* require_once('./partials/homepage-v2-audio-promo.phtml') */ ?>
           <?php /* require_once('./partials/homepage-v2-sunday-school-online-promo.phtml') */ ?>
-          <?php require_once('./partials/homepage-v2-praise-worship.phtml') ?>
+          <?php /* require_once('./partials/homepage-v2-praise-worship.phtml')  */ ?>
       </div>
       <div class="module-container location">
           <?php require_once('./partials/homepage-v2-location-and-contact.phtml') ?>
