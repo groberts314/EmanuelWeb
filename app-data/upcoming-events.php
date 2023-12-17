@@ -7,7 +7,7 @@
   <div class="event-description">
     Worship Service
     <br />
-    <strong>Second Sunday in Advent / Lessons &amp; Carols Service</strong>
+    <strong>Second Sunday in Advent / <a href="event-fliers/2023-12-10-lessons-and-carols-worship.jpg" target="_blank">Lessons &amp; Carols Service</a></strong>
   </div>
   <div class="event-time">
     10 AM
