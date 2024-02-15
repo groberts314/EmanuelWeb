@@ -48,9 +48,9 @@
             <?php /*<iframe class="video-iframe" src="https://player.vimeo.com/video/594210586" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
           </div>
 
-          <?php /* <p style="font-weight: bold; margin-top: 22px; text-align: center">
-            Christmas Eve Worship video available on our <a href="/special-events">Special Events page</a>.
-          </p> */?>
+          <p style="font-weight: bold; margin-top: 22px; text-align: center">
+            Ash Wednesday Worship video available on our <a href="/special-events">Special Events page</a>.
+          </p>
       </div>
       <div class="module-container worship-audio"> <?php /* TODO: Replace class `worship-audio` with something more appropriate */ ?>
           <?php require_once('./partials/homepage-v2-bible-readings.phtml') ?>
