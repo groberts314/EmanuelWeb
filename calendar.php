@@ -16,7 +16,7 @@
         <h1 class="page-title">Event Calendar</h1>
         <p>
           <? /* <a href="./calendars/calendar-2022-03.pdf" target="_blank">March 2022 printer-friendly calendar</a><br /> */?>
-          <a href="./calendars/calendar-2024-02.pdf" target="_blank">February 2024 printer-friendly calendar</a>
+          <a href="./calendars/calendar-2024-03.pdf" target="_blank">March 2024 printer-friendly calendar</a>
         </p>
         <? /* Embedded calendar from Breeze ChMS seems to be blank; it has no events on it */?>
         <?/* <iframe src="https://emanuellutheran.breezechms.com/embed/calendar/grid?size=medium&color=gray&calendars=srg9ErllnQBH%2BDD4NjLNQb4cUJHWej5sy5FLrtsbUc4x%2FLSC%2Fo4x2MFxxOZAJ4jli3mdvTLaVJQ5UvZ8ZI%2B31Q%3D%3D"
@@ -28,7 +28,7 @@
                 style="border-width: 0px;">
         </iframe> */?>
         <? /* For now, just show an image of the PDF calendar */?>
-        <img src="images/calendars/calendar-2024-02.jpg" alt="February 2024 Event Calendar" />
+        <img src="images/calendars/calendar-2024-03.jpg" alt="March 2024 Event Calendar" />
       </div>
     </div>
 
