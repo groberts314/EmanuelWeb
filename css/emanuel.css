@@ -203,6 +203,15 @@
     right: 10%;
   }
 
+  /* Bible Readings (Homepage) */
+  .bible-readings-list {
+    margin-top: 22px;
+    padding-left: 22px;
+  }
+    .bible-readings-list li:not(:first-child) {
+      margin-top: 11px;
+    }
+
   .module-container.images .elca-logo {
     display: block;
     margin: 0 auto;
@@ -391,6 +400,10 @@
 
 /* Max Width 419 (mobile and narrower tablets) */
 @media only screen and (max-width: 419px) {
+  .bible-readings-list .mobile-hide {
+    display: none;
+  }
+
   .photo-left.staff-photo img, .photo-right.staff-photo img {
     width: 75%;
     text-align: center;
@@ -775,11 +788,24 @@
     max-width: 500px;
     width: 100%;
   }
-  .homepage-v2 .worship-audio .elca-logo {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
+  .homepage-v2 .worship-audio .module-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    max-height: 455px;
   }
+  .bible-readings {
+    flex: 0 0 100%;
+  }
+  .homepage-v2 .worship-audio .elca-logo {
+    align-self: flex-end;
+    display: unset;
+    margin: 0 auto;
+  }
+    .homepage-v2 .worship-audio .elca-logo img {
+      width: 200px;
+    }
+
   /* END: Homepage v2.0 Module Flexbox Layout (3 Columns for 1200px and up) */
   /* END: Homepage (v2.0) */
 
