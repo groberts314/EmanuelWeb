@@ -53,19 +53,6 @@ HTML
 </div>
 HTML
     ),
-    4 => array(
-      'date' => '2024-05-20',
-      'content' => <<<HTML
-  <div class="event-detail">
-    <div class="event-description">
-      <strong>Joy Circle Women&rsquo;s Bible Study</strong>
-    </div>
-    <div class="event-time">
-      9:30 AM
-    </div>
-  </div>
-  HTML
-    ),
     5 => array(
       'date' => '2024-05-26',
       'content' => <<<HTML
