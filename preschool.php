@@ -93,18 +93,18 @@
             <tbody>
               <tr>
                 <th>5 days</th>
-                <td>$1,000.00</td>
-                <td>$830.00</td>
+                <td>$1,100.00</td>
+                <td>$930.00</td>
               </tr>
               <tr>
                 <th>3 days (M-W-F)</th>
-                <td>$725.00</td>
-                <td>$620.00</td>
+                <td>$825.00</td>
+                <td>$720.00</td>
               </tr>
               <tr>
                 <th>2 days (T-Th)</th>
-                <td>$485.00</td>
-                <td>$420.00</td>
+                <td>$585.00</td>
+                <td>$520.00</td>
               </tr>
             </tbody>
           </table>
@@ -121,18 +121,18 @@
             <tbody>
               <tr>
                 <th>5 days</th>
-                <td>$765.00</td>
-                <td>$600.00</td>
+                <td>$865.00</td>
+                <td>$700.00</td>
               </tr>
               <tr>
                 <th>3 days (M-W-F)</th>
-                <td>$520.00</td>
-                <td>$450.00</td>
+                <td>$620.00</td>
+                <td>$550.00</td>
               </tr>
               <tr>
                 <th>2 days (T-Th)</th>
-                <td>$360.00</td>
-                <td>$310.00</td>
+                <td>$460.00</td>
+                <td>$410.00</td>
               </tr>
             </tbody>
           </table>
