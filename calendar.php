@@ -18,15 +18,15 @@
           <?php
             $pacificTimeZone = new DateTimeZone('America/Los_Angeles');
             $now = new DateTime("now", $pacificTimeZone);
-            $beginningOfNextMonth = new DateTime('2024-10-01', $pacificTimeZone);
+            $beginningOfNextMonth = new DateTime('2024-11-01', $pacificTimeZone);
 
             if ($now > $beginningOfNextMonth) {
               echo <<<HTML
-              <a href="./calendars/calendar-2024-10.pdf" target="_blank">October 2024 printer-friendly calendar</a>
+              <a href="./calendars/calendar-2024-11.pdf" target="_blank">November 2024 printer-friendly calendar</a>
 HTML;
             } else {
               echo <<<HTML
-              <a href="./calendars/calendar-2024-09.pdf" target="_blank">September 2024 printer-friendly calendar</a>
+              <a href="./calendars/calendar-2024-10.pdf" target="_blank">October 2024 printer-friendly calendar</a>
 HTML;
             }
           ?>
@@ -44,11 +44,11 @@ HTML;
         <?php
           if ($now > $beginningOfNextMonth) {
             echo <<<HTML
-            <img src="images/calendars/calendar-2024-10.jpg" alt="October 2024 Event Calendar" />
+            <img src="images/calendars/calendar-2024-11.jpg" alt="November 2024 Event Calendar" />
 HTML;
           } else {
             echo <<<HTML
-            <img src="images/calendars/calendar-2024-09.jpg" alt="September 2024 Event Calendar" />
+            <img src="images/calendars/calendar-2024-10.jpg" alt="October 2024 Event Calendar" />
 HTML;
           }
         ?>

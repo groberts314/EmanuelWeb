@@ -1,94 +1,6 @@
  <?php
   return array(
     0 => array(
-      'date' => '2024-10-06',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Worship Service</strong>
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-HTML
-    ),
-    1 => array(
-      'date' => '2024-10-13',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Worship Service</strong>
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-HTML
-    ),
-    2 => array(
-      'date' => '2024-10-20',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Worship Service</strong>
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Trunk Or Treat</strong>
-  </div>
-  <div class="event-time">
-    5 PM
-  </div>
-</div>
-HTML
-    ),
-    3 => array(
-      'date' => '2024-10-21',
-      'content' => <<<HTML
-  <div class="event-detail">
-    <div class="event-description">
-      <strong>Joy Circle Women&rsquo;s Bible Study</strong>
-    </div>
-    <div class="event-time">
-      9:30 AM
-    </div>
-  </div>
-HTML
-    ),
-    4 => array(
-      'date' => '2024-10-25',
-      'content' => <<<HTML
-  <div class="event-detail">
-    <div class="event-description">
-      <strong>What&rsquo;s 4 Lunch Ladies?!</strong>
-    </div>
-    <div class="event-time">
-      11:30 AM
-    </div>
-  </div>
-HTML
-    ),
-    5 => array(
-      'date' => '2024-10-27',
-      'content' => <<<HTML
-  <div class="event-detail">
-    <div class="event-description">
-      <strong>Worship Service</strong>
-      <br />
-      Reformation Sunday
-    </div>
-    <div class="event-time">
-      10 AM
-    </div>
-  </div>
-HTML
-    ),
-    6 => array(
       'date' => '2024-11-02',
       'content' => <<<HTML
 <div class="event-detail">
@@ -101,7 +13,7 @@ HTML
 </div>
 HTML
     ),
-    7 => array(
+    1 => array(
       'date' => '2024-11-03',
       'content' => <<<HTML
   <div class="event-detail">
@@ -114,6 +26,86 @@ HTML
       10 AM
     </div>
   </div>
+HTML
+    ),
+    2 => array(
+      'date' => '2024-11-10',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Worship Service</strong>
+  </div>
+  <div class="event-time">
+    10 AM
+  </div>
+</div>
+HTML
+    ),
+    3 => array(
+      'date' => '2024-11-17',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Worship Service</strong>
+  </div>
+  <div class="event-time">
+    10 AM
+  </div>
+</div>
+HTML
+    ),
+    4 => array(
+      'date' => '2024-11-18',
+      'content' => <<<HTML
+  <div class="event-detail">
+    <div class="event-description">
+      <strong>Joy Circle Women&rsquo;s Bible Study</strong>
+    </div>
+    <div class="event-time">
+      9:30 AM
+    </div>
+  </div>
+HTML
+    ),
+    5 => array(
+      'date' => '2024-11-22',
+      'content' => <<<HTML
+  <div class="event-detail">
+    <div class="event-description">
+      <strong>What&rsquo;s 4 Lunch Ladies?!</strong>
+    </div>
+    <div class="event-time">
+      11:30 AM
+    </div>
+  </div>
+HTML
+    ),
+    6 => array(
+      'date' => '2024-11-24',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Worship Service</strong>
+  </div>
+  <div class="event-time">
+    10 AM
+  </div>
+</div>
+HTML
+    ),
+    7 => array(
+      'date' => '2024-12-01',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Worship Service</strong>
+    <br />
+    First Sunday in Advent
+  </div>
+  <div class="event-time">
+    10 AM
+  </div>
+</div>
 HTML
     )
   )
