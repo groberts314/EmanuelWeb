@@ -63,7 +63,8 @@ HTML
   <div class="event-description">
     <strong>Worship Service</strong>
     <br />
-    Third Sunday in Advent
+    Third Sunday in Advent<br />
+    Lessons and Carols
   </div>
   <div class="event-time">
     10 AM
