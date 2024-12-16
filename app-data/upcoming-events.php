@@ -92,7 +92,8 @@ HTML
   <div class="event-description">
     <strong>Worship Service</strong>
     <br />
-    Fourth Sunday in Advent
+    Fourth Sunday in Advent<br />
+    Children&rsquo;s Christmas Musical
   </div>
   <div class="event-time">
     10 AM
