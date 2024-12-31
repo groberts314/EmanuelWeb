@@ -18,16 +18,16 @@
           <div class="newsletter-issue-list">
             <h2 class="section-title no-top-margin">Current Issue</h2>
             <p>
-              <a href="../newsletters/newsletter-2024-12.pdf" target="_blank">December 2024</a>
+              <a href="../newsletters/newsletter-2025-01.pdf" target="_blank">January 2025</a>
             </p>
           </div>
           <div class="newsletter-current-issue-thumbnail-mobile hidden-md hidden-lg">
-            <img src="images/newsletter/newsletter-2024-12.jpg" alt="The Good News: December 2024" />
+            <img src="images/newsletter/newsletter-2025-1.jpg" alt="The Good News: January 2025" />
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 photo-right no-btm-margin hidden-xs hidden-sm">
-        <img src="images/newsletter/newsletter-2024-12.jpg" alt="The Good News: December 2024" />
+        <img src="images/newsletter/newsletter-2025-01.jpg" alt="The Good News: January 2025" />
       </div>
       <div class="col-xs-12">
         <div class="newsletter-additional-issues-list">
@@ -45,6 +45,9 @@
                 <div class="panel-body">
                   <div class="newsletter-year-issue-list">
                     <ul class="list-group">
+                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-12.jpg" data-target="#thumbnail-2024">
+                        <a href="../newsletters/newsletter-2024-12.pdf" target="_blank">December 2024</a>
+                      </li>
                       <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-11.jpg" data-target="#thumbnail-2024">
                         <a href="../newsletters/newsletter-2024-11.pdf" target="_blank">November 2024</a>
                       </li>
@@ -81,7 +84,7 @@
                     </ul>
                   </div>
                   <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2024" src="images/newsletter/newsletter-2024-11.jpg" alt="The Good News: 2024" />
+                    <img id="thumbnail-2024" src="images/newsletter/newsletter-2024-12.jpg" alt="The Good News: 2024" />
                   </div>
                 </div>
               </div>
