@@ -1,26 +1,11 @@
  <?php
   return array(
     0 => array(
-      'date' => '2025-01-04',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Men&rsquo;s Breakfast</strong>
-  </div>
-  <div class="event-time">
-    8 AM
-  </div>
-</div>
-HTML
-    ),
-    1 => array(
-      'date' => '2025-01-05',
+      'date' => '2025-02-02',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <strong>Worship Service</strong>
-    <br />
-    Second Sunday after Christmas
   </div>
   <div class="event-time">
     10 AM
@@ -28,8 +13,8 @@ HTML
 </div>
 HTML
     ),
-    2 => array(
-      'date' => '2025-01-12',
+    1 => array(
+      'date' => '2025-02-09',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -42,7 +27,7 @@ HTML
 HTML
     ),
     3 => array(
-      'date' => '2025-01-17',
+      'date' => '2025-02-14',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -55,7 +40,7 @@ HTML
 HTML
     ),
     4 => array(
-      'date' => '2025-01-19',
+      'date' => '2025-02-16',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -68,7 +53,7 @@ HTML
 HTML
     ),
     5 => array(
-      'date' => '2025-01-20',
+      'date' => '2025-02-17',
       'content' => <<<HTML
   <div class="event-detail">
     <div class="event-description">
@@ -81,7 +66,7 @@ HTML
 HTML
     ),
     6 => array(
-      'date' => '2025-01-26',
+      'date' => '2025-02-23',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -94,7 +79,20 @@ HTML
 HTML
     ),
     7 => array(
-      'date' => '2025-02-03',
+      'date' => '2025-03-01',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Men&rsquo;s Breakfast</strong>
+  </div>
+  <div class="event-time">
+    8 AM
+  </div>
+</div>
+HTML
+    ),
+    8 => array(
+      'date' => '2025-03-02',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">

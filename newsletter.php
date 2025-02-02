@@ -18,30 +18,54 @@
           <div class="newsletter-issue-list">
             <h2 class="section-title no-top-margin">Current Issue</h2>
             <p>
-              <a href="../newsletters/newsletter-2025-01.pdf" target="_blank">January 2025</a>
+              <a href="../newsletters/newsletter-2025-02.pdf" target="_blank">February 2025</a>
             </p>
           </div>
           <div class="newsletter-current-issue-thumbnail-mobile hidden-md hidden-lg">
-            <img src="images/newsletter/newsletter-2025-1.jpg" alt="The Good News: January 2025" />
+            <img src="images/newsletter/newsletter-2025-02.jpg" alt="The Good News: February 2025" />
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 photo-right no-btm-margin hidden-xs hidden-sm">
-        <img src="images/newsletter/newsletter-2025-01.jpg" alt="The Good News: January 2025" />
+        <img src="images/newsletter/newsletter-2025-02.jpg" alt="The Good News: February 2025" />
       </div>
       <div class="col-xs-12">
         <div class="newsletter-additional-issues-list">
           <div class="panel-group" id="newsletter-archive-accordion" role="tablist" aria-multiselectable="true">
+            <!-- 2025 -->
+            <div class="panel panel-default" id="newsletter-archive-panel-2025">
+              <div class="panel-heading" role="tab" id="heading-2025">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2025" aria-expanded="true" aria-controls="collapse-2025">
+                    2025
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse-2025" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-2025">
+                <div class="panel-body">
+                  <div class="newsletter-year-issue-list">
+                    <ul class="list-group">
+                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-01.jpg" data-target="#thumbnail-2025">
+                        <a href="../newsletters/newsletter-2025-01.pdf" target="_blank">January 2025</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="newsletter-year-issue-thumbnail">
+                    <img id="thumbnail-2025" src="images/newsletter/newsletter-2025-01.jpg" alt="The Good News: 2025" />
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- 2024 -->
             <div class="panel panel-default" id="newsletter-archive-panel-2024">
               <div class="panel-heading" role="tab" id="heading-2024">
                 <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2024" aria-expanded="true" aria-controls="collapse-2024">
+                  <a role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2024" aria-expanded="false" aria-controls="collapse-2024">
                     2024
                   </a>
                 </h4>
               </div>
-              <div id="collapse-2024" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-2024">
+              <div id="collapse-2024" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2024">
                 <div class="panel-body">
                   <div class="newsletter-year-issue-list">
                     <ul class="list-group">
