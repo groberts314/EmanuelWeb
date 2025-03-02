@@ -18,15 +18,15 @@
           <?php
             $pacificTimeZone = new DateTimeZone('America/Los_Angeles');
             $now = new DateTime("now", $pacificTimeZone);
-            $beginningOfNextMonth = new DateTime('2025-02-01', $pacificTimeZone);
+            $beginningOfNextMonth = new DateTime('2025-03-01', $pacificTimeZone);
 
             if ($now > $beginningOfNextMonth) {
               echo <<<HTML
-              <a href="./calendars/calendar-2025-02.pdf" target="_blank">February 2025 printer-friendly calendar</a>
+              <a href="./calendars/calendar-2025-03.pdf" target="_blank">March 2025 printer-friendly calendar</a>
 HTML;
             } else {
               echo <<<HTML
-              <a href="./calendars/calendar-2025-01.pdf" target="_blank">January 2025 printer-friendly calendar</a>
+              <a href="./calendars/calendar-2025-02.pdf" target="_blank">February 2025 printer-friendly calendar</a>
 HTML;
             }
           ?>
@@ -44,11 +44,11 @@ HTML;
         <?php
           if ($now > $beginningOfNextMonth) {
             echo <<<HTML
-            <img src="images/calendars/calendar-2025-02.jpg" alt="February 2025 Event Calendar" />
+            <img src="images/calendars/calendar-2025-03.jpg" alt="March 2025 Event Calendar" />
 HTML;
           } else {
             echo <<<HTML
-            <img src="images/calendars/calendar-2025-01.jpg" alt="January 2025 Event Calendar" />
+            <img src="images/calendars/calendar-2025-02.jpg" alt="February 2025 Event Calendar" />
 HTML;
           }
         ?>
