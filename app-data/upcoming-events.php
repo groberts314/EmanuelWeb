@@ -1,7 +1,7 @@
  <?php
   return array(
     0 => array(
-      'date' => '2025-03-02',
+      'date' => '2025-04-06',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -14,33 +14,7 @@
 HTML
     ),
     1 => array(
-      'date' => '2025-03-05',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Ash Wednesday Service</strong>
-  </div>
-  <div class="event-time">
-    7 PM
-  </div>
-</div>
-HTML
-    ),
-    2 => array(
-      'date' => '2025-03-09',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Worship Service</strong>
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-HTML
-    ),
-    3 => array(
-      'date' => '2025-03-12',
+      'date' => '2025-04-09',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -54,12 +28,14 @@ HTML
 </div>
 HTML
     ),
-    4 => array(
-      'date' => '2025-03-16',
+    2 => array(
+      'date' => '2025-04-13',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Worship Service</strong>
+    <strong>Palm Sunday</strong>
+    <br />
+    Worship Service
   </div>
   <div class="event-time">
     10 AM
@@ -67,8 +43,60 @@ HTML
 </div>
 HTML
     ),
+    3 => array(
+      'date' => '2025-04-17',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Maundy Thursday</strong>
+    <br />
+    Evening Worship
+  </div>
+  <div class="event-time">
+    7 PM
+  </div>
+</div>
+HTML
+    ),
+    4 => array(
+      'date' => '2025-04-18',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>Good Friday Worship</strong>
+    <br />
+    Evening Worship
+  </div>
+  <div class="event-time">
+    7 PM
+  </div>
+</div>
+HTML
+    ),
     5 => array(
-      'date' => '2025-03-17',
+      'date' => '2025-04-20',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>
+      Easter Sunday
+      <br />
+      <em>He is risen indeed, Alleluia!</em>
+    </strong>
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    Worship Service
+  </div>
+  <div class="event-time">
+    10 AM
+  </div>
+</div>
+HTML
+    ),
+    6 => array(
+      'date' => '2025-04-21',
       'content' => <<<HTML
   <div class="event-detail">
     <div class="event-description">
@@ -80,23 +108,8 @@ HTML
   </div>
 HTML
     ),
-    6 => array(
-      'date' => '2025-03-19',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Midweek Lenten Worship</strong>
-    <br />
-    On Zoom
-  </div>
-  <div class="event-time">
-    7 PM
-  </div>
-</div>
-HTML
-    ),
     7 => array(
-      'date' => '2025-03-21',
+      'date' => '2025-04-25',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -109,7 +122,7 @@ HTML
 HTML
     ),
     8 => array(
-      'date' => '2025-03-23',
+      'date' => '2025-04-27',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -122,50 +135,7 @@ HTML
 HTML
     ),
     9 => array(
-      'date' => '2025-03-26',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Midweek Lenten Worship</strong>
-    <br />
-    On Zoom
-  </div>
-  <div class="event-time">
-    7 PM
-  </div>
-</div>
-HTML
-    ),
-    10 => array(
-      'date' => '2025-03-30',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Worship Service</strong>
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-HTML
-    ),
-    11 => array(
-      'date' => '2025-04-02',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Midweek Lenten Worship</strong>
-    <br />
-    On Zoom
-  </div>
-  <div class="event-time">
-    7 PM
-  </div>
-</div>
-HTML
-    ),
-    12 => array(
-      'date' => '2025-04-05',
+      'date' => '2025-05-03',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -177,8 +147,8 @@ HTML
 </div>
 HTML
     ),
-    13 => array(
-      'date' => '2025-04-06',
+    10 => array(
+      'date' => '2025-05-04',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
