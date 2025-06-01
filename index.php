@@ -48,9 +48,10 @@
             <?php /*<iframe class="video-iframe" src="https://player.vimeo.com/video/594210586" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
           </div>
 
-          <?php /*<p style="font-weight: bold; margin-top: 22px; text-align: center">
-            Ash Wednesday Worship video available on our <a href="/special-events">Special Events page</a>.
-          </p>*/ ?>
+          <p style="font-weight: bold; margin-top: 22px; text-align: center">
+            We have been having some difficulties with our livestream.<br />
+            Sunday, June 1, 2025 Worship video available on <a href="https://www.youtube.com/watch?v=2Oc-VLQSmL8" target="_blank">YouTube</a>.
+          </p>
       </div>
       <div class="module-container worship-audio"> <?php /* TODO: Replace class `worship-audio` with something more appropriate */ ?>
           <?php require_once('./partials/homepage-v2-bible-readings.phtml') ?>
