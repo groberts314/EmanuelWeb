@@ -66,6 +66,19 @@ HTML
 HTML
     ),
     5 => array(
+      'date' => '2025-06-20',
+      'content' => <<<HTML
+<div class="event-detail">
+  <div class="event-description">
+    <strong>What&rsquo;s 4 Lunch Ladies?!</strong>
+  </div>
+  <div class="event-time">
+    11:30 AM
+  </div>
+</div>
+HTML
+    ),
+    6 => array(
       'date' => '2025-06-22',
       'content' => <<<HTML
 <div class="event-detail">
@@ -78,20 +91,20 @@ HTML
 </div>
 HTML
     ),
-    6 => array(
+    7 => array(
       'date' => '2025-06-27',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>What&rsquo;s 4 Lunch Ladies?!</strong>
+    <strong>Ricki Fehr Memorial</strong>
   </div>
   <div class="event-time">
-    11:30 AM
+    2 PM
   </div>
 </div>
 HTML
     ),
-    7 => array(
+    8 => array(
       'date' => '2025-06-29',
       'content' => <<<HTML
 <div class="event-detail">
@@ -104,7 +117,7 @@ HTML
 </div>
 HTML
     ),
-    8 => array(
+    9 => array(
       'date' => '2025-07-05',
       'content' => <<<HTML
 <div class="event-detail">
@@ -117,7 +130,7 @@ HTML
 </div>
 HTML
     ),
-    9 => array(
+    10 => array(
       'date' => '2025-07-06',
       'content' => <<<HTML
 <div class="event-detail">
