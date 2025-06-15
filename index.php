@@ -37,12 +37,10 @@
 
           <div class="fluid-width-video-wrapper">
             <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
-            <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/8CwEMtqGv1g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <?php /*<iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/8CwEMtqGv1g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */ ?>
 
-            <?php /* Vimeo Live Stream (Recurring Event - Original one) */ ?>
-            <?php /* <iframe class="video-iframe" src="https://vimeo.com/event/812403/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> */ ?>
-            <?php /* Vimeo Live Stream (Recurring Event - New One for 9 AM Traditional Worship) */ ?>
-            <?php /*<iframe class="video-iframe" src="https://vimeo.com/event/1277638/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
+            <?php /* Vimeo Live Stream (Recurring Event - 10 AM Worship) */ ?>
+            <iframe class="video-iframe" src="https://vimeo.com/event/1277638/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
             <?php /* Vimeo Live Stream (Specific Video) */ ?>
             <?php /*<iframe class="video-iframe" src="https://player.vimeo.com/video/594210586" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
