@@ -22,11 +22,11 @@
 
             if ($now > $beginningOfNextMonth) {
               echo <<<HTML
-              <a href="./calendars/calendar-2025-06.pdf" target="_blank">June 2025 printer-friendly calendar</a>
+              <a href="./calendars/calendar-2025-07.pdf" target="_blank">July 2025 printer-friendly calendar</a>
 HTML;
             } else {
               echo <<<HTML
-              <a href="./calendars/calendar-2025-05.pdf" target="_blank">May 2025 printer-friendly calendar</a>
+              <a href="./calendars/calendar-2025-06.pdf" target="_blank">June 2025 printer-friendly calendar</a>
 HTML;
             }
           ?>
@@ -44,11 +44,11 @@ HTML;
         <?php
           if ($now > $beginningOfNextMonth) {
             echo <<<HTML
-            <img src="images/calendars/calendar-2025-06.jpg" alt="June 2025 Event Calendar" />
+            <img src="images/calendars/calendar-2025-07.jpg" alt="July 2025 Event Calendar" />
 HTML;
           } else {
             echo <<<HTML
-            <img src="images/calendars/calendar-2025-05.jpg" alt="May 2025 Event Calendar" />
+            <img src="images/calendars/calendar-2025-06.jpg" alt="June 2025 Event Calendar" />
 HTML;
           }
         ?>
