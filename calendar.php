@@ -16,19 +16,25 @@
         <h1 class="page-title">Event Calendar</h1>
         <p>
           <?php
+            $transitionDate = '2025-08-01'; // When adding next month's calendar, just update this
             $pacificTimeZone = new DateTimeZone('America/Los_Angeles');
             $now = new DateTime("now", $pacificTimeZone);
-            $beginningOfNextMonth = new DateTime('2025-06-01', $pacificTimeZone);
+            $beginningOfNextMonth = new DateTime($transitionDate, $pacificTimeZone);
+            $lastMonth = clone $beginningOfNextMonth;
+            $lastMonth->sub(new DateInterval('P1D'));
+            $monthNum = $lastMonth->format('m');
+            $monthName = $lastMonth->format('F');
+            $year = $lastMonth->format('Y');
 
             if ($now > $beginningOfNextMonth) {
-              echo <<<HTML
-              <a href="./calendars/calendar-2025-07.pdf" target="_blank">July 2025 printer-friendly calendar</a>
-HTML;
-            } else {
-              echo <<<HTML
-              <a href="./calendars/calendar-2025-06.pdf" target="_blank">June 2025 printer-friendly calendar</a>
-HTML;
+              $monthNum = $beginningOfNextMonth->format('m');
+              $monthName = $beginningOfNextMonth->format('F');
+              $year = $beginningOfNextMonth->format('Y');
             }
+
+            echo <<<HTML
+              <a href="./calendars/calendar-$year-$monthNum.pdf" target="_blank">$monthName $year printer-friendly calendar</a>
+HTML;
           ?>
         </p>
         <? /* Embedded calendar from Breeze ChMS seems to be blank; it has no events on it */?>
@@ -42,15 +48,10 @@ HTML;
         </iframe> */?>
         <? /* For now, just show an image of the PDF calendar */?>
         <?php
-          if ($now > $beginningOfNextMonth) {
+
             echo <<<HTML
-            <img src="images/calendars/calendar-2025-07.jpg" alt="July 2025 Event Calendar" />
+            <img src="images/calendars/calendar-$year-$monthNum.jpg" alt="$monthName $year Event Calendar" />
 HTML;
-          } else {
-            echo <<<HTML
-            <img src="images/calendars/calendar-2025-06.jpg" alt="June 2025 Event Calendar" />
-HTML;
-          }
         ?>
       </div>
     </div>
