@@ -48,7 +48,6 @@ HTML;
         </iframe> */?>
         <? /* For now, just show an image of the PDF calendar */?>
         <?php
-
             echo <<<HTML
             <img src="images/calendars/calendar-$year-$monthNum.jpg" alt="$monthName $year Event Calendar" />
 HTML;
