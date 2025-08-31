@@ -49,7 +49,9 @@ HTML;
         <? /* For now, just show an image of the PDF calendar */?>
         <?php
             echo <<<HTML
-            <img src="images/calendars/calendar-$year-$monthNum.jpg" alt="$monthName $year Event Calendar" />
+            <div class="calendar-image-container">
+              <img src="images/calendars/calendar-$year-$monthNum.jpg" alt="$monthName $year Event Calendar" />
+            </div>
 HTML;
         ?>
       </div>
@@ -59,6 +61,7 @@ HTML;
   </div>
 
   <?php require_once('./partials/footer-includes.phtml') ?>
+  <script type="text/javascript" src="./js/calendar.js"></script>
 </body>
 
 </html>

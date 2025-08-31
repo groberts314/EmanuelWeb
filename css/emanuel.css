@@ -621,6 +621,8 @@
   .page-header { background-position-x: 64%; }
   .map-container { overflow-x: auto; width: 100%; }
   .inner-page-content .col-xs-12 { margin-bottom: 11px; }
+  .calendar-image-container { overflow-x: auto; width: 100%; }
+  .calendar-image-container img { width: 600px; }
 }
 
 /* Style between 768 and 991 (wider tablets only, exclude mobile at low end and desktop at high end */
@@ -704,6 +706,10 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1259px) {
   .homepage-v2 .map-container {
+    overflow-x: auto;
+    width: 100%;
+  }
+  .calendar-image-container {
     overflow-x: auto;
     width: 100%;
   }
