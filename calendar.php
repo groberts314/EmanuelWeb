@@ -37,23 +37,30 @@
 HTML;
           ?>
         </p>
-        <? /* Embedded Google Calendar */?>
-        <?php
-        /*********************************************************************
-         * TODO: See if we can use a different calendar view at mobile
-         * viewport width to improve mobile UX.
-         * See:
-         * https://stackoverflow.com/questions/5925629/how-to-embed-mobile-version-of-google-calendar-into-mobile-website
-         *********************************************************************/
-        ?>
-        <iframe
-          src="https://calendar.google.com/calendar/embed?src=churchinfo150%40gmail.com&ctz=America%2FLos_Angeles"
-          style="border: 0"
-          width="100%"
-          height="600"
-          frameborder="0"
-          scrolling="no">
-        </iframe>
+        <? /* BEGIN: Embedded Google Calendar */?>
+        <? /* Mobile Version*/ ?>
+        <div class="google-container-container visible-xs-block">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=churchinfo150%40gmail.com&ctz=America%2FLos_Angeles&mode=AGENDA"
+            style="border: 0"
+            width="100%"
+            height="1000"
+            frameborder="0"
+            scrolling="no">
+          </iframe>
+        </div>
+        <? /* Wider (Regular) Version*/ ?>
+        <div class="google-container-container hidden-xs">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=churchinfo150%40gmail.com&ctz=America%2FLos_Angeles"
+            style="border: 0"
+            width="100%"
+            height="600"
+            frameborder="0"
+            scrolling="no">
+          </iframe>
+        </div>
+        <? /* END: Embedded Google Calendar */?>
         <? /* Embedded calendar from Breeze ChMS seems to be blank; it has no events on it */?>
         <?/* <iframe src="https://emanuellutheran.breezechms.com/embed/calendar/grid?size=medium&color=gray&calendars=srg9ErllnQBH%2BDD4NjLNQb4cUJHWej5sy5FLrtsbUc4x%2FLSC%2Fo4x2MFxxOZAJ4jli3mdvTLaVJQ5UvZ8ZI%2B31Q%3D%3D"
                 seamless="seamless"

@@ -396,6 +396,27 @@
     width: 100%;
   }
   /* END: Newsletter Archive Styles */
+
+  /* BEGIN: Calendar Page -- Google Calendar Embed (iframe) */
+  .google-container-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .google-container-container iframe,   
+  .google-container-container object,  
+  .google-container-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* END: Calendar Page -- Google Calendar Emed  (iframe) */
+
 /* END: Shared Style Rules for all Sizes */
 
 /* Max Width 419 (mobile and narrower tablets) */
@@ -472,6 +493,7 @@
   .inner-page-content h2.staff-title { margin: 0; }
   .inner-page-content h2.staff-title.top,
   .inner-page-content h2.section-title.top { margin-top: -11px; }
+  .google-container-container { height: 410px }
 }
 
 /* Style Rules for 768 and Up */
