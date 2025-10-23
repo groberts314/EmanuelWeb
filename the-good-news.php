@@ -36,8 +36,11 @@
     $newsletterMonth = $queryStringMonthAsString;
     $isLatestIssue = false; // TODO: We don't know this for sure
   } else { // Current Issue
-    // TODO: Make sure file for current issue exists
+    // TODO: Make sure file for current issue exists.  If not, go back to previous month.
+    // e.g. it's now November 2025, but Geoffrey has not gotten around to uploading November 2025 Newsletter yet; let's keep showing October 2025 one.
   }
+
+  $newsletterMonthYearFormatted = date_format($newsletterDate, 'F Y');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -54,15 +57,25 @@
 
     <div class="row main-content inner-page-content">
       <div class="col-xs-12">
-        <h1 class="page-title">&ldquo;The Good News&rdquo; &ndash; Emanuel&rsquo;s Monthly Newsletter &ndash; <?= date_format($newsletterDate, 'F Y') ?></h1>
+        <h1 class="page-title" style="margin-bottom: 0">&ldquo;The Good News&rdquo; &ndash; <span class="hidden-xs hidden-sm">Emanuel&rsquo;s Monthly Newsletter &ndash;</span> <?= $newsletterMonthYearFormatted ?></h1>
       </div>      
     </div>
-    <div class="row main-content inner-page-content">
+    <div class="row" style="margin-bottom: 11px">
+      <div class="col-xs-6 col-sm-4">
+        <a href="javascript;">&lt; Previous Month</a>
+      </div>
+      <div class="col-sm-4 hidden-xs">&nbsp;</div>
+      <div class="col-xs-6 col-sm-4 text-right">
+        <a href="javascript;" <?= $isLatestIssue ? 'disabled="disabled" class="text-muted" style="pointer-events: none;" aria-disabled="true"' : '' ?>>Next Month &gt;</a>
+      </div>
+    </div>
+    <div class="row hidden-md hidden-lg">
       <div class="col-xs-12">
-        <?php
-          //var_dump($queryStringDate);
-          /* TODO: Previous and Next Navgation Arrows */
-        ?>
+        <img
+          src='<?="/images/newsletter/newsletter-$newsletterYear-$newsletterMonth.jpg" ?>'
+          alt='<?="The Good News: $newsletterMonthYearFormatted"?>'
+          style="margin-bottom: 22px; width: 100%"
+        />
       </div>
     </div>
     <div class="row">
