@@ -42,6 +42,14 @@
     <div class="row main-content inner-page-content">
       <div class="col-xs-12">
         <h1 class="page-title">&ldquo;The Good News&rdquo; &ndash; Emanuel&rsquo;s Monthly Newsletter</h1>
+        <div class="jumbotron" style="display: flex; flex-direction: row">
+          <p style="flex: 1 1 100%;">
+            Current Issue<br />
+            October 2025</br />
+            Volume 68 Number 10
+          </p>
+          <img src="/images/newsletter/newsletter-2025-10.jpg" alt="The Good News: October 2025" />
+        </div>
         <div class="row">
           <div class="col-xs-4">
             <div class="panel panel-default">
