@@ -6,25 +6,38 @@
   // Include helper Functions
   require_once('./app-code/helper-functions.php');
 
-  // Default to Current Year
-  $currentYear = date('Y');
-  $currentMonth = date('m');
+  // Default to Current Month
+  $newsletterYear = date('Y');
+  $newsletterMonth = date('m');
+  $newsletterDateString = $newsletterYear . '-' . $newsletterMonth . '-01';
+  $newsletterDate = date_create($newsletterDateString);
+  $isLatestIssue = true;
   
-  // See if we have a year in the URL (rewrite in `.htaccess` puts it into the query string)
+  // See if we have a year and month in the URL (rewrite in `.htaccess` puts it into the query string)
   $queryStringYearAsString = get($_GET['year'], null);
-  $hasQueryStringYear = $queryStringYearAsString !== null;
-  $queryStringYear = $hasQueryStringYear ? (int)$queryStringYearAsString : NULL;
-    
-  // If the year is in the future, 404 Not Found
-  if ($hasQueryStringYear && $queryStringYear > $currentYear) {
-    http_response_code(404);
-    require_once('./404.php');
-    return;
-  }
+  $queryStringMonthAsString = get($_GET['month'], null);
+  $hasQueryStringDate = $queryStringYearAsString !== NULL && $queryStringMonthAsString !== NULL;
+  $queryStringDateString = NULL;
+  $queryStringDate = NULL;
 
-  // Determine if we're in the current year or a past year
-  $isPastYear = $hasQueryStringYear && $queryStringYear < $currentYear;
-  $isCurrentYear = !$isPastYear;
+  if ($hasQueryStringDate) {
+    $queryStringDateString = $queryStringYearAsString . '-' . $queryStringMonthAsString . '-01';
+    $queryStringDate = date_create($queryStringDateString);
+
+    // If the date is in the future, 404 Not Found
+    if ($queryStringDate > new DateTime()) {
+      http_response_code(404);
+      require_once('./404.php');
+      return;
+    }
+
+    $newsletterDate = $queryStringDate;
+    $newsletterYear = $queryStringYearAsString;
+    $newsletterMonth = $queryStringMonthAsString;
+    $isLatestIssue = false; // TODO: We don't know this for sure
+  } else { // Current Issue
+    // TODO: Make sure file for current issue exists
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,47 +54,20 @@
 
     <div class="row main-content inner-page-content">
       <div class="col-xs-12">
-        <h1 class="page-title">&ldquo;The Good News&rdquo; &ndash; Emanuel&rsquo;s Monthly Newsletter</h1>
-        <div class="jumbotron" style="display: flex; flex-direction: row">
-          <p style="flex: 1 1 100%;">
-            Current Issue<br />
-            October 2025</br />
-            Volume 68 Number 10
-          </p>
-          <img src="/images/newsletter/newsletter-2025-10.jpg" alt="The Good News: October 2025" />
-        </div>
-        <div class="row">
-          <div class="col-xs-4">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">Panel title</h3>
-              </div>
-              <div class="panel-body">
-                Panel content
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">Panel title</h3>
-              </div>
-              <div class="panel-body">
-                Panel content
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">Panel title</h3>
-              </div>
-              <div class="panel-body">
-                Panel content
-              </div>
-            </div>
-          </div>
-        </div>
+        <h1 class="page-title">&ldquo;The Good News&rdquo; &ndash; Emanuel&rsquo;s Monthly Newsletter &ndash; <?= date_format($newsletterDate, 'F Y') ?></h1>
+      </div>      
+    </div>
+    <div class="row main-content inner-page-content">
+      <div class="col-xs-12">
+        <?php
+          //var_dump($queryStringDate);
+          /* TODO: Previous and Next Navgation Arrows */
+        ?>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <iframe src='<?="/newsletters/newsletter-$newsletterYear-$newsletterMonth.pdf"?>' width="100%" height="600px"></iframe>
       </div>
     </div>
 
