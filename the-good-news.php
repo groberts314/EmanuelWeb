@@ -6,11 +6,19 @@
   // Include helper Functions
   require_once('./app-code/helper-functions.php');
 
-  // Default to Current Month
-  $newsletterYear = date('Y');
-  $newsletterMonth = date('m');
-  $newsletterDateString = $newsletterYear . '-' . $newsletterMonth . '-01';
-  $newsletterDate = date_create($newsletterDateString);
+  // Latest Issue Date
+  // TODO: Change these values when uploading new PDF file and thumbnail each month -- should be only change required!
+  $latestIssueYear = '2025'; 
+  $latestIssueMonth = '10';
+  // END: Only Values that need to be changed when uploading new newsletter for the monthly update
+
+  $latestIssueDateString = $latestIssueYear . '-' . $latestIssueMonth . '-01';
+  $latestIssueDate = DateTimeImmutable::createfromMutable(date_create($latestIssueDateString));
+
+  // Default to Latest Issue
+  $newsletterYear = $latestIssueYear;
+  $newsletterMonth = $latestIssueMonth;
+  $newsletterDate = clone $latestIssueDate;
   $isLatestIssue = true;
   
   // See if we have a year and month in the URL (rewrite in `.htaccess` puts it into the query string)
@@ -22,25 +30,29 @@
 
   if ($hasQueryStringDate) {
     $queryStringDateString = $queryStringYearAsString . '-' . $queryStringMonthAsString . '-01';
-    $queryStringDate = date_create($queryStringDateString);
+    $queryStringDate = DateTimeImmutable::createfromMutable(date_create($queryStringDateString));
 
     // If the date is in the future, 404 Not Found
-    if ($queryStringDate > new DateTime()) {
+    if ($queryStringDate > $newsletterDate) {
       http_response_code(404);
       require_once('./404.php');
       return;
     }
 
-    $newsletterDate = $queryStringDate;
+    $newsletterDate = clone $queryStringDate;
     $newsletterYear = $queryStringYearAsString;
     $newsletterMonth = $queryStringMonthAsString;
-    $isLatestIssue = false; // TODO: We don't know this for sure
-  } else { // Current Issue
-    // TODO: Make sure file for current issue exists.  If not, go back to previous month.
-    // e.g. it's now November 2025, but Geoffrey has not gotten around to uploading November 2025 Newsletter yet; let's keep showing October 2025 one.
+    $isLatestIssue = $newsletterDate == $latestIssueDate;
   }
 
   $newsletterMonthYearFormatted = date_format($newsletterDate, 'F Y');
+  $oneMonth = date_interval_create_from_date_string('1 month');
+  $nextIssue = $newsletterDate->add($oneMonth);
+  $nextIssueYear = $nextIssue->format('Y');
+  $nextIssueMonth = $nextIssue->format('m');
+  $prevIssue = $newsletterDate->sub($oneMonth);
+  $prevIssueYear = $prevIssue->format('Y');
+  $prevIssueMonth = $prevIssue->format('m');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -62,11 +74,25 @@
     </div>
     <div class="row" style="margin-bottom: 11px">
       <div class="col-xs-6 col-sm-4">
-        <a href="javascript;">&lt; Previous Month</a>
+        <a href='<?="/the-good-news/$prevIssueYear/$prevIssueMonth" ?>'>&lt; Previous Month</a>
       </div>
       <div class="col-sm-4 hidden-xs">&nbsp;</div>
       <div class="col-xs-6 col-sm-4 text-right">
-        <a href="javascript;" <?= $isLatestIssue ? 'disabled="disabled" class="text-muted" style="pointer-events: none;" aria-disabled="true"' : '' ?>>Next Month &gt;</a>
+        <?php
+          if ($isLatestIssue) {
+            echo <<<HTML
+            <a href="javascript:;" disabled="disabled" class="text-muted" style="pointer-events: none;" aria-disabled="true">Next Month &gt;<a>
+HTML;
+          } else if ($nextIssue == $latestIssueDate) {
+            echo <<<HTML
+            <a href="/the-good-news">Next Month &gt;<a>
+HTML;
+          } else {
+            echo <<<HTML
+            <a href="/the-good-news/$nextIssueYear/$nextIssueMonth">Next Month &gt;<a>
+HTML;
+          }
+        ?>
       </div>
     </div>
     <div class="row hidden-md hidden-lg">
