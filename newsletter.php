@@ -1,3 +1,59 @@
+<?php
+  // Turn on Error reporting
+  error_reporting(E_ALL);
+  ini_set('display_errors', 1);
+
+  // Include helper Functions
+  require_once('./app-code/helper-functions.php');
+
+  // Latest Issue Date
+  // TODO: Change these values when uploading new PDF file and thumbnail each month -- should be only change required!
+  $latestIssueYear = '2025'; 
+  $latestIssueMonth = '10';
+  // END: Only Values that need to be changed when uploading new newsletter for the monthly update
+
+  $latestIssueDateString = $latestIssueYear . '-' . $latestIssueMonth . '-01';
+  $latestIssueDate = DateTimeImmutable::createfromMutable(date_create($latestIssueDateString));
+
+  // Default to Latest Issue
+  $newsletterYear = $latestIssueYear;
+  $newsletterMonth = $latestIssueMonth;
+  $newsletterDate = clone $latestIssueDate;
+  $isLatestIssue = true;
+  
+  // See if we have a year and month in the URL (rewrite in `.htaccess` puts it into the query string)
+  $queryStringYearAsString = get($_GET['year'], null);
+  $queryStringMonthAsString = get($_GET['month'], null);
+  $hasQueryStringDate = $queryStringYearAsString !== NULL && $queryStringMonthAsString !== NULL;
+  $queryStringDateString = NULL;
+  $queryStringDate = NULL;
+
+  if ($hasQueryStringDate) {
+    $queryStringDateString = $queryStringYearAsString . '-' . $queryStringMonthAsString . '-01';
+    $queryStringDate = DateTimeImmutable::createfromMutable(date_create($queryStringDateString));
+
+    // If the date is in the future, 404 Not Found
+    if ($queryStringDate > $newsletterDate) {
+      http_response_code(404);
+      require_once('./404.php');
+      return;
+    }
+
+    $newsletterDate = clone $queryStringDate;
+    $newsletterYear = $queryStringYearAsString;
+    $newsletterMonth = $queryStringMonthAsString;
+    $isLatestIssue = $newsletterDate == $latestIssueDate;
+  }
+
+  $newsletterMonthYearFormatted = date_format($newsletterDate, 'F Y');
+  $oneMonth = date_interval_create_from_date_string('1 month');
+  $nextIssue = $newsletterDate->add($oneMonth);
+  $nextIssueYear = $nextIssue->format('Y');
+  $nextIssueMonth = $nextIssue->format('m');
+  $prevIssue = $newsletterDate->sub($oneMonth);
+  $prevIssueYear = $prevIssue->format('Y');
+  $prevIssueMonth = $prevIssue->format('m');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,475 +68,45 @@
     <?php require_once('./partials/masthead-top-nav.phtml') ?>
 
     <div class="row main-content inner-page-content">
-      <div class="col-xs-12 col-md-8">
-        <h1 class="page-title">&ldquo;The Good News&rdquo; &ndash; Emanuel&rsquo;s Monthly Newsletter</h1>
-        <div class="newsletter-container">
-          <div class="newsletter-issue-list">
-            <h2 class="section-title no-top-margin">Current Issue</h2>
-            <p>
-              <a href="../newsletters/newsletter-2025-10.pdf" target="_blank">October 2025</a>
-            </p>
-          </div>
-          <div class="newsletter-current-issue-thumbnail-mobile hidden-md hidden-lg">
-            <img src="images/newsletter/newsletter-2025-10.jpg" alt="The Good News: October 2025" />
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-4 photo-right no-btm-margin hidden-xs hidden-sm">
-        <img src="images/newsletter/newsletter-2025-10.jpg" alt="The Good News: October 2025" />
-      </div>
       <div class="col-xs-12">
-        <div class="newsletter-additional-issues-list">
-          <div class="panel-group" id="newsletter-archive-accordion" role="tablist" aria-multiselectable="true">
-            <!-- 2025 -->
-            <div class="panel panel-default" id="newsletter-archive-panel-2025">
-              <div class="panel-heading" role="tab" id="heading-2025">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2025" aria-expanded="true" aria-controls="collapse-2025">
-                    2025
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-2025" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-2025">
-                <div class="panel-body">
-                  <div class="newsletter-year-issue-list">
-                    <ul class="list-group">
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-09.jpg" data-target="#thumbnail-2025">
-                        <a href="../newsletters/newsletter-2025-09.pdf" target="_blank">September 2025</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-08.jpg" data-target="#thumbnail-2025">
-                        <a href="../newsletters/newsletter-2025-08.pdf" target="_blank">August 2025</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-07.jpg" data-target="#thumbnail-2025">
-                        <a href="../newsletters/newsletter-2025-07.pdf" target="_blank">July 2025</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-06.jpg" data-target="#thumbnail-2025">
-                        <a href="../newsletters/newsletter-2025-06.pdf" target="_blank">June 2025</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-05.jpg" data-target="#thumbnail-2025">
-                        <a href="../newsletters/newsletter-2025-05.pdf" target="_blank">May 2025</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-04.jpg" data-target="#thumbnail-2025">
-                        <a href="../newsletters/newsletter-2025-04.pdf" target="_blank">April 2025</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-03.jpg" data-target="#thumbnail-2025">
-                        <a href="../newsletters/newsletter-2025-03.pdf" target="_blank">March 2025</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-02.jpg" data-target="#thumbnail-2025">
-                        <a href="../newsletters/newsletter-2025-02.pdf" target="_blank">February 2025</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2025-01.jpg" data-target="#thumbnail-2025">
-                        <a href="../newsletters/newsletter-2025-01.pdf" target="_blank">January 2025</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2025" src="images/newsletter/newsletter-2025-09.jpg" alt="The Good News: 2025" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 2024 -->
-            <div class="panel panel-default" id="newsletter-archive-panel-2024">
-              <div class="panel-heading" role="tab" id="heading-2024">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2024" aria-expanded="false" aria-controls="collapse-2024">
-                    2024
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-2024" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2024">
-                <div class="panel-body">
-                  <div class="newsletter-year-issue-list">
-                    <ul class="list-group">
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-12.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-12.pdf" target="_blank">December 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-11.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-11.pdf" target="_blank">November 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-10.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-10.pdf" target="_blank">October 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-09.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-09.pdf" target="_blank">September 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-08.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-08.pdf" target="_blank">August 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-07.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-07.pdf" target="_blank">July 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-06.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-06.pdf" target="_blank">June 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-05.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-05.pdf" target="_blank">May 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-04.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-04.pdf" target="_blank">April 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-03.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-03.pdf" target="_blank">March 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-02.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-02.pdf" target="_blank">February 2024</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2024-01.jpg" data-target="#thumbnail-2024">
-                        <a href="../newsletters/newsletter-2024-01.pdf" target="_blank">January 2024</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2024" src="images/newsletter/newsletter-2024-12.jpg" alt="The Good News: 2024" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 2023 -->
-            <div class="panel panel-default" id="newsletter-archive-panel-2023">
-              <div class="panel-heading" role="tab" id="heading-2023">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2023" aria-expanded="false" aria-controls="collapse-2023">
-                    2023
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-2023" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2023">
-                <div class="panel-body">
-                  <div class="newsletter-year-issue-list">
-                    <ul class="list-group">
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-12.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-12.pdf" target="_blank">December 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-11.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-11.pdf" target="_blank">November 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-10.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-10.pdf" target="_blank">October 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-09.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-09.pdf" target="_blank">September 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-08.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-08.pdf" target="_blank">August 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-07.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-07.pdf" target="_blank">July 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-06.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-06.pdf" target="_blank">June 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-05.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-05.pdf" target="_blank">May 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-04.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-04.pdf" target="_blank">April 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-03.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-03.pdf" target="_blank">March 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-02.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-02.pdf" target="_blank">February 2023</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2023-01.jpg" data-target="#thumbnail-2023">
-                        <a href="../newsletters/newsletter-2023-01.pdf" target="_blank">January 2023</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2023" src="images/newsletter/newsletter-2023-12.jpg" alt="The Good News: 2023" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 2022 -->
-            <div class="panel panel-default" id="newsletter-archive-panel-2022">
-              <div class="panel-heading" role="tab" id="heading-2022">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2022" aria-expanded="false" aria-controls="collapse-2022">
-                    2022
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-2022" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2022">
-                <div class="panel-body">
-                  <div class="newsletter-year-issue-list">
-                    <ul class="list-group">
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-12.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-12.pdf" target="_blank">December 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-11.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-11.pdf" target="_blank">November 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-10.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-10.pdf" target="_blank">October 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-09.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-09.pdf" target="_blank">September 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-08.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-08.pdf" target="_blank">August 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-07.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-07.pdf" target="_blank">July 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-06.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-06.pdf" target="_blank">June 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-05.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-05.pdf" target="_blank">May 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-04.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-04.pdf" target="_blank">April 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-03.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-03.pdf" target="_blank">March 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-02.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-02.pdf" target="_blank">February 2022</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2022-01.jpg" data-target="#thumbnail-2022">
-                        <a href="../newsletters/newsletter-2022-01.pdf" target="_blank">January 2022</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2022" src="images/newsletter/newsletter-2022-12.jpg" alt="The Good News: 2022" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 2021 -->
-            <div class="panel panel-default" id="newsletter-archive-panel-2021">
-              <div class="panel-heading" role="tab" id="heading-2021">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2021" aria-expanded="false" aria-controls="collapse-2021">
-                    2021
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-2021" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2021">
-                <div class="panel-body">
-                  <div class="newsletter-year-issue-list">
-                    <ul class="list-group">
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-12.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-12.pdf" target="_blank">December 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-11.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-11.pdf" target="_blank">November 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-10.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-10.pdf" target="_blank">October 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-09.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-09.pdf" target="_blank">September 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-08.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-08.pdf" target="_blank">August 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-07.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-07.pdf" target="_blank">July 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-06.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-06.pdf" target="_blank">June 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-05.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-05.pdf" target="_blank">May 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-04.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-04.pdf" target="_blank">April 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-03.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-03.pdf" target="_blank">March 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-02.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-02.pdf" target="_blank">February 2021</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2021-01.jpg" data-target="#thumbnail-2021">
-                        <a href="../newsletters/newsletter-2021-01.pdf" target="_blank">January 2021</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2021" src="images/newsletter/newsletter-2021-12.jpg" alt="The Good News: 2021" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 2020 -->
-            <div class="panel panel-default" id="newsletter-archive-panel-2020">
-              <div class="panel-heading" role="tab" id="heading-2020">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2020" aria-expanded="false" aria-controls="collapse-2020">
-                    2020
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-2020" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2020">
-                <div class="panel-body">
-                  <div class="newsletter-year-issue-list">
-                    <ul class="list-group">
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-12.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-12.pdf" target="_blank">December 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-11.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-11.pdf" target="_blank">November 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-10.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-10.pdf" target="_blank">October 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-09.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-09.pdf" target="_blank">September 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-08.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-08.pdf" target="_blank">August 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-07.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-07.pdf" target="_blank">July 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-06.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-06.pdf" target="_blank">June 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-05.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-05.pdf" target="_blank">May 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-04.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-04.pdf" target="_blank">April 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-03.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-03.pdf" target="_blank">March 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-02.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-02.pdf" target="_blank">February 2020</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2020-01.jpg" data-target="#thumbnail-2020">
-                        <a href="../newsletters/newsletter-2020-01.pdf" target="_blank">January 2020</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2020" src="images/newsletter/newsletter-2020-12.jpg" alt="The Good News: 2020" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 2019 -->
-            <div class="panel panel-default" id="newsletter-archive-panel-2019">
-              <div class="panel-heading" role="tab" id="heading-2019">
-                <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2019" aria-expanded="false" aria-controls="collapse-2019">
-                    2019
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-2019" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2019">
-                <div class="panel-body">
-                  <div class="newsletter-year-issue-list">
-                    <ul class="list-group">
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-12.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-12.pdf" target="_blank">December 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-11.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-11.pdf" target="_blank">November 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-10.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-10.pdf" target="_blank">October 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-09.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-09.pdf" target="_blank">September 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-08.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-08.pdf" target="_blank">August 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-07.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-07.pdf" target="_blank">July 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-06.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-06.pdf" target="_blank">June 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-05.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-05.pdf" target="_blank">May 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-04.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-04.pdf" target="_blank">April 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-03.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-03.pdf" target="_blank">March 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-02.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-02.pdf" target="_blank">February 2019</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2019-01.jpg" data-target="#thumbnail-2019">
-                        <a href="../newsletters/newsletter-2019-01.pdf" target="_blank">January 2019</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2019" src="images/newsletter/newsletter-2019-12.jpg" alt="The Good News: 2019" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 2018 -->
-            <div class="panel panel-default" id="newsletter-archive-panel-2018">
-              <div class="panel-heading" role="tab" id="heading-2018">
-                <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#newsletter-archive-accordion" href="#collapse-2018" aria-expanded="false" aria-controls="collapse-2018">
-                    2018
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-2018" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2018">
-                <div class="panel-body">
-                  <div class="newsletter-year-issue-list">
-                    <ul class="list-group">
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-12.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-12.pdf" target="_blank">December 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-11.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-11.pdf" target="_blank">November 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-10.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-10.pdf" target="_blank">October 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-09.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-09.pdf" target="_blank">September 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-08.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-08.pdf" target="_blank">August 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-07.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-07.pdf" target="_blank">July 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-06.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-06.pdf" target="_blank">June 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-05.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-05.pdf" target="_blank">May 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-04.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-04.pdf" target="_blank">April 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-03.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-03.pdf" target="_blank">March 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-02.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-02.pdf" target="_blank">February 2018</a>
-                      </li>
-                      <li class="list-group-item" data-thumbnail="images/newsletter/newsletter-2018-01.jpg" data-target="#thumbnail-2018">
-                        <a href="../newsletters/newsletter-2018-01.pdf" target="_blank">January 2018</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="newsletter-year-issue-thumbnail">
-                    <img id="thumbnail-2018" src="images/newsletter/newsletter-2018-12.jpg" alt="The Good News: 2018" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h1 class="page-title" style="margin-bottom: 0">&ldquo;The Good News&rdquo; &ndash; <span class="hidden-xs hidden-sm">Emanuel&rsquo;s Monthly Newsletter &ndash;</span> <?= $newsletterMonthYearFormatted ?></h1>
+      </div>      
+    </div>
+    <div class="row" style="margin-bottom: 11px">
+      <div class="col-xs-6 col-sm-4">
+        <a href='<?="/newsletter/$prevIssueYear/$prevIssueMonth" ?>'>&lt; Previous Month</a>
+      </div>
+      <div class="col-sm-4 hidden-xs">&nbsp;</div>
+      <div class="col-xs-6 col-sm-4 text-right">
+        <?php
+          if ($isLatestIssue) {
+            echo <<<HTML
+            <a href="javascript:;" disabled="disabled" class="text-muted" style="pointer-events: none;" aria-disabled="true">Next Month &gt;<a>
+HTML;
+          } else if ($nextIssue == $latestIssueDate) {
+            echo <<<HTML
+            <a href="/newsletter">Next Month &gt;<a>
+HTML;
+          } else {
+            echo <<<HTML
+            <a href="/newsletter/$nextIssueYear/$nextIssueMonth">Next Month &gt;<a>
+HTML;
+          }
+        ?>
+      </div>
+    </div>
+    <div class="row hidden-md hidden-lg">
+      <div class="col-xs-12">
+        <img
+          src='<?="/images/newsletter/newsletter-$newsletterYear-$newsletterMonth.jpg" ?>'
+          alt='<?="The Good News: $newsletterMonthYearFormatted"?>'
+          style="margin-bottom: 22px; width: 100%"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <iframe src='<?="/newsletters/newsletter-$newsletterYear-$newsletterMonth.pdf"?>' width="100%" height="600px"></iframe>
       </div>
     </div>
 
@@ -488,18 +114,6 @@
   </div>
 
   <?php require_once('./partials/footer-includes.phtml') ?>
-  <script type="text/javascript">
-    (function($) {
-      $(function() {
-        $('.list-group-item').hover(function() {
-          var $this = $(this);
-          var thumbnail = $this.data('thumbnail');
-          var target = $this.data('target');
-          $(target).attr('src', thumbnail);
-        });
-      });
-    })(jQuery)
-  </script>
 </body>
 
 </html>
