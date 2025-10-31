@@ -9,7 +9,7 @@
   // Latest Issue Date
   // TODO: Change these values when uploading new PDF file and thumbnail each month -- should be only change required!
   $latestIssueYear = '2025'; 
-  $latestIssueMonth = '10';
+  $latestIssueMonth = '11';
   // END: Only Values that need to be changed when uploading new newsletter for the monthly update
 
   $latestIssueDateString = $latestIssueYear . '-' . $latestIssueMonth . '-01';
