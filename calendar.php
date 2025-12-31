@@ -16,7 +16,7 @@
         <h1 class="page-title">Event Calendar</h1>
         <p>
           <?php
-            $transitionDate = '2025-12-01'; // When adding next month's calendar, just update this
+            $transitionDate = '2026-01-01'; // When adding next month's calendar, just update this
             $pacificTimeZone = new DateTimeZone('America/Los_Angeles');
             $now = new DateTime("now", $pacificTimeZone);
             $beginningOfNextMonth = new DateTime($transitionDate, $pacificTimeZone);
