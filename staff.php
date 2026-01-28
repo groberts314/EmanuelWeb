@@ -20,34 +20,27 @@
     <div class="row main-content inner-page-content">
       <div class="col-xs-12 col-sm-8 col-md-4">
         <h2 class="staff-title">
-          Pastor Dennis Laherty
+          Pastoral Intern Amanda Pulos
         </h2>
         <p>
-          Pastor Dennis Laherty was Called as Pastor of Emanuel Lutheran Church for a second time in 2023.
-          His first time serving Emanuel began in 2005 and ended in 2018 with his retirement. After serving for
-          two years on the Pacifica Synod staff and actually retiring for two years, the Spirit Called him to
-          come back to Emanuel, as did the congregation.
+          Pastoral Intern Amanda Pulos has had a long journey into ministry. She first felt called to be a pastor in
+          high school, but chose to respond to that call in many different ways before beginning her seminary journey.
+          Amanda was born and raised in Orange County, California, where she owned and operated three small businesses
+          and served as Director of Youth and Children&rsquo;s Ministry at King of Glory Lutheran Church in Fountain Valley.
         </p>
         <p>
-          Pastor Laherty is a graduate of Christ Seminary/Seminex in Chicago. Following his Ordination he served
-          congregations in Los Angeles, California, South Bend, Indiana as well as rural southern Indiana and
-          Garden Grove, California. During his tenure at Emanuel, he has worked with a Co-Pastor as well as several
-          seminary interns from Luther Seminary in St. Paul, Minnesota.
+          She served Emanuel as Assistant Minister to Pastor Dennis Laherty for ten months prior to his retirement. Now, as
+          she serves Emanuel as Pastoral Intern, Amanda&rsquo;s heart is filled with excitement to see where the Holy Spirit
+          will lead both her and the congregation. She has a deep passion for lifting up people from all walks of life and all
+          ages, and she believes that every human being is created in the image of God.
         </p>
         <p>
-          Pastor Laherty served for 20 years in the U.S. Navy as a Chaplain. Currently, in addition to serving Emanuel,
-          he is also a member of the La Habra Heights City Council. He believes that the church is a significant part of
-          the Kingdom of God and that the Bible is not only a God-given guidebook for life but leads individuals to
-          forgiveness and redemption through Jesus Christ. Pastor Laherty preaches only sermons based on Biblical texts.
-          He also firmly believes that life in Christ is strengthened by the frequent reception of Holy Communion.
-        </p>
-        <p>
-          Pastor Laherty is married and has four adult children who live in four different parts of the country: Fresno CA,
-          Dallas TX, Bloomington IN and Charlotte, NC.
+          Amanda would love to get a cup of coffee or tea and spend time getting to know you&mdash;please feel free to reach out
+          and chat anytime.
         </p>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-2 staff-photo photo-right">
-        <img src="images/staff/dennis-laherty.jpg" alt="Pastor Dennis Laherty" />
+        <img src="images/staff/pastoral-intern-amanda-pulos.jpg" alt="Pastoral Internal Amanda Pulos" />
       </div>
 
       <div class="col-xs-12 col-sm-8 col-md-4">
