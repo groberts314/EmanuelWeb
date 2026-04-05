@@ -47,7 +47,7 @@ HTML
     <strong>
       Worship Service<br />
       Easter Sunday<br />
-      <em>He is Risen Indeed!  Allelujah!</em>
+      <em>He is Risen Indeed!  Alleluia!</em>
     </strong>
   </div>
   <div class="event-time">
