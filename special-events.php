@@ -17,7 +17,9 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="fluid-width-video-wrapper">
-              <iframe class="video-iframe" src="https://vimeo.com/event/1721381/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+              <?php /*<iframe class="video-iframe" src="https://vimeo.com/event/1721381/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
+              <?php /* TEMP: Revert to specific YouTube video for The April 19, 2026 Praise Symphony Orchestra concert while we sort out the Vimeo issue */ ?>
+              <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/19Rv9GfYGIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
