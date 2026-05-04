@@ -38,13 +38,13 @@
         $json = json_encode($xml);
         $youtube = json_decode($json, true);
         
-        foreach ($youtube['entry'] as $k => $v) { // get the latest video id that's not the live stream and is a worship video (e.g. not a special event like the Praise Symphany Orchestra concert)
+        foreach ($youtube['entry'] as $k => $v) { // get the latest video id that's a worship video (e.g. not a special event like the Praise Symphany Orchestra concert)
             $link = $v['link']['@attributes']['href'];
             $pos = strrpos($link, '=');
             $id = substr($link, $pos + 1, strlen($link) - $pos);
             $title = $v['title'];
 
-            if ($id != $liveStreamVideoId && strpos(strtolower($title), 'worship') !== false) {
+            if (/*$id != $liveStreamVideoId &&*/ strpos(strtolower($title), 'worship') !== false) {
                 break;
             }
         }
