@@ -11,12 +11,15 @@
     // Web scraping to check if we are LIVE on YouTube
     $contents = file_get_contents('https://www.youtube.com/channel/' . $channel_id);
 
-    $searchfor = '{"text":" watching"}';
-    $pattern = preg_quote($searchfor, '/');
-    $pattern = "/^.*$pattern.*\$/m";
-    if (preg_match_all($pattern, $contents, $matches)) {
+    // YouTube channel page no longer emits `{"text":" watching"}`. The live
+    // viewer count is now nested as `"text":{"content":"N watching"}` inside
+    // a metadataParts block on the live video's card. Match the literal
+    // ` watching"}` tail — it appears only when a card is currently live.
+    $searchfor = ' watching"}';
+    $pattern = '/"text":\{"content":"\d+' . preg_quote($searchfor, '/') . '/';
+    if (preg_match($pattern, $contents, $matches, PREG_OFFSET_CAPTURE)) {
       //truncate $contents so that the match can be found easily.
-      $contents = substr($contents, strpos($contents, $searchfor));  
+      $contents = substr($contents, $matches[0][1]);
 
       // If the video is LIVE or Premiering, fetch the video id.
       $search_video_id = '{"url":"/watch?v=';
