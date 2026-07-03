@@ -1,7 +1,7 @@
  <?php
   return array(
     0 => array(
-      'date' => '2026-06-06',
+      'date' => '2026-07-04',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -14,7 +14,7 @@
 HTML
     ),
     1 => array(
-      'date' => '2026-06-07',
+      'date' => '2026-07-05',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -37,7 +37,7 @@ HTML
 HTML
     ),
     2 => array(
-      'date' => '2026-06-14',
+      'date' => '2026-07-12',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -60,7 +60,7 @@ HTML
 HTML
     ),
     3 => array(
-      'date' => '2026-06-21',
+      'date' => '2026-07-19',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -83,20 +83,7 @@ HTML
 HTML
     ),
     4 => array(
-      'date' => '2026-06-22',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>Joy Circle Women&rsquo;s Bible Study</strong>
-  </div>
-  <div class="event-time">
-    9:30 AM
-  </div>
-</div>
-HTML
-    ),
-    5 => array(
-      'date' => '2026-06-26',
+      'date' => '2026-07-24',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -108,8 +95,8 @@ HTML
 </div>
 HTML
     ),
-    6 => array(
-      'date' => '2026-06-28',
+    5 => array(
+      'date' => '2026-07-26',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -131,8 +118,8 @@ HTML
 </div>
 HTML
     ),
-    7 => array(
-      'date' => '2026-07-04',
+    6 => array(
+      'date' => '2026-08-01',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -144,8 +131,8 @@ HTML
 </div>
 HTML
     ),
-    8 => array(
-      'date' => '2026-07-05',
+    7 => array(
+      'date' => '2026-08-02',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
