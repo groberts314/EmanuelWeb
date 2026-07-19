@@ -37,7 +37,7 @@
 
           <div class="fluid-width-video-wrapper">
             <?php /* Worship Video embedded from YouTube in "fluid width" container */ ?>
-            <iframe id="youtube-iframe" class="video-iframe" src="https://www.youtube-nocookie.com/embed/Ot3OpRuYTLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="youtube-iframe" class="video-iframe" src="https://www.youtube-nocookie.com/embed/eFGXjgaooak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <?php /* Vimeo Live Stream (Recurring Event - 10 AM Worship) */ ?>
             <?php /*<iframe class="video-iframe" src="https://vimeo.com/event/1277638/embed" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>*/ ?>
