@@ -1,43 +1,45 @@
  <?php
   return array(
     0 => array(
-      'date' => '2026-08-01',
+      'date' => '2026-09-13',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>Men&rsquo;s Breakfast</strong>
+    <strong>
+      Worship Service
+    </strong>
   </div>
   <div class="event-time">
-    8 AM
+    10 AM
   </div>
 </div>
 <div class="event-detail">
   <div class="event-description">
-    <strong>Vacation Bible School (VBS)</strong>
+    <strong>
+      Sunday School
+    </strong>
   </div>
   <div class="event-time">
-    9 AM
+    11 AM
   </div>
 </div>
 HTML
     ),
     1 => array(
-      'date' => '2026-08-02',
+      'date' => '2026-09-14',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>
-      Worship Service
-    </strong>
+    <strong>Red Cross Blood Drive</strong>
   </div>
   <div class="event-time">
-    10 AM
+    12 PM
   </div>
 </div>
 HTML
     ),
     2 => array(
-      'date' => '2026-08-09',
+      'date' => '2026-09-20',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -47,42 +49,35 @@ HTML
   </div>
   <div class="event-time">
     10 AM
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <strong>
+      Sunday School
+    </strong>
+  </div>
+  <div class="event-time">
+    11 AM
   </div>
 </div>
 HTML
     ),
     3 => array(
-      'date' => '2026-08-16',
+      'date' => '2026-09-21',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
-    <strong>
-      Worship Service
-    </strong>
+    <strong>Joy Circle Women&rsquo;s Bible Study</strong>
   </div>
   <div class="event-time">
-    10 AM
+    9:30 AM
   </div>
 </div>
 HTML
     ),
     4 => array(
-      'date' => '2026-08-23',
-      'content' => <<<HTML
-<div class="event-detail">
-  <div class="event-description">
-    <strong>
-      Worship Service
-    </strong>
-  </div>
-  <div class="event-time">
-    10 AM
-  </div>
-</div>
-HTML
-    ),
-    5 => array(
-      'date' => '2026-08-28',
+      'date' => '2026-09-25',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -94,8 +89,8 @@ HTML
 </div>
 HTML
     ),
-    6 => array(
-      'date' => '2026-08-30',
+    5 => array(
+      'date' => '2026-09-27',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -107,10 +102,20 @@ HTML
     10 AM
   </div>
 </div>
+<div class="event-detail">
+  <div class="event-description">
+    <strong>
+      Sunday School
+    </strong>
+  </div>
+  <div class="event-time">
+    11 AM
+  </div>
+</div>
 HTML
     ),
-    7 => array(
-      'date' => '2026-09-05',
+    6 => array(
+      'date' => '2026-10-03',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
@@ -122,17 +127,28 @@ HTML
 </div>
 HTML      
     ),
-    8 => array(
-      'date' => '2026-09-06',
+    7 => array(
+      'date' => '2026-10-04',
       'content' => <<<HTML
 <div class="event-detail">
   <div class="event-description">
     <strong>
-      Worship Service
+      Worship Service<br />
+      Blessing of the Animals
     </strong>
   </div>
   <div class="event-time">
     10 AM
+  </div>
+</div>
+<div class="event-detail">
+  <div class="event-description">
+    <strong>
+      Sunday School
+    </strong>
+  </div>
+  <div class="event-time">
+    11 AM
   </div>
 </div>
 HTML
