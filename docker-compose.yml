@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  # ⛪ Service 1: Your Custom PHP App for elclh.org
+  web:
+    container_name: elclh-local
+    image: php:8.1-apache
+    ports:
+      - "9080:80"
+    volumes:
+      - .:/var/www/html
+    # 🔗 This line forces Apache to auto-enable your friendly URL module on every boot!
+    command: bash -c "a2enmod rewrite && sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf && apache2-foreground"
+    restart: always
+
+  # 🗄️ Service 2: Local MySQL Database Server
+  db:
+    container_name: elclh-db
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: church_root_pass
+      MYSQL_DATABASE: elclh_wordpress
+      MYSQL_USER: elclh_admin
+      MYSQL_PASSWORD: church_user_pass
+    volumes:
+      - db_data:/var/lib/mysql
+
+  # 📰 Service 3: Local WordPress Core (Ready for practicing)
+  wordpress:
+    container_name: elclh-wp
+    image: wordpress:latest
+    ports:
+      - "9090:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: elclh_admin
+      WORDPRESS_DB_PASSWORD: church_user_pass
+      WORDPRESS_DB_NAME: elclh_wordpress
+    volumes:
+      - wp_data:/var/www/html
+
+volumes:
+  db_data:
+  wp_data:
