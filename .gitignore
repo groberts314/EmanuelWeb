@@ -19,3 +19,6 @@ wp-*.php
 
 # Database Configuration
 app-code/db-config.php
+
+# Python
+__pycache__/
