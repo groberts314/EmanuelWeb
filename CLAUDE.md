@@ -47,7 +47,7 @@ Used pervasively by partials — most partials `require_once` this themselves:
 - `date_sort_descending(&$array, $dateKey = 'dateTime')` — in-place sort.
 - `is_date_in_range(...)`.
 
-`app-code/sanitization.php` provides a `sanitize($inputs, $fields)` wrapper around `filter_var_array` — not currently `require_once`-d from any page in the repo (form-handling code lives elsewhere or hasn't shipped yet).
+`app-code/sanitization.php` provides a `sanitize($inputs, $fields)` wrapper around `filter_var_array` — currently used only by `diagnostics/form-post-test.php` (not by any public page).
 
 ### Data sources
 
@@ -136,5 +136,5 @@ python scripts/deploy.py --go path/a.php ...  # only the listed files
 - **Comments via `<?php /* ... */ ?>`** are the convention for keeping disabled HTML blocks around as future templates (e.g. alt video embeds, seasonal notices). Leave them; don't clean them up unless asked.
 - **`error_reporting(E_ALL); ini_set('display_errors', 1);`** appears at the top of several pages. That's intentional for this site — production tolerates visible errors as an early-warning signal. Don't strip it.
 - **No package manager, no lint/test/build commands.** Edits to `.php`/`.phtml` are live the moment they hit the server. The maintainer's Windows machine has no host PHP — don't call `php` directly. To verify, use the Docker stack (e.g. `docker exec elclh-local php -l <file>`, or load <http://localhost:9080>) if it's running; otherwise validate by careful reading.
-- **Production PHP version is 8.1.32.** Live `phpinfo()` is exposed at <https://elclh.org/diagnostics/phpinfo.php>. Note that `FILTER_SANITIZE_STRING` (used in `app-code/sanitization.php`) is deprecated as of 8.1 — leave it alone unless asked to address it.
-- **`diagnostics/`** (gitignored, in working tree) holds ad-hoc DB/form/phpinfo probes — useful for debugging on the host but not part of the public site.
+- **Production PHP version is 8.1.32.** Live `phpinfo()` is at <https://elclh.org/diagnostics/phpinfo.php> (behind HTTP basic auth — ask the maintainer to check it). Note that `FILTER_SANITIZE_STRING` (used in `app-code/sanitization.php`) is deprecated as of 8.1 — leave it alone unless asked to address it.
+- **`diagnostics/` and `app-code/sanitization.php` are intentionally kept out of the public repo** (excluded locally via `.git/info/exclude`, not `.gitignore`). They exist locally and on the server, uploaded by hand. `diagnostics/` holds ad-hoc DB/form/phpinfo probes and is password-protected on the server via DirectAdmin. Never commit them; `deploy.py` won't touch them since they're untracked.
