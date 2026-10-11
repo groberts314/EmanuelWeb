@@ -44,6 +44,7 @@ REMOTE_ROOT = "/domains/elclh.org/public_html"
 
 # Tracked files that are for development only and must never go to the server.
 EXCLUDE_FILES = {
+    ".editorconfig",
     ".gitignore",
     "CLAUDE.md",
     "GEMINI.md",
@@ -51,7 +52,7 @@ EXCLUDE_FILES = {
     "docker-compose.yml",
     "gemini.config.json",
 }
-EXCLUDE_DIRS = ("scripts/", ".claude/", ".github/")
+EXCLUDE_DIRS = ("scripts/", ".claude/", ".github/", ".vscode/")
 
 # Gitignored build outputs that still need deploying, compared from the working tree.
 EXTRA_WORKING_TREE_FILES = ["css/emanuel.min.css"]

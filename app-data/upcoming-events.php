@@ -11,7 +11,7 @@
     8 AM
   </div>
 </div>
-HTML      
+HTML
     ),
     1 => array(
       'date' => '2026-10-04',
@@ -196,7 +196,7 @@ HTML
     8 AM
   </div>
 </div>
-HTML   
+HTML
     ),
     9 => array(
       'date' => '2026-11-08',

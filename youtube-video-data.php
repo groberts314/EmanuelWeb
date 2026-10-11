@@ -6,7 +6,7 @@
     header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
     $channel_id = 'UC4Fu6qvPdYF2MM92JzoU9uA'; // Emanuel Lutheran Church YouTube Channel ID
     $liveStreamVideoId = 'C-2TNopHmEg'; // YouTube Video ID for the default Live Stream
-  
+
     // Option 1 - Check if YouTube is streaming LIVE
     // Web scraping to check if we are LIVE on YouTube
     $contents = file_get_contents('https://www.youtube.com/channel/' . $channel_id);
@@ -27,8 +27,8 @@
       $video_pattern = "~$video_pattern\K([A-Za-z0-9_\-]{11})~";
       preg_match($video_pattern, $contents, $video_ids);
 
-      $data = [ 'status' => 200, 
-                'isLive' => true, 
+      $data = [ 'status' => 200,
+                'isLive' => true,
                 'title' => 'Live Stream',
                 'iframeUrl' => 'https://www.youtube-nocookie.com/embed/' . $video_ids[0],
                 'watchUrl' => 'https://www.youtube.com/watch?v=' . $video_ids[0]
@@ -40,7 +40,7 @@
 
         $json = json_encode($xml);
         $youtube = json_decode($json, true);
-        
+
         foreach ($youtube['entry'] as $k => $v) { // get the latest video id that's a worship video (e.g. not a special event like the Praise Symphany Orchestra concert)
             $link = $v['link']['@attributes']['href'];
             $pos = strrpos($link, '=');
@@ -52,7 +52,7 @@
             }
         }
 
-        $data = [ 'status' => 200, 
+        $data = [ 'status' => 200,
                 'isLive' => false,
                 'title' => $title,
                 'iframeUrl' => 'https://www.youtube-nocookie.com/embed/' . $id,

@@ -1,42 +1,42 @@
 <?php
-    /*
-        This partial should be used with `display()` function from `/app-code/helper-functions.php`
-        The following variables should set: `title` and `description`
-        e.g.
-        $metadataTitle = 'Some Page Title';
-        $metadataDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec iaculis felis.';
-        $metadata = array('title' => $metadataTitle, 'description' => $metadataDscription);
-        display('./partials/head-metas-social.phtml', $metadata);
-    */
+  /*
+    This partial should be used with `display()` function from `/app-code/helper-functions.php`
+    The following variables should set: `title` and `description`
+    e.g.
+    $metadataTitle = 'Some Page Title';
+    $metadataDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec iaculis felis.';
+    $metadata = array('title' => $metadataTitle, 'description' => $metadataDscription);
+    display('./partials/head-metas-social.phtml', $metadata);
+  */
 
-    require_once('./app-code/helper-functions.php');
+  require_once('./app-code/helper-functions.php');
 ?>
 <?php
-    $metadataTitle = get($title);
-    $metadaDescription = get($description);
+  $metadataTitle = get($title);
+  $metadaDescription = get($description);
 
-    $scheme = $_SERVER["REQUEST_SCHEME"];
-    $domain = $_SERVER['SERVER_NAME'];
-    $originalPath = $_SERVER['REQUEST_URI'];
-    $correctedPath = $originalPath === '/' ? '' : $originalPath;
-    $fullUrl = $scheme . '://' . $domain . $correctedPath;
+  $scheme = $_SERVER["REQUEST_SCHEME"];
+  $domain = $_SERVER['SERVER_NAME'];
+  $originalPath = $_SERVER['REQUEST_URI'];
+  $correctedPath = $originalPath === '/' ? '' : $originalPath;
+  $fullUrl = $scheme . '://' . $domain . $correctedPath;
 
-    /**
-     * Image for `og:image` tag
-     * See https://developers.facebook.com/docs/sharing/webmasters/images
-     * Requirements:
-     *   * The minimum allowed image dimension is 200 x 200 pixels.
-     *   * The size of the image file must not exceed 8 MB.
-     *   * Use images that are at least 1200 x 630 pixels for the best display on high resolution devices.
-     *     At the minimum, you should use images that are 600 x 315 pixels to display link page posts with larger images.
-     *   * If your image is smaller than 600 x 315 px, it will still display in the link page post, but the size will be much smaller.
-     * 
-     * Here's our first Pass - Emanual "God With Us" sign on the brick wall.  500 w x 335 h - aspect ratio 1.49:1
-     */
-    $imageUrl = 'http://elclh.org/images/who-we-are/emanuel-sign.jpg';
-    $imageAlt = 'Emanuel: God With Us';
-    $imageWidth = 335;
-    $imageHeight = 500;
+  /**
+   * Image for `og:image` tag
+   * See https://developers.facebook.com/docs/sharing/webmasters/images
+   * Requirements:
+   *   * The minimum allowed image dimension is 200 x 200 pixels.
+   *   * The size of the image file must not exceed 8 MB.
+   *   * Use images that are at least 1200 x 630 pixels for the best display on high resolution devices.
+   *     At the minimum, you should use images that are 600 x 315 pixels to display link page posts with larger images.
+   *   * If your image is smaller than 600 x 315 px, it will still display in the link page post, but the size will be much smaller.
+   *
+   * Here's our first Pass - Emanual "God With Us" sign on the brick wall.  500 w x 335 h - aspect ratio 1.49:1
+   */
+  $imageUrl = 'http://elclh.org/images/who-we-are/emanuel-sign.jpg';
+  $imageAlt = 'Emanuel: God With Us';
+  $imageWidth = 335;
+  $imageHeight = 500;
 ?>
 
 <?php /* Facebook Open Graph Metadata */ ?>

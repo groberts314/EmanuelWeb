@@ -8,7 +8,7 @@
 
   // Latest Issue Date
   // TODO: Change these values when uploading new PDF file and thumbnail each month -- should be only change required!
-  $latestIssueYear = '2026'; 
+  $latestIssueYear = '2026';
   $latestIssueMonth = '10';
   // END: Only Values that need to be changed when uploading new newsletter for the monthly update
 
@@ -20,7 +20,7 @@
   $newsletterMonth = $latestIssueMonth;
   $newsletterDate = clone $latestIssueDate;
   $isLatestIssue = true;
-  
+
   // See if we have a year and month in the URL (rewrite in `.htaccess` puts it into the query string)
   $queryStringYearAsString = get($_GET['year'], null);
   $queryStringMonthAsString = get($_GET['month'], null);
@@ -70,7 +70,7 @@
     <div class="row main-content inner-page-content">
       <div class="col-xs-12">
         <h1 class="page-title" style="margin-bottom: 0">&ldquo;The Good News&rdquo; &ndash; <span class="hidden-xs hidden-sm">Emanuel&rsquo;s Monthly Newsletter &ndash;</span> <?= $newsletterMonthYearFormatted ?></h1>
-      </div>      
+      </div>
     </div>
     <div class="row" style="margin-bottom: 11px">
       <div class="col-xs-6 col-sm-4">

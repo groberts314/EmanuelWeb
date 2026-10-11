@@ -113,7 +113,7 @@ python scripts/deploy.py --go path/a.php ...  # only the listed files
 ```
 
 - Uncommitted edits are never deployed — commit first. It warns about dirty working trees and unpushed commits.
-- It never deletes anything on the server, and never touches gitignored media folders. Dev-only files (`CLAUDE.md`, `GEMINI.md`, `README.md`, `docker-compose.yml`, `gemini.config.json`, `.gitignore`, `scripts/`) are excluded. `css/emanuel.min.css` (gitignored) is compared from the working tree.
+- It never deletes anything on the server, and never touches gitignored media folders. Dev-only files (`CLAUDE.md`, `GEMINI.md`, `README.md`, `docker-compose.yml`, `gemini.config.json`, `.gitignore`, `.editorconfig`, `scripts/`, `.vscode/`) are excluded. `css/emanuel.min.css` (gitignored) is compared from the working tree.
 - Auth: username and password are read from Windows Credential Manager via Python `keyring` (service `elclh-sftp`; setup commands in the script's docstring). This repo is **public** — never put credentials, usernames, or other account details in committed files. Requires `pip install --user paramiko keyring`. Never ask for the password in chat. Key-based auth was tried and the host rejects it (no SSH Keys page in DirectAdmin; `~/.ssh/authorized_keys` ignored) — don't retry.
 - The server host key is pinned in the script (`SHA256:ctLU2bd…`); a mismatch aborts.
 - Always do a dry run first and inspect any unexpected file before `--go` — download the remote copy and diff it, since hand edits on the server do happen.
@@ -131,6 +131,7 @@ python scripts/deploy.py --go path/a.php ...  # only the listed files
 
 ## Conventions worth knowing
 
+- **Whitespace (see `.editorconfig`):** 2-space indentation, no tabs, no trailing whitespace, and every file ends with exactly one newline (GitHub flags a missing one). Markdown is exempt from trailing-whitespace trimming. When copying a file's content from an older commit, check its ending: `git show` output piped through `sed` keeps whatever ending the old version had.
 - **PHP short tags** (`<?` and `<?=`) are used throughout — assume `short_open_tag = On` on the host.
 - **Time zone:** anything date-comparing uses `new DateTimeZone('America/Los_Angeles')`. Don't use the server default.
 - **Comments via `<?php /* ... */ ?>`** are the convention for keeping disabled HTML blocks around as future templates (e.g. alt video embeds, seasonal notices). Leave them; don't clean them up unless asked.
