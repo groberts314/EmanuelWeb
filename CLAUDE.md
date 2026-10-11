@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-Server-rendered PHP website for Emanuel Evangelical Lutheran Church (elclh.org) in La Habra, CA. No framework, no build pipeline for PHP, no test suite. Deployed to Apache shared hosting. Bootstrap 3.3.6 + jQuery 1.11.3 are pulled from CDN; site styles live in `css/emanuel.css`.
+Server-rendered PHP website for Emanuel Evangelical Lutheran Church (elclh.org) in La Habra, CA — an [ELCA](https://elca.org) congregation in the [Pacific Synod](https://pacificsynod.org). No framework, no build pipeline for PHP, no test suite. Deployed to Apache shared hosting (DirectAdmin) via SFTP — see "Deployment" below. Bootstrap 3.3.6 + jQuery 1.11.3 are pulled from CDN; site styles live in `css/emanuel.css`.
+
+The site has a single maintainer (the repo owner). `GEMINI.md` / `gemini.config.json` are context files for Gemini CLI; where they disagree with this file (e.g. `gemini.config.json` mentions NRSV 1989 + Oremus links), follow this file — the site actually uses NRSVUE on Bible Gateway.
 
 Most commits in `git log` are *content* updates (weekly Bible readings, monthly newsletter/calendar drops, swapping the homepage worship video). Treat those as the dominant workflow — see "Common recurring updates" below.
 
@@ -74,6 +76,11 @@ These are the bread-and-butter edits. Match the commit-message style in `git log
 
 Edit `partials/homepage-v2-bible-readings.phtml` — change the Sunday date, liturgical day name, and the four readings (First Reading, Psalm, Second Reading, Gospel). Each link is a `biblegateway.com/passage/?search=...&version=NRSVUE` URL with the passage URL-encoded.
 
+- **Source:** Revised Common Lectionary at <https://lectionary.library.vanderbilt.edu/>. During the season after Pentecost, use the **Alternate track** first reading + psalm (e.g. Isaiah 25:1-9 / Psalm 23, *not* the semicontinuous Exodus 32 / Psalm 106). Other calendars (e.g. Sola Publishing) use different verse ranges — Vanderbilt wins.
+- **Day name:** the church uses "Nth Sunday After Pentecost" wording, never "Proper NN" (which is what Vanderbilt shows). Increment last week's N and confirm with a web search for `"<date>" "<Nth> Sunday after Pentecost"`.
+- **Format:** the standard four-reading layout (e.g. as of commit `5dd7a9d`). Occasionally a week gets a special variant (e.g. `ded7a61`, Blessing of the Animals: extra readings list, ELCA logo commented out) — revert to the standard layout the following week.
+- **Commit:** `feat: Bible readings for Sunday, <Month D, YYYY>` (one line, no body for routine weeks), then deploy just that file: `python scripts/deploy.py --go partials/homepage-v2-bible-readings.phtml`.
+
 ### Default homepage worship video
 
 In `index.php`, update the `src` of the `#youtube-iframe` inside `.fluid-width-video-wrapper` to `https://www.youtube-nocookie.com/embed/<VIDEO_ID>`. The surrounding `<?php /* ... */ ?>` blocks are alternative embed snippets kept around as templates — leave them commented.
@@ -95,12 +102,39 @@ The PDF/JPG drops happen out-of-band (FTP/server upload), not via git.
 
 When `css/emanuel.css` changes and gets minified, bump the `?version=...` query string in `partials/head-includes.phtml`. Same pattern for `js/home.js?v=...` in `index.php`. Use `YYYY-MM-DD_HHMM` format to match existing strings.
 
+## Deployment
+
+`scripts/deploy.py` uploads over SFTP (`sftp.elclh.org`, web root `/domains/elclh.org/public_html`). It is stateless: each run compares every deployable file **as committed at `HEAD`** against the live server copy and uploads only the ones that differ (CRLF/LF-only differences are ignored). Run from the repo root:
+
+```
+python scripts/deploy.py                      # dry run: list differing files
+python scripts/deploy.py --go                 # upload all differing files
+python scripts/deploy.py --go path/a.php ...  # only the listed files
+```
+
+- Uncommitted edits are never deployed — commit first. It warns about dirty working trees and unpushed commits.
+- It never deletes anything on the server, and never touches gitignored media folders. Dev-only files (`CLAUDE.md`, `GEMINI.md`, `README.md`, `docker-compose.yml`, `gemini.config.json`, `.gitignore`, `scripts/`) are excluded. `css/emanuel.min.css` (gitignored) is compared from the working tree.
+- Auth: username and password are read from Windows Credential Manager via Python `keyring` (service `elclh-sftp`; setup commands in the script's docstring). This repo is **public** — never put credentials, usernames, or other account details in committed files. Requires `pip install --user paramiko keyring`. Never ask for the password in chat. Key-based auth was tried and the host rejects it (no SSH Keys page in DirectAdmin; `~/.ssh/authorized_keys` ignored) — don't retry.
+- The server host key is pinned in the script (`SHA256:ctLU2bd…`); a mismatch aborts.
+- Always do a dry run first and inspect any unexpected file before `--go` — download the remote copy and diff it, since hand edits on the server do happen.
+- The maintainer sometimes still uploads by hand with FileZilla; that's fine, the comparison handles it.
+
+### Known server/git drift (resolve before a full `--go`)
+
+- **`.htaccess`:** the live copy has a `/yyyy` friendly-URL rule (`^([^/]+)/(\d{4})$ → $1.php?year=$2`) that was never committed, and still has the correct `https://elclh.org/$1` redirect. Git's copy (since `561dd28`) dropped the `/$1`, so HTTP deep links would redirect to the homepage. Don't deploy git's `.htaccess` until it's reconciled: add the `/yyyy` rule, restore `/$1`, keep the localhost exemption.
+- **`index.php` gets overwritten by WordPress.** The host-managed WordPress install shares the web root (`wp-*.php` files, gitignored). Major WP core updates (not the minor ones) ship a full file set and replace our `index.php` with WP's; the dated `wp-index-YYYY-MM-DD.php` files on the server are the maintainer's past cleanups. Symptom: the homepage turns into WordPress. Fix: a dry run shows `changed index.php`; `python scripts/deploy.py --go index.php` restores it. Don't move or reconfigure the WP install — the host manages it.
+- `partials/head-metas.phtml` and `partials/homepage-v2-sunday-school-online-promo.phtml` differ only cosmetically (blank line, commented code, indentation) — harmless to deploy.
+
+## Local development
+
+`docker-compose.yml` runs a local stack: the site on `php:8.1-apache` at <http://localhost:9080> (repo mounted at `/var/www/html`, `mod_rewrite` + `AllowOverride All` enabled — the `localhost` exemption in `.htaccess` exists for this), plus a MySQL 8 + WordPress sandbox at <http://localhost:9090> for experimentation. DB-backed pages need `app-code/db-config.php`, which isn't in git. `ripgrep` is installed on the host.
+
 ## Conventions worth knowing
 
 - **PHP short tags** (`<?` and `<?=`) are used throughout — assume `short_open_tag = On` on the host.
 - **Time zone:** anything date-comparing uses `new DateTimeZone('America/Los_Angeles')`. Don't use the server default.
 - **Comments via `<?php /* ... */ ?>`** are the convention for keeping disabled HTML blocks around as future templates (e.g. alt video embeds, seasonal notices). Leave them; don't clean them up unless asked.
 - **`error_reporting(E_ALL); ini_set('display_errors', 1);`** appears at the top of several pages. That's intentional for this site — production tolerates visible errors as an early-warning signal. Don't strip it.
-- **No package manager, no lint/test/build commands.** Edits to `.php`/`.phtml` are live the moment they hit the server. The maintainer's local machine is Windows with no PHP runtime installed — don't try to verify via `php`, `php -S`, or `php -r`. Validate by careful reading; for risky changes, deploy to a quiet path on the host and check real behavior.
+- **No package manager, no lint/test/build commands.** Edits to `.php`/`.phtml` are live the moment they hit the server. The maintainer's Windows machine has no host PHP — don't call `php` directly. To verify, use the Docker stack (e.g. `docker exec elclh-local php -l <file>`, or load <http://localhost:9080>) if it's running; otherwise validate by careful reading.
 - **Production PHP version is 8.1.32.** Live `phpinfo()` is exposed at <https://elclh.org/diagnostics/phpinfo.php>. Note that `FILTER_SANITIZE_STRING` (used in `app-code/sanitization.php`) is deprecated as of 8.1 — leave it alone unless asked to address it.
 - **`diagnostics/`** (gitignored, in working tree) holds ad-hoc DB/form/phpinfo probes — useful for debugging on the host but not part of the public site.
